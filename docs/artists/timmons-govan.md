@@ -1,4 +1,4 @@
-# Andy Timmons / Guthrie Govan — Performance 35: TIMMONS GOVAN
+# Andy Timmons / Guthrie Govan — Performance 40: TIMMONS GOVAN
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

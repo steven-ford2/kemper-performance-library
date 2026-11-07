@@ -117,7 +117,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 8
+          "performance_number": 13
         },
         {
           "name": "AXIS",
@@ -231,7 +231,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 8
+          "performance_number": 13
         },
         {
           "name": "LADYLAND",
@@ -344,7 +344,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 8
+          "performance_number": 13
         },
         {
           "name": "GYPSYS",
@@ -459,7 +459,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 8
+          "performance_number": 13
         },
         {
           "name": "CRY LOVE",
@@ -575,11 +575,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 8
+          "performance_number": 13
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 8
+      "proposed_global_performance_number": 13
     },
     {
       "name": "HENDRIX 1967",
@@ -697,7 +697,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 9
+          "performance_number": 14
         },
         {
           "name": "PURPLE HAZE",
@@ -811,7 +811,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 9
+          "performance_number": 14
         },
         {
           "name": "FOXEY/MANIC",
@@ -926,7 +926,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 9
+          "performance_number": 14
         },
         {
           "name": "LITTLE WING",
@@ -1040,7 +1040,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 9
+          "performance_number": 14
         },
         {
           "name": "BOLD/SPANISH",
@@ -1153,11 +1153,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 9
+          "performance_number": 14
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 9
+      "proposed_global_performance_number": 14
     },
     {
       "name": "HENDRIX LADYLAND",
@@ -1273,7 +1273,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 10
+          "performance_number": 15
         },
         {
           "name": "WATCHTOWER",
@@ -1386,7 +1386,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 10
+          "performance_number": 15
         },
         {
           "name": "VOODOO CHILE",
@@ -1500,7 +1500,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 10
+          "performance_number": 15
         },
         {
           "name": "CROSSTOWN",
@@ -1614,7 +1614,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 10
+          "performance_number": 15
         },
         {
           "name": "GYPSY/1983",
@@ -1728,11 +1728,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 10
+          "performance_number": 15
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 10
+      "proposed_global_performance_number": 15
     },
     {
       "name": "HENDRIX GYPSYS",
@@ -1848,7 +1848,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 11
+          "performance_number": 16
         },
         {
           "name": "WHO KNOWS",
@@ -1960,7 +1960,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 11
+          "performance_number": 16
         },
         {
           "name": "POWER SOUL",
@@ -2073,7 +2073,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 11
+          "performance_number": 16
         },
         {
           "name": "MESSAGE LOVE",
@@ -2186,7 +2186,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 11
+          "performance_number": 16
         },
         {
           "name": "BOG FUNK",
@@ -2299,11 +2299,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 11
+          "performance_number": 16
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 11
+      "proposed_global_performance_number": 16
     },
     {
       "name": "HENDRIX CRY LOVE",
@@ -2420,7 +2420,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 12
+          "performance_number": 17
         },
         {
           "name": "NIGHT/STORM",
@@ -2533,7 +2533,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 12
+          "performance_number": 17
         },
         {
           "name": "ANGEL/DRIFT",
@@ -2646,7 +2646,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 12
+          "performance_number": 17
         },
         {
           "name": "STRAIGHT/BELLY",
@@ -2759,7 +2759,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 12
+          "performance_number": 17
         },
         {
           "name": "ASTRO/FRIEND",
@@ -2872,11 +2872,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 12
+          "performance_number": 17
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 12
+      "proposed_global_performance_number": 17
     }
   ],
   "source_status": "reconstructed_from_full_current_conversation_and_prior_discussion",

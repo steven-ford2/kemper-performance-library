@@ -10,7 +10,7 @@ reg=json.loads((ROOT/'data/performance_registry.json').read_text())['canonical_r
 seen=set()
 map_by_number={}
 count=0
-for name in ('mayer','hendrix','srv','clapton','robben-ford','shred-triad','van-halen','timmons-govan','eagles','eagles-early','polyphia','eric-johnson','jeff-beck','yngwie','fleetwood-rumours','metalcore'):
+for name in ('favorites','mayer','hendrix','srv','clapton','robben-ford','shred-triad','van-halen','timmons-govan','eagles','eagles-early','polyphia','eric-johnson','jeff-beck','yngwie','fleetwood-rumours','metalcore'):
  path=ROOT/f'specs/{name}.json'
  data=json.loads(path.read_text())
  for p in data['performances']:
@@ -33,8 +33,8 @@ for name in ('mayer','hendrix','srv','clapton','robben-ford','shred-triad','van-
    for mod,block in fx.items():
     if not {'type','preset_candidate','initial_active','parameter_targets','notes'} <= set(block):bad(f'{name}/{number}.{i}/{mod}: incomplete effect spec')
     if not isinstance(block['initial_active'],bool):bad(f'{name}/{number}.{i}/{mod}: not boolean')
-if set(seen)!=set(range(1,44)):bad('performance locations expected 1-43 contiguous')
-if len(reg)!=43:bad('registry should have 43 entries')
+if set(seen)!=set(range(1,49)):bad('performance locations expected 1-48 contiguous')
+if len(reg)!=48:bad('registry should have 48 entries')
 legacy=json.loads((ROOT/'specs/mayer-continuum-five-song-legacy.json').read_text())
 if len(legacy['slots'])!=5:bad('legacy Continuum must have five slots')
 else:
@@ -50,6 +50,26 @@ for r in reg:
   if slug!=r['artist_slug']:bad(f'registry source slug mismatch at {r["global_number"]}')
   if p['name']!=r['name']:bad(f'registry name mismatch at {r["global_number"]}')
   if [x['name'] for x in p['slots']]!=r['slots']:bad(f'registry slots mismatch at {r["global_number"]}')
+# Favorites must occupy 01-05 and preserve each full source Rig sound and effects assignments.
+favorites=json.loads((ROOT/'specs/favorites.json').read_text())['performances']
+if [p['proposed_global_performance_number'] for p in favorites]!=[1,2,3,4,5]:
+ bad('Favorites must be first numeric Performances 01-05')
+for fp in favorites:
+ for rig in fp['slots']:
+  src=rig.get('favorite_source',{})
+  old=src.get('original_performance_number')
+  shifted=src.get('shifted_performance_number')
+  source_slot=src.get('source_slot')
+  if not isinstance(old,int) or not isinstance(source_slot,int) or shifted!=old+5 or shifted not in map_by_number:
+   bad(f'Missing or invalid source for favorite {fp["name"]}/{rig["name"]}')
+   continue
+  p=map_by_number[shifted][1]
+  if not 1<=source_slot<=len(p['slots']):
+   bad(f'Favorite source slot out of range: {fp["name"]}')
+   continue
+  actual=p['slots'][source_slot-1]
+  for key in ('effects','remote_buttons','capture_selector','tone_target','amp_eq_offsets','amp_gain_policy'):
+   if rig.get(key)!=actual.get(key):bad(f'Favorite {fp["name"]}/{rig["name"]} changed source {key}')
 # Do not equate file correctness to an installed or audio-verified result
 if errors:
  print('\n'.join(f'ERROR: {x}' for x in errors))

@@ -1,4 +1,4 @@
-# Yngwie Malmsteen — Performance 40: YNGWIE MALMSTEEN
+# Yngwie Malmsteen — Performance 45: YNGWIE MALMSTEEN
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

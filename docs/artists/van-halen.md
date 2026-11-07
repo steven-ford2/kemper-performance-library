@@ -1,4 +1,4 @@
-# Eddie Van Halen — Performance 34: VAN HALEN
+# Eddie Van Halen — Performance 39: VAN HALEN
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

@@ -8,6 +8,10 @@
     "mayer original JSON and markdown only"
   ],
   "artist_counts": {
+    "favorites": {
+      "performances": 5,
+      "rigs": 25
+    },
     "mayer": {
       "performances": 7,
       "rigs": 35
@@ -74,7 +78,8 @@
     }
   },
   "extension_targets": 13,
-  "total_performances": 43,
-  "total_rigs": 215,
-  "addition_source": "11 single-bank requests appended to 01–32, including separate 43 Eagles Early"
+  "total_performances": 48,
+  "total_rigs": 240,
+  "addition_source": "Favorites 01-05 first numerically; original 43 artist banks shifted to 06-48; no lost or modified original Rig settings.",
+  "favorites_count": 5
 }

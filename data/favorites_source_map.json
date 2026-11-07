@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "status": "proposed_not_installed",
+  "description": "Source provenance for each favorite copied from the existing canonical Rigs; shifted artist banks retain originals.",
+  "entries": [
+    {
+      "favorite_performance": 1,
+      "favorite_slot": 1,
+      "favorite_rig_name": "M TRUST",
+      "source_old_number": 3,
+      "source_new_number": 8,
+      "source_slot": 1,
+      "source_rig_name": "DONT TRUST SELF",
+      "source_path": "specs/mayer.json"
+    },
+    {
+      "favorite_performance": 1,
+      "favorite_slot": 2,
+      "favorite_rig_name": "M GRAVITY",
+      "source_old_number": 3,
+      "source_new_number": 8,
+      "source_slot": 2,
+      "source_rig_name": "GRAVITY",
+      "source_path": "specs/mayer.json"
+    },
+    {
+      "favorite_performance": 1,
+      "favorite_slot": 3,
+      "favorite_rig_name": "M SLOW DANCE",
+      "source_old_number": 3,
+      "source_new_number": 8,
+      "source_slot": 3,
+      "source_rig_name": "SLOW DANCING",
+      "source_path": "specs/mayer.json"
+    },
+    {
+      "favorite_performance": 1,
+      "favorite_slot": 4,
+      "favorite_rig_name": "C BEANO",
+      "source_old_number": 21,
+      "source_new_number": 26,
+      "source_slot": 1,
+      "source_rig_name": "BEANO",
+      "source_path": "specs/clapton.json"
+    },
+    {
+      "favorite_performance": 1,
+      "favorite_slot": 5,
+      "favorite_rig_name": "C LAYLA",
+      "source_old_number": 21,
+      "source_new_number": 26,
+      "source_slot": 3,
+      "source_rig_name": "LAYLA CHAMP",
+      "source_path": "specs/clapton.json"
+    },
+    {
+      "favorite_performance": 2,
+      "favorite_slot": 1,
+      "favorite_rig_name": "H PURPLE",
+      "source_old_number": 9,
+      "source_new_number": 14,
+      "source_slot": 2,
+      "source_rig_name": "PURPLE HAZE",
+      "source_path": "specs/hendrix.json"
+    },
+    {
+      "favorite_performance": 2,
+      "favorite_slot": 2,
+      "favorite_rig_name": "H LITTLE WING",
+      "source_old_number": 9,
+      "source_new_number": 14,
+      "source_slot": 4,
+      "source_rig_name": "LITTLE WING",
+      "source_path": "specs/hendrix.json"
+    },
+    {
+      "favorite_performance": 2,
+      "favorite_slot": 3,
+      "favorite_rig_name": "H MACHINE GUN",
+      "source_old_number": 11,
+      "source_new_number": 16,
+      "source_slot": 1,
+      "source_rig_name": "MACHINE GUN",
+      "source_path": "specs/hendrix.json"
+    },
+    {
+      "favorite_performance": 2,
+      "favorite_slot": 4,
+      "favorite_rig_name": "SRV PRIDE JOY",
+      "source_old_number": 14,
+      "source_new_number": 19,
+      "source_slot": 2,
+      "source_rig_name": "PRIDE JOY",
+      "source_path": "specs/srv.json"
+    },
+    {
+      "favorite_performance": 2,
+      "favorite_slot": 5,
+      "favorite_rig_name": "SRV TEXAS",
+      "source_old_number": 14,
+      "source_new_number": 19,
+      "source_slot": 3,
+      "source_rig_name": "TEXAS FLOOD",
+      "source_path": "specs/srv.json"
+    },
+    {
+      "favorite_performance": 3,
+      "favorite_slot": 1,
+      "favorite_rig_name": "BECK LOVERS",
+      "source_old_number": 39,
+      "source_new_number": 44,
+      "source_slot": 1,
+      "source_rig_name": "CAUSE LOVERS",
+      "source_path": "specs/jeff-beck.json"
+    },
+    {
+      "favorite_performance": 3,
+      "favorite_slot": 2,
+      "favorite_rig_name": "BECK FREEWAY",
+      "source_old_number": 39,
+      "source_new_number": 44,
+      "source_slot": 2,
+      "source_rig_name": "FREEWAY JAM",
+      "source_path": "specs/jeff-beck.json"
+    },
+    {
+      "favorite_performance": 3,
+      "favorite_slot": 3,
+      "favorite_rig_name": "BECK LED BOOTS",
+      "source_old_number": 39,
+      "source_new_number": 44,
+      "source_slot": 3,
+      "source_rig_name": "LED BOOTS",
+      "source_path": "specs/jeff-beck.json"
+    },
+    {
+      "favorite_performance": 3,
+      "favorite_slot": 4,
+      "favorite_rig_name": "C PRETENDING",
+      "source_old_number": 25,
+      "source_new_number": 30,
+      "source_slot": 1,
+      "source_rig_name": "PRETENDING",
+      "source_path": "specs/clapton.json"
+    },
+    {
+      "favorite_performance": 3,
+      "favorite_slot": 5,
+      "favorite_rig_name": "SRV LENNY",
+      "source_old_number": 14,
+      "source_new_number": 19,
+      "source_slot": 5,
+      "source_rig_name": "LENNY",
+      "source_path": "specs/srv.json"
+    },
+    {
+      "favorite_performance": 4,
+      "favorite_slot": 1,
+      "favorite_rig_name": "VAI LOVE GOD",
+      "source_old_number": 33,
+      "source_new_number": 38,
+      "source_slot": 1,
+      "source_rig_name": "VAI FTLOG",
+      "source_path": "specs/shred-triad.json"
+    },
+    {
+      "favorite_performance": 4,
+      "favorite_slot": 2,
+      "favorite_rig_name": "GILBERT GOY",
+      "source_old_number": 33,
+      "source_new_number": 38,
+      "source_slot": 3,
+      "source_rig_name": "GILBERT GOY",
+      "source_path": "specs/shred-triad.json"
+    },
+    {
+      "favorite_performance": 4,
+      "favorite_slot": 3,
+      "favorite_rig_name": "BECKER ALT",
+      "source_old_number": 33,
+      "source_new_number": 38,
+      "source_slot": 5,
+      "source_rig_name": "BECKER ALTIT",
+      "source_path": "specs/shred-triad.json"
+    },
+    {
+      "favorite_performance": 4,
+      "favorite_slot": 4,
+      "favorite_rig_name": "VH1 BROWN",
+      "source_old_number": 34,
+      "source_new_number": 39,
+      "source_slot": 1,
+      "source_rig_name": "VH1 BROWN",
+      "source_path": "specs/van-halen.json"
+    },
+    {
+      "favorite_performance": 4,
+      "favorite_slot": 5,
+      "favorite_rig_name": "VH FAIR",
+      "source_old_number": 34,
+      "source_new_number": 39,
+      "source_slot": 3,
+      "source_rig_name": "VH FAIR",
+      "source_path": "specs/van-halen.json"
+    },
+    {
+      "favorite_performance": 5,
+      "favorite_slot": 1,
+      "favorite_rig_name": "NIGHTS FELDER",
+      "source_old_number": 43,
+      "source_new_number": 48,
+      "source_slot": 2,
+      "source_rig_name": "NIGHTS FELDER",
+      "source_path": "specs/eagles-early.json"
+    },
+    {
+      "favorite_performance": 5,
+      "favorite_slot": 2,
+      "favorite_rig_name": "WITCHY RIFF",
+      "source_old_number": 43,
+      "source_new_number": 48,
+      "source_slot": 4,
+      "source_rig_name": "WITCHY RIFF",
+      "source_path": "specs/eagles-early.json"
+    },
+    {
+      "favorite_performance": 5,
+      "favorite_slot": 3,
+      "favorite_rig_name": "FM DREAMS",
+      "source_old_number": 41,
+      "source_new_number": 46,
+      "source_slot": 1,
+      "source_rig_name": "DREAMS CLEAN",
+      "source_path": "specs/fleetwood-rumours.json"
+    },
+    {
+      "favorite_performance": 5,
+      "favorite_slot": 4,
+      "favorite_rig_name": "FM GO YOUR WAY",
+      "source_old_number": 41,
+      "source_new_number": 46,
+      "source_slot": 2,
+      "source_rig_name": "GO YOUR WAY",
+      "source_path": "specs/fleetwood-rumours.json"
+    },
+    {
+      "favorite_performance": 5,
+      "favorite_slot": 5,
+      "favorite_rig_name": "FM CHAIN",
+      "source_old_number": 41,
+      "source_new_number": 46,
+      "source_slot": 3,
+      "source_rig_name": "THE CHAIN OUTRO",
+      "source_path": "specs/fleetwood-rumours.json"
+    }
+  ]
+}

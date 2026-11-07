@@ -8,17 +8,17 @@
 
 | Perf | Name | Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 |
 |---:|---|---|---|---|---|---|
-| 08 | HENDRIX CORE | EXPERIENCED | AXIS | LADYLAND | GYPSYS | CRY LOVE |
-| 09 | HENDRIX 1967 | HEY JOE/WIND | PURPLE HAZE | FOXEY/MANIC | LITTLE WING | BOLD/SPANISH |
-| 10 | HENDRIX LADYLAND | VOODOO RETURN | WATCHTOWER | VOODOO CHILE | CROSSTOWN | GYPSY/1983 |
-| 11 | HENDRIX GYPSYS | MACHINE GUN | WHO KNOWS | POWER SOUL | MESSAGE LOVE | BOG FUNK |
-| 12 | HENDRIX CRY LOVE | FREEDOM/EZY | NIGHT/STORM | ANGEL/DRIFT | STRAIGHT/BELLY | ASTRO/FRIEND |
+| 13 | HENDRIX CORE | EXPERIENCED | AXIS | LADYLAND | GYPSYS | CRY LOVE |
+| 14 | HENDRIX 1967 | HEY JOE/WIND | PURPLE HAZE | FOXEY/MANIC | LITTLE WING | BOLD/SPANISH |
+| 15 | HENDRIX LADYLAND | VOODOO RETURN | WATCHTOWER | VOODOO CHILE | CROSSTOWN | GYPSY/1983 |
+| 16 | HENDRIX GYPSYS | MACHINE GUN | WHO KNOWS | POWER SOUL | MESSAGE LOVE | BOG FUNK |
+| 17 | HENDRIX CRY LOVE | FREEDOM/EZY | NIGHT/STORM | ANGEL/DRIFT | STRAIGHT/BELLY | ASTRO/FRIEND |
 
 ## Implementation detail
 
 For each slot, start from the indicated **captured amp gain family**. Relative EQ offsets are starting values **added to the selected capture**, not physical vintage amp dial positions. Every rig has modules A/B/C/D before amp and X/MOD/DLY/REV after amp. A target only exists if that parameter is available in the installed software.
 
-### 08. HENDRIX CORE
+### 13. HENDRIX CORE
 #### Slot 1: EXPERIENCED
 **Songs:** Purple Haze, Foxey Lady, Fire, Manic Depression
 **Profile selector:** JTM45/100 or JTM100 into vintage Greenback 4x12
@@ -134,7 +134,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** Cry of Love released posthumously in 1971; verify individual recording era / overdubs.
 
-### 09. HENDRIX 1967
+### 14. HENDRIX 1967
 #### Slot 1: HEY JOE/WIND
 **Songs:** Hey Joe, The Wind Cries Mary, May This Be Love
 **Profile selector:** clean JTM100 / JTM45-era amp
@@ -250,7 +250,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** Tape-flanged Bold as Love outro is a studio-production approximation.
 
-### 10. HENDRIX LADYLAND
+### 15. HENDRIX LADYLAND
 #### Slot 1: VOODOO RETURN
 **Songs:** Voodoo Child (Slight Return)
 **Profile selector:** mid-crunch Super Lead 100
@@ -366,7 +366,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** Requires overdubs/DAW for full record texture; core electric tone only.
 
-### 11. HENDRIX GYPSYS
+### 16. HENDRIX GYPSYS
 #### Slot 1: MACHINE GUN
 **Songs:** Machine Gun
 **Profile selector:** late Super Lead/JMP with open 4x12
@@ -482,7 +482,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 12. HENDRIX CRY LOVE
+### 17. HENDRIX CRY LOVE
 #### Slot 1: FREEDOM/EZY
 **Songs:** Freedom, Ezy Ryder
 **Profile selector:** late Marshall 100 W driven

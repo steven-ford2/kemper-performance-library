@@ -1,4 +1,4 @@
-# Vai / Paul Gilbert / Jason Becker — Performance 33: VAI GILBERT BECKER
+# Vai / Paul Gilbert / Jason Becker — Performance 38: VAI GILBERT BECKER
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

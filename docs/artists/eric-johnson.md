@@ -1,4 +1,4 @@
-# Eric Johnson — Performance 38: ERIC JOHNSON
+# Eric Johnson — Performance 43: ERIC JOHNSON
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

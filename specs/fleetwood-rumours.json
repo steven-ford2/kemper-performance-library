@@ -123,7 +123,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 41
+          "performance_number": 46
         },
         {
           "name": "GO YOUR WAY",
@@ -242,7 +242,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 41
+          "performance_number": 46
         },
         {
           "name": "THE CHAIN OUTRO",
@@ -360,7 +360,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 41
+          "performance_number": 46
         },
         {
           "name": "NEVER GOING",
@@ -479,7 +479,7 @@
           "feasibility": "requires_acoustic_instrument_for_fidelity",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 41
+          "performance_number": 46
         },
         {
           "name": "GOLD DUST",
@@ -596,10 +596,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 41
+          "performance_number": 46
         }
       ],
-      "proposed_global_performance_number": 41,
+      "proposed_global_performance_number": 46,
       "artist": "Fleetwood Mac",
       "artist_slug": "fleetwood-rumours",
       "source_urls": [

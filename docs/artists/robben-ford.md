@@ -8,18 +8,18 @@
 
 | Perf | Name | Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 |
 |---:|---|---|---|---|---|---|
-| 27 | RF CORE | ODS CLEAN | ODS PAB | ODS LEAD | ZENDRIVE CLEAN | LITTLE WALTER |
-| 28 | RF EARLY 80S | YELLOWJACKETS | WILD ABOUT | TALK DAUGHTER | BLUE LINE PRE | EARLY LEAD |
-| 29 | RF BLUE LINE | B LINE CLEAN | B LINE DRIVE | CANNONBALL | HELP THE POOR | BLUE LINE LEAD |
-| 30 | RF 1997-2009 | SOUL ON TEN | HAND FATE | SUPERNATURAL | TRUTH | STUDIO CLEAN |
-| 31 | RF 2013-2023 | BRINGING | DAY IN NASH | PURPLE HOUSE | PURE 2021 | MODERN LEAD |
-| 32 | RF 2026 | MAKE WEATHER | BLACK NIGHT | TWO SHADES | LIGHT FANDANGO | FANDANGO FM |
+| 32 | RF CORE | ODS CLEAN | ODS PAB | ODS LEAD | ZENDRIVE CLEAN | LITTLE WALTER |
+| 33 | RF EARLY 80S | YELLOWJACKETS | WILD ABOUT | TALK DAUGHTER | BLUE LINE PRE | EARLY LEAD |
+| 34 | RF BLUE LINE | B LINE CLEAN | B LINE DRIVE | CANNONBALL | HELP THE POOR | BLUE LINE LEAD |
+| 35 | RF 1997-2009 | SOUL ON TEN | HAND FATE | SUPERNATURAL | TRUTH | STUDIO CLEAN |
+| 36 | RF 2013-2023 | BRINGING | DAY IN NASH | PURPLE HOUSE | PURE 2021 | MODERN LEAD |
+| 37 | RF 2026 | MAKE WEATHER | BLACK NIGHT | TWO SHADES | LIGHT FANDANGO | FANDANGO FM |
 
 ## Implementation detail
 
 For each slot, start from the indicated **captured amp gain family**. Relative EQ offsets are starting values **added to the selected capture**, not physical vintage amp dial positions. Every rig has modules A/B/C/D before amp and X/MOD/DLY/REV after amp. A target only exists if that parameter is available in the installed software.
 
-### 27. RF CORE
+### 32. RF CORE
 #### Slot 1: ODS CLEAN
 **Songs:** Talk to Your Daughter, Help the Poor
 **Profile selector:** Dumble Overdrive Special clean channel captured
@@ -135,7 +135,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** Source artist interview verifies Little Walter 59 with 66 Strat for selected recent tracks.
 
-### 28. RF EARLY 80S
+### 33. RF EARLY 80S
 #### Slot 1: YELLOWJACKETS
 **Songs:** Imperial Strut
 **Profile selector:** Dumble clean / Fender blackface
@@ -251,7 +251,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 29. RF BLUE LINE
+### 34. RF BLUE LINE
 #### Slot 1: B LINE CLEAN
 **Songs:** Start It Up
 **Profile selector:** Dumble ODS clean big cabinet
@@ -367,7 +367,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 30. RF 1997-2009
+### 35. RF 1997-2009
 #### Slot 1: SOUL ON TEN
 **Songs:** Indianola
 **Profile selector:** Dumble ODS clean / Fender big clean
@@ -483,7 +483,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 31. RF 2013-2023
+### 36. RF 2013-2023
 #### Slot 1: BRINGING
 **Songs:** Bringing It Back Home
 **Profile selector:** Dumble ODS clean
@@ -599,7 +599,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 32. RF 2026
+### 37. RF 2026
 #### Slot 1: MAKE WEATHER
 **Songs:** Make My Own Weather
 **Profile selector:** Dumble ODS + Les Paul

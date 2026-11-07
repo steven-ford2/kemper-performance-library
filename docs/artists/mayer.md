@@ -8,19 +8,19 @@
 
 | Perf | Name | Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 |
 |---:|---|---|---|---|---|---|
-| 01 | MAYER CORE | TRIO - DRIVE | CONTINUUM - SIG | AMERICANA - CLEAN | SEARCH - MODERN | SOB ROCK - 80S |
-| 02 | TRIO NOKIA | WHO DID I WAS | GOOD LOVE | WAIT TOMORROW | VULTURES NOKIA | OUT OF MY MIND |
-| 03 | CONTINUUM | DONT TRUST SELF | GRAVITY | SLOW DANCING | BELIEF | IN REPAIR / LEAD |
-| 04 | AMERICANA | QUEEN / OLIVIA | BORN / LIVING | PARADISE FUNK | DEAR / WAITING | ACOUSTIC / FOLK |
-| 05 | SEARCH | STILL FEEL MAN | MOVING ON | HELPLESS | ROSIE | CHANGING / WAVE |
-| 06 | SOB ROCK | LAST TRAIN HOME | WILD BLUE | NEW LIGHT | FEEL LIKE OUTRO | SHOT IN DARK |
-| 07 | BATTLE EXTRAS | EDGE OF DESIRE | HEARTBREAK WAR | CROSSROADS NG2 | ASSASSIN | MAYER SOUL LEAD |
+| 06 | MAYER CORE | TRIO - DRIVE | CONTINUUM - SIG | AMERICANA - CLEAN | SEARCH - MODERN | SOB ROCK - 80S |
+| 07 | TRIO NOKIA | WHO DID I WAS | GOOD LOVE | WAIT TOMORROW | VULTURES NOKIA | OUT OF MY MIND |
+| 08 | CONTINUUM | DONT TRUST SELF | GRAVITY | SLOW DANCING | BELIEF | IN REPAIR / LEAD |
+| 09 | AMERICANA | QUEEN / OLIVIA | BORN / LIVING | PARADISE FUNK | DEAR / WAITING | ACOUSTIC / FOLK |
+| 10 | SEARCH | STILL FEEL MAN | MOVING ON | HELPLESS | ROSIE | CHANGING / WAVE |
+| 11 | SOB ROCK | LAST TRAIN HOME | WILD BLUE | NEW LIGHT | FEEL LIKE OUTRO | SHOT IN DARK |
+| 12 | BATTLE EXTRAS | EDGE OF DESIRE | HEARTBREAK WAR | CROSSROADS NG2 | ASSASSIN | MAYER SOUL LEAD |
 
 ## Implementation detail
 
 For each slot, start from the indicated **captured amp gain family**. Relative EQ offsets are starting values **added to the selected capture**, not physical vintage amp dial positions. Every rig has modules A/B/C/D before amp and X/MOD/DLY/REV after amp. A target only exists if that parameter is available in the installed software.
 
-### 01. MAYER CORE
+### 06. MAYER CORE
 #### Slot 1: TRIO - DRIVE
 **Songs:** Who Did You Think I Was, Good Love Is on the Way, Out of My Mind
 **Profile selector:** TWOROCK_CR
@@ -136,7 +136,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 02. TRIO NOKIA
+### 07. TRIO NOKIA
 #### Slot 1: WHO DID I WAS
 **Songs:** Who Did You Think I Was, Try!
 **Profile selector:** TWOROCK_CR
@@ -252,7 +252,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 03. CONTINUUM
+### 08. CONTINUUM
 #### Slot 1: DONT TRUST SELF
 **Songs:** I Don't Trust Myself (With Loving You)
 **Profile selector:** SINE_SIG_G1265
@@ -368,7 +368,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 04. AMERICANA
+### 09. AMERICANA
 #### Slot 1: QUEEN / OLIVIA
 **Songs:** Queen of California, Something Like Olivia, Love Is a Verb
 **Profile selector:** FENDER_BF
@@ -484,7 +484,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** No amp/cab if true acoustic DI; profiler output to Kabinet could still color acoustics. Prefer full-range monitoring.
 
-### 05. SEARCH
+### 10. SEARCH
 #### Slot 1: STILL FEEL MAN
 **Songs:** Still Feel Like Your Man
 **Profile selector:** JMOD_100
@@ -600,7 +600,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 06. SOB ROCK
+### 11. SOB ROCK
 #### Slot 1: LAST TRAIN HOME
 **Songs:** Last Train Home
 **Profile selector:** SOLDANO_SLO
@@ -716,7 +716,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 07. BATTLE EXTRAS
+### 12. BATTLE EXTRAS
 #### Slot 1: EDGE OF DESIRE
 **Songs:** Edge of Desire
 **Profile selector:** TWOROCK_CR

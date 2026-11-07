@@ -1,4 +1,4 @@
-# Jeff Beck — Performance 39: JEFF BECK
+# Jeff Beck — Performance 44: JEFF BECK
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

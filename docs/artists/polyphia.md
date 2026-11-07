@@ -1,4 +1,4 @@
-# Polyphia — Performance 37: POLYPHIA
+# Polyphia — Performance 42: POLYPHIA
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

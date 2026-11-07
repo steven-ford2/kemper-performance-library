@@ -1,4 +1,4 @@
-# All That Remains / Killswitch Engage / As I Lay Dying — Performance 42: METALCORE
+# All That Remains / Killswitch Engage / As I Lay Dying — Performance 47: METALCORE
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

@@ -121,7 +121,7 @@
           "feasibility": "requires_12_string_instrument_for_fidelity",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 36
+          "performance_number": 41
         },
         {
           "name": "HOTEL FELDER",
@@ -239,7 +239,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 36
+          "performance_number": 41
         },
         {
           "name": "HOTEL WALSH",
@@ -357,7 +357,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 36
+          "performance_number": 41
         },
         {
           "name": "FAST LANE",
@@ -475,7 +475,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 36
+          "performance_number": 41
         },
         {
           "name": "EAGLES CLEAN",
@@ -596,10 +596,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 36
+          "performance_number": 41
         }
       ],
-      "proposed_global_performance_number": 36,
+      "proposed_global_performance_number": 41,
       "artist": "Eagles",
       "artist_slug": "eagles",
       "source_urls": [

@@ -1,11 +1,86 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "date": "2026-11-07",
-  "status": "proposed_all_locations_subject_to_inventory",
-  "hard_limit": "Kemper Performances contain five slots; this map requires 42 distinct free locations and must be checked before any write.",
+  "status": "proposed_favorites_first_all_locations_subject_to_occupancy_check",
+  "hard_limit": "48 proposed Performances, favorites 01-05 and original banks 06-48; check device occupancy before writes.",
   "canonical_registry": [
     {
       "global_number": 1,
+      "artist_slug": "favorites",
+      "artist": "Favorites",
+      "name": "FAV MAYER CLAPTON",
+      "slots": [
+        "M TRUST",
+        "M GRAVITY",
+        "M SLOW DANCE",
+        "C BEANO",
+        "C LAYLA"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "full_copies_from_existing_source_rigs"
+    },
+    {
+      "global_number": 2,
+      "artist_slug": "favorites",
+      "artist": "Favorites",
+      "name": "FAV HENDRIX SRV",
+      "slots": [
+        "H PURPLE",
+        "H LITTLE WING",
+        "H MACHINE GUN",
+        "SRV PRIDE JOY",
+        "SRV TEXAS"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "full_copies_from_existing_source_rigs"
+    },
+    {
+      "global_number": 3,
+      "artist_slug": "favorites",
+      "artist": "Favorites",
+      "name": "FAV BECK BLUES",
+      "slots": [
+        "BECK LOVERS",
+        "BECK FREEWAY",
+        "BECK LED BOOTS",
+        "C PRETENDING",
+        "SRV LENNY"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "full_copies_from_existing_source_rigs"
+    },
+    {
+      "global_number": 4,
+      "artist_slug": "favorites",
+      "artist": "Favorites",
+      "name": "FAV SHRED VH",
+      "slots": [
+        "VAI LOVE GOD",
+        "GILBERT GOY",
+        "BECKER ALT",
+        "VH1 BROWN",
+        "VH FAIR"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "full_copies_from_existing_source_rigs"
+    },
+    {
+      "global_number": 5,
+      "artist_slug": "favorites",
+      "artist": "Favorites",
+      "name": "FAV EAGLES FM",
+      "slots": [
+        "NIGHTS FELDER",
+        "WITCHY RIFF",
+        "FM DREAMS",
+        "FM GO YOUR WAY",
+        "FM CHAIN"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "full_copies_from_existing_source_rigs"
+    },
+    {
+      "global_number": 6,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "MAYER CORE",
@@ -20,7 +95,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 2,
+      "global_number": 7,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "TRIO NOKIA",
@@ -35,7 +110,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 3,
+      "global_number": 8,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "CONTINUUM",
@@ -50,7 +125,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 4,
+      "global_number": 9,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "AMERICANA",
@@ -65,7 +140,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 5,
+      "global_number": 10,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "SEARCH",
@@ -80,7 +155,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 6,
+      "global_number": 11,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "SOB ROCK",
@@ -95,7 +170,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 7,
+      "global_number": 12,
       "artist_slug": "mayer",
       "artist": "John Mayer",
       "name": "BATTLE EXTRAS",
@@ -110,7 +185,7 @@
       "source_status": "verbatim_transform_of_available_detailed_artifact"
     },
     {
-      "global_number": 8,
+      "global_number": 13,
       "artist_slug": "hendrix",
       "artist": "Jimi Hendrix",
       "name": "HENDRIX CORE",
@@ -125,7 +200,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 9,
+      "global_number": 14,
       "artist_slug": "hendrix",
       "artist": "Jimi Hendrix",
       "name": "HENDRIX 1967",
@@ -140,7 +215,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 10,
+      "global_number": 15,
       "artist_slug": "hendrix",
       "artist": "Jimi Hendrix",
       "name": "HENDRIX LADYLAND",
@@ -155,7 +230,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 11,
+      "global_number": 16,
       "artist_slug": "hendrix",
       "artist": "Jimi Hendrix",
       "name": "HENDRIX GYPSYS",
@@ -170,7 +245,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 12,
+      "global_number": 17,
       "artist_slug": "hendrix",
       "artist": "Jimi Hendrix",
       "name": "HENDRIX CRY LOVE",
@@ -185,7 +260,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 13,
+      "global_number": 18,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV CORE",
@@ -200,7 +275,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 14,
+      "global_number": 19,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV TEXAS FLOOD",
@@ -215,7 +290,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 15,
+      "global_number": 20,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV WEATHER",
@@ -230,7 +305,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 16,
+      "global_number": 21,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV SOUL",
@@ -245,7 +320,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 17,
+      "global_number": 22,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV IN STEP",
@@ -260,7 +335,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 18,
+      "global_number": 23,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV LIVE",
@@ -275,7 +350,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 19,
+      "global_number": 24,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV FAMILY STYLE",
@@ -290,7 +365,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 20,
+      "global_number": 25,
       "artist_slug": "srv",
       "artist": "Stevie Ray Vaughan",
       "name": "SRV SKY CRYING",
@@ -305,7 +380,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 21,
+      "global_number": 26,
       "artist_slug": "clapton",
       "artist": "Eric Clapton",
       "name": "CLAPTON CORE",
@@ -320,7 +395,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 22,
+      "global_number": 27,
       "artist_slug": "clapton",
       "artist": "Eric Clapton",
       "name": "CLAPTON MARSHALL",
@@ -335,7 +410,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 23,
+      "global_number": 28,
       "artist_slug": "clapton",
       "artist": "Eric Clapton",
       "name": "CLAPTON DOMINOS",
@@ -350,7 +425,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 24,
+      "global_number": 29,
       "artist_slug": "clapton",
       "artist": "Eric Clapton",
       "name": "CLAPTON BLACKIE",
@@ -365,7 +440,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 25,
+      "global_number": 30,
       "artist_slug": "clapton",
       "artist": "Eric Clapton",
       "name": "CLAPTON JOURNEY",
@@ -380,7 +455,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 26,
+      "global_number": 31,
       "artist_slug": "clapton",
       "artist": "Eric Clapton",
       "name": "CLAPTON BLUES PLUS",
@@ -395,7 +470,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 27,
+      "global_number": 32,
       "artist_slug": "robben-ford",
       "artist": "Robben Ford",
       "name": "RF CORE",
@@ -410,7 +485,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 28,
+      "global_number": 33,
       "artist_slug": "robben-ford",
       "artist": "Robben Ford",
       "name": "RF EARLY 80S",
@@ -425,7 +500,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 29,
+      "global_number": 34,
       "artist_slug": "robben-ford",
       "artist": "Robben Ford",
       "name": "RF BLUE LINE",
@@ -440,7 +515,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 30,
+      "global_number": 35,
       "artist_slug": "robben-ford",
       "artist": "Robben Ford",
       "name": "RF 1997-2009",
@@ -455,7 +530,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 31,
+      "global_number": 36,
       "artist_slug": "robben-ford",
       "artist": "Robben Ford",
       "name": "RF 2013-2023",
@@ -470,7 +545,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 32,
+      "global_number": 37,
       "artist_slug": "robben-ford",
       "artist": "Robben Ford",
       "name": "RF 2026",
@@ -485,7 +560,7 @@
       "source_status": "reconstructed_from_prior_chat_summary"
     },
     {
-      "global_number": 33,
+      "global_number": 38,
       "artist_slug": "shred-triad",
       "artist": "Vai / Paul Gilbert / Jason Becker",
       "name": "VAI GILBERT BECKER",
@@ -500,7 +575,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 34,
+      "global_number": 39,
       "artist_slug": "van-halen",
       "artist": "Eddie Van Halen",
       "name": "VAN HALEN",
@@ -515,7 +590,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 35,
+      "global_number": 40,
       "artist_slug": "timmons-govan",
       "artist": "Andy Timmons / Guthrie Govan",
       "name": "TIMMONS GOVAN",
@@ -530,7 +605,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 36,
+      "global_number": 41,
       "artist_slug": "eagles",
       "artist": "Eagles",
       "name": "EAGLES",
@@ -545,7 +620,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 37,
+      "global_number": 42,
       "artist_slug": "polyphia",
       "artist": "Polyphia",
       "name": "POLYPHIA",
@@ -560,7 +635,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 38,
+      "global_number": 43,
       "artist_slug": "eric-johnson",
       "artist": "Eric Johnson",
       "name": "ERIC JOHNSON",
@@ -575,7 +650,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 39,
+      "global_number": 44,
       "artist_slug": "jeff-beck",
       "artist": "Jeff Beck",
       "name": "JEFF BECK",
@@ -590,7 +665,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 40,
+      "global_number": 45,
       "artist_slug": "yngwie",
       "artist": "Yngwie Malmsteen",
       "name": "YNGWIE MALMSTEEN",
@@ -605,7 +680,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 41,
+      "global_number": 46,
       "artist_slug": "fleetwood-rumours",
       "artist": "Fleetwood Mac",
       "name": "FLEETWOOD RUMOURS",
@@ -620,7 +695,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 42,
+      "global_number": 47,
       "artist_slug": "metalcore",
       "artist": "All That Remains / Killswitch Engage / As I Lay Dying",
       "name": "METALCORE",
@@ -635,7 +710,7 @@
       "source_status": "researched_gear_engineered_tone_targets"
     },
     {
-      "global_number": 43,
+      "global_number": 48,
       "artist_slug": "eagles-early",
       "artist": "Eagles",
       "name": "EAGLES EARLY",
@@ -650,7 +725,7 @@
       "source_status": "selectively_documented_gear_engineered_tone_targets"
     }
   ],
-  "source_number_collisions": "Earlier conversations reused 07–12 for several artists. This repository allocates unique, non-overlapping numbers, but never writes before checking occupancy.",
+  "source_number_collisions": "Original 43 bank numbers shifted +5 to make 01-05 favorites; all are proposed and must not overwrite occupied real device banks.",
   "backlog_artist_count": 13,
   "updated": "2026-11-07"
 }

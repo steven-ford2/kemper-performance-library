@@ -8,18 +8,18 @@
 
 | Perf | Name | Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 |
 |---:|---|---|---|---|---|---|
-| 21 | CLAPTON CORE | BEANO | CREAM WOMAN | LAYLA CHAMP | BLACKIE | JOURNEY |
-| 22 | CLAPTON MARSHALL | BEANO BLUES | BEANO CLEAN | CREAM FRESH | WOMAN TONE | CROSSROADS |
-| 23 | CLAPTON DOMINOS | LAYLA RIFF | LAYLA SLIDE | BELL BOTTOM | KEY TO HIGHWAY | ANYDAY |
-| 24 | CLAPTON BLACKIE | LAY DOWN | COCAINE | WONDERFUL | SHERIFF | 80S BOOST |
-| 25 | CLAPTON JOURNEY | PRETENDING | BAD LOVE | OLD LOVE | RUNNING FAITH | NO ALIBIS |
-| 26 | CLAPTON BLUES PLUS | FROM CRADLE | UNPLUGGED | RIDING KING | CLAPTON STRAT | RECENT BLUES |
+| 26 | CLAPTON CORE | BEANO | CREAM WOMAN | LAYLA CHAMP | BLACKIE | JOURNEY |
+| 27 | CLAPTON MARSHALL | BEANO BLUES | BEANO CLEAN | CREAM FRESH | WOMAN TONE | CROSSROADS |
+| 28 | CLAPTON DOMINOS | LAYLA RIFF | LAYLA SLIDE | BELL BOTTOM | KEY TO HIGHWAY | ANYDAY |
+| 29 | CLAPTON BLACKIE | LAY DOWN | COCAINE | WONDERFUL | SHERIFF | 80S BOOST |
+| 30 | CLAPTON JOURNEY | PRETENDING | BAD LOVE | OLD LOVE | RUNNING FAITH | NO ALIBIS |
+| 31 | CLAPTON BLUES PLUS | FROM CRADLE | UNPLUGGED | RIDING KING | CLAPTON STRAT | RECENT BLUES |
 
 ## Implementation detail
 
 For each slot, start from the indicated **captured amp gain family**. Relative EQ offsets are starting values **added to the selected capture**, not physical vintage amp dial positions. Every rig has modules A/B/C/D before amp and X/MOD/DLY/REV after amp. A target only exists if that parameter is available in the installed software.
 
-### 21. CLAPTON CORE
+### 26. CLAPTON CORE
 #### Slot 1: BEANO
 **Songs:** Hideaway, All Your Love
 **Profile selector:** Marshall 1962 Bluesbreaker/JTM45 2x12 driven capture
@@ -135,7 +135,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 22. CLAPTON MARSHALL
+### 27. CLAPTON MARSHALL
 #### Slot 1: BEANO BLUES
 **Songs:** Hideaway, Steppin Out
 **Profile selector:** Marshall 1962 Bluesbreaker combo (KT66)
@@ -251,7 +251,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 23. CLAPTON DOMINOS
+### 28. CLAPTON DOMINOS
 #### Slot 1: LAYLA RIFF
 **Songs:** Layla
 **Profile selector:** small tweed Champ driven capture
@@ -367,7 +367,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 24. CLAPTON BLACKIE
+### 29. CLAPTON BLACKIE
 #### Slot 1: LAY DOWN
 **Songs:** Lay Down Sally
 **Profile selector:** Fender / Music Man very clean
@@ -483,7 +483,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 25. CLAPTON JOURNEY
+### 30. CLAPTON JOURNEY
 #### Slot 1: PRETENDING
 **Songs:** Pretending
 **Profile selector:** Soldano SLO clean/lead capture
@@ -599,7 +599,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 26. CLAPTON BLUES PLUS
+### 31. CLAPTON BLUES PLUS
 #### Slot 1: FROM CRADLE
 **Songs:** Five Long Years, Reconsider Baby
 **Profile selector:** Fender tweed Twin + low gain

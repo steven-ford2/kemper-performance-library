@@ -1,4 +1,4 @@
-# Eagles — Performance 43: ONE OF THESE NIGHTS / WITCHY WOMAN
+# Eagles — Performance 48: ONE OF THESE NIGHTS / WITCHY WOMAN
 
 **Status:** proposed, not installed. These settings are engineering starting points, **not** authenticated original amp control positions. The 1972 and 1975 songs use different lineups.
 

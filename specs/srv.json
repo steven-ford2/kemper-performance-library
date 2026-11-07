@@ -115,7 +115,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 13
+          "performance_number": 18
         },
         {
           "name": "TEXAS LEAD",
@@ -227,7 +227,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 13
+          "performance_number": 18
         },
         {
           "name": "COLD SHOT",
@@ -338,7 +338,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 13
+          "performance_number": 18
         },
         {
           "name": "SCUTTLE",
@@ -450,7 +450,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 13
+          "performance_number": 18
         },
         {
           "name": "SAY WHAT",
@@ -562,11 +562,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 13
+          "performance_number": 18
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 13
+      "proposed_global_performance_number": 18
     },
     {
       "name": "SRV TEXAS FLOOD",
@@ -681,7 +681,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 14
+          "performance_number": 19
         },
         {
           "name": "PRIDE JOY",
@@ -792,7 +792,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 14
+          "performance_number": 19
         },
         {
           "name": "TEXAS FLOOD",
@@ -903,7 +903,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 14
+          "performance_number": 19
         },
         {
           "name": "TELL ME",
@@ -1014,7 +1014,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 14
+          "performance_number": 19
         },
         {
           "name": "LENNY",
@@ -1125,11 +1125,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 14
+          "performance_number": 19
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 14
+      "proposed_global_performance_number": 19
     },
     {
       "name": "SRV WEATHER",
@@ -1244,7 +1244,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 15
+          "performance_number": 20
         },
         {
           "name": "COULDNT STAND",
@@ -1355,7 +1355,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 15
+          "performance_number": 20
         },
         {
           "name": "TIN PAN",
@@ -1466,7 +1466,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 15
+          "performance_number": 20
         },
         {
           "name": "VOODOO CHILE",
@@ -1577,7 +1577,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 15
+          "performance_number": 20
         },
         {
           "name": "COLD SHOT",
@@ -1688,11 +1688,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 15
+          "performance_number": 20
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 15
+      "proposed_global_performance_number": 20
     },
     {
       "name": "SRV SOUL",
@@ -1807,7 +1807,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 16
+          "performance_number": 21
         },
         {
           "name": "CHANGE IT",
@@ -1918,7 +1918,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 16
+          "performance_number": 21
         },
         {
           "name": "LIFE WITHOUT",
@@ -2029,7 +2029,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 16
+          "performance_number": 21
         },
         {
           "name": "LOOK AT LITTLE",
@@ -2140,7 +2140,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 16
+          "performance_number": 21
         },
         {
           "name": "GONE HOME",
@@ -2251,11 +2251,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 16
+          "performance_number": 21
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 16
+      "proposed_global_performance_number": 21
     },
     {
       "name": "SRV IN STEP",
@@ -2370,7 +2370,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 17
+          "performance_number": 22
         },
         {
           "name": "TIGHTROPE",
@@ -2481,7 +2481,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 17
+          "performance_number": 22
         },
         {
           "name": "LEAVE MY GIRL",
@@ -2592,7 +2592,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 17
+          "performance_number": 22
         },
         {
           "name": "WALL OF DENIAL",
@@ -2703,7 +2703,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 17
+          "performance_number": 22
         },
         {
           "name": "RIVIERA",
@@ -2814,11 +2814,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 17
+          "performance_number": 22
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 17
+      "proposed_global_performance_number": 22
     },
     {
       "name": "SRV LIVE",
@@ -2934,7 +2934,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 18
+          "performance_number": 23
         },
         {
           "name": "MONTREUX 85",
@@ -3046,7 +3046,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 18
+          "performance_number": 23
         },
         {
           "name": "EL MOCAMBO",
@@ -3158,7 +3158,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 18
+          "performance_number": 23
         },
         {
           "name": "LIVE ALIVE",
@@ -3270,7 +3270,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 18
+          "performance_number": 23
         },
         {
           "name": "AUSTIN CITY",
@@ -3382,11 +3382,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 18
+          "performance_number": 23
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 18
+      "proposed_global_performance_number": 23
     },
     {
       "name": "SRV FAMILY STYLE",
@@ -3501,7 +3501,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 19
+          "performance_number": 24
         },
         {
           "name": "TELEPHONE SONG",
@@ -3612,7 +3612,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 19
+          "performance_number": 24
         },
         {
           "name": "TICK TOCK",
@@ -3723,7 +3723,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 19
+          "performance_number": 24
         },
         {
           "name": "WHITE BOOTS",
@@ -3834,7 +3834,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 19
+          "performance_number": 24
         },
         {
           "name": "BROTHERS",
@@ -3946,11 +3946,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 19
+          "performance_number": 24
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 19
+      "proposed_global_performance_number": 24
     },
     {
       "name": "SRV SKY CRYING",
@@ -4065,7 +4065,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 20
+          "performance_number": 25
         },
         {
           "name": "LITTLE WING",
@@ -4176,7 +4176,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 20
+          "performance_number": 25
         },
         {
           "name": "CHITLINS",
@@ -4287,7 +4287,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 20
+          "performance_number": 25
         },
         {
           "name": "WHAM",
@@ -4398,7 +4398,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 20
+          "performance_number": 25
         },
         {
           "name": "LIFE BY DROP",
@@ -4509,11 +4509,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 20
+          "performance_number": 25
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 20
+      "proposed_global_performance_number": 25
     }
   ],
   "source_status": "reconstructed_from_prior_conversation_summary; detailed original archive not accessible",

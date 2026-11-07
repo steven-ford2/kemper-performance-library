@@ -1,4 +1,4 @@
-# Fleetwood Mac — Performance 41: FLEETWOOD RUMOURS
+# Fleetwood Mac — Performance 46: FLEETWOOD RUMOURS
 
 **Status:** proposed; NOT installed or level matched. Settings are engineering starting targets, not documented original physical amp knob positions.
 

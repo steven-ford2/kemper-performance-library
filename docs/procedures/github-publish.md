@@ -22,3 +22,7 @@ Use existing repository `steven-ford2/kemper-performance-library` under `steven-
 ## Privacy
 
 Do not commit local library backups, profile pack binaries, Rig Manager machine logs, audio recordings, device serial numbers, credentials, or other personal files. See `.gitignore`.
+
+## Current numeric order
+
+Five favorites 01–05 precede the original artist bank catalog 06–48. Treat the proposed numbers as uninstalled.

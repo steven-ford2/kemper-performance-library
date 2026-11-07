@@ -121,7 +121,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 35
+          "performance_number": 40
         },
         {
           "name": "GYPSY CLEAN",
@@ -240,7 +240,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 35
+          "performance_number": 40
         },
         {
           "name": "GOVAN WAVES",
@@ -358,7 +358,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 35
+          "performance_number": 40
         },
         {
           "name": "GOVAN FIVES",
@@ -477,7 +477,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 35
+          "performance_number": 40
         },
         {
           "name": "GOVAN ARISTOCRATS",
@@ -596,10 +596,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 35
+          "performance_number": 40
         }
       ],
-      "proposed_global_performance_number": 35,
+      "proposed_global_performance_number": 40,
       "artist": "Andy Timmons / Guthrie Govan",
       "artist_slug": "timmons-govan",
       "source_urls": [

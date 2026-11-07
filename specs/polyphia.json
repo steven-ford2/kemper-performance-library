@@ -122,7 +122,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 37
+          "performance_number": 42
         },
         {
           "name": "PLAYING GOD",
@@ -239,7 +239,7 @@
           "feasibility": "requires_nylon_string_or_high_quality_piezo_source",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 37
+          "performance_number": 42
         },
         {
           "name": "40OZ CHAMPAGNE",
@@ -360,7 +360,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 37
+          "performance_number": 42
         },
         {
           "name": "OD EGO LEAD",
@@ -478,7 +478,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 37
+          "performance_number": 42
         },
         {
           "name": "CHIMERA HEAVY",
@@ -598,10 +598,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 37
+          "performance_number": 42
         }
       ],
-      "proposed_global_performance_number": 37,
+      "proposed_global_performance_number": 42,
       "artist": "Polyphia",
       "artist_slug": "polyphia",
       "source_urls": [

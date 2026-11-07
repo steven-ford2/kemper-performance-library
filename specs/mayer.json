@@ -124,7 +124,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 7,
           "alternates": [],
-          "performance_number": 1
+          "performance_number": 6
         },
         {
           "name": "CONTINUUM - SIG",
@@ -246,7 +246,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 7,
           "alternates": [],
-          "performance_number": 1
+          "performance_number": 6
         },
         {
           "name": "AMERICANA - CLEAN",
@@ -368,7 +368,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 7,
           "alternates": [],
-          "performance_number": 1
+          "performance_number": 6
         },
         {
           "name": "SEARCH - MODERN",
@@ -490,7 +490,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 7,
           "alternates": [],
-          "performance_number": 1
+          "performance_number": 6
         },
         {
           "name": "SOB ROCK - 80S",
@@ -612,11 +612,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 7,
           "alternates": [],
-          "performance_number": 1
+          "performance_number": 6
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 1
+      "proposed_global_performance_number": 6
     },
     {
       "name": "TRIO NOKIA",
@@ -739,7 +739,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 8,
           "alternates": [],
-          "performance_number": 2
+          "performance_number": 7
         },
         {
           "name": "GOOD LOVE",
@@ -859,7 +859,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 8,
           "alternates": [],
-          "performance_number": 2
+          "performance_number": 7
         },
         {
           "name": "WAIT TOMORROW",
@@ -980,7 +980,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 8,
           "alternates": [],
-          "performance_number": 2
+          "performance_number": 7
         },
         {
           "name": "VULTURES NOKIA",
@@ -1099,7 +1099,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 8,
           "alternates": [],
-          "performance_number": 2
+          "performance_number": 7
         },
         {
           "name": "OUT OF MY MIND",
@@ -1217,11 +1217,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 8,
           "alternates": [],
-          "performance_number": 2
+          "performance_number": 7
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 2
+      "proposed_global_performance_number": 7
     },
     {
       "name": "CONTINUUM",
@@ -1348,7 +1348,7 @@
           "tempo_bpm_start": 84,
           "source_original_performance": 9,
           "alternates": [],
-          "performance_number": 3
+          "performance_number": 8
         },
         {
           "name": "GRAVITY",
@@ -1468,7 +1468,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 9,
           "alternates": [],
-          "performance_number": 3
+          "performance_number": 8
         },
         {
           "name": "SLOW DANCING",
@@ -1587,7 +1587,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 9,
           "alternates": [],
-          "performance_number": 3
+          "performance_number": 8
         },
         {
           "name": "BELIEF",
@@ -1708,7 +1708,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 9,
           "alternates": [],
-          "performance_number": 3
+          "performance_number": 8
         },
         {
           "name": "IN REPAIR / LEAD",
@@ -1829,11 +1829,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 9,
           "alternates": [],
-          "performance_number": 3
+          "performance_number": 8
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 3
+      "proposed_global_performance_number": 8
     },
     {
       "name": "AMERICANA",
@@ -1957,7 +1957,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 10,
           "alternates": [],
-          "performance_number": 4
+          "performance_number": 9
         },
         {
           "name": "BORN / LIVING",
@@ -2079,7 +2079,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 10,
           "alternates": [],
-          "performance_number": 4
+          "performance_number": 9
         },
         {
           "name": "PARADISE FUNK",
@@ -2200,7 +2200,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 10,
           "alternates": [],
-          "performance_number": 4
+          "performance_number": 9
         },
         {
           "name": "DEAR / WAITING",
@@ -2322,7 +2322,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 10,
           "alternates": [],
-          "performance_number": 4
+          "performance_number": 9
         },
         {
           "name": "ACOUSTIC / FOLK",
@@ -2439,11 +2439,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 10,
           "alternates": [],
-          "performance_number": 4
+          "performance_number": 9
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 4
+      "proposed_global_performance_number": 9
     },
     {
       "name": "SEARCH",
@@ -2567,7 +2567,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 11,
           "alternates": [],
-          "performance_number": 5
+          "performance_number": 10
         },
         {
           "name": "MOVING ON",
@@ -2687,7 +2687,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 11,
           "alternates": [],
-          "performance_number": 5
+          "performance_number": 10
         },
         {
           "name": "HELPLESS",
@@ -2806,7 +2806,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 11,
           "alternates": [],
-          "performance_number": 5
+          "performance_number": 10
         },
         {
           "name": "ROSIE",
@@ -2926,7 +2926,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 11,
           "alternates": [],
-          "performance_number": 5
+          "performance_number": 10
         },
         {
           "name": "CHANGING / WAVE",
@@ -3049,11 +3049,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 11,
           "alternates": [],
-          "performance_number": 5
+          "performance_number": 10
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 5
+      "proposed_global_performance_number": 10
     },
     {
       "name": "SOB ROCK",
@@ -3176,7 +3176,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 12,
           "alternates": [],
-          "performance_number": 6
+          "performance_number": 11
         },
         {
           "name": "WILD BLUE",
@@ -3294,7 +3294,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 12,
           "alternates": [],
-          "performance_number": 6
+          "performance_number": 11
         },
         {
           "name": "NEW LIGHT",
@@ -3415,7 +3415,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 12,
           "alternates": [],
-          "performance_number": 6
+          "performance_number": 11
         },
         {
           "name": "FEEL LIKE OUTRO",
@@ -3539,7 +3539,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 12,
           "alternates": [],
-          "performance_number": 6
+          "performance_number": 11
         },
         {
           "name": "SHOT IN DARK",
@@ -3661,11 +3661,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 12,
           "alternates": [],
-          "performance_number": 6
+          "performance_number": 11
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 6
+      "proposed_global_performance_number": 11
     },
     {
       "name": "BATTLE EXTRAS",
@@ -3788,7 +3788,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 13,
           "alternates": [],
-          "performance_number": 7
+          "performance_number": 12
         },
         {
           "name": "HEARTBREAK WAR",
@@ -3908,7 +3908,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 13,
           "alternates": [],
-          "performance_number": 7
+          "performance_number": 12
         },
         {
           "name": "CROSSROADS NG2",
@@ -4021,7 +4021,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 13,
           "alternates": [],
-          "performance_number": 7
+          "performance_number": 12
         },
         {
           "name": "ASSASSIN",
@@ -4141,7 +4141,7 @@
           "tempo_bpm_start": null,
           "source_original_performance": 13,
           "alternates": [],
-          "performance_number": 7
+          "performance_number": 12
         },
         {
           "name": "MAYER SOUL LEAD",
@@ -4263,11 +4263,11 @@
           "tempo_bpm_start": null,
           "source_original_performance": 13,
           "alternates": [],
-          "performance_number": 7
+          "performance_number": 12
         }
       ],
       "source_status": "verbatim_transform_of_available_detailed_artifact",
-      "proposed_global_performance_number": 7
+      "proposed_global_performance_number": 12
     }
   ],
   "source_status": "detailed_original_artifact_available",

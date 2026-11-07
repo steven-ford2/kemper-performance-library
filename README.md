@@ -6,7 +6,7 @@ A structured, **non-destructive** blueprint for programming Kemper Profiler MK2 
 
 ## Included
 
-- **43 candidate Performances, 215 five-slot Rigs**, across the original five artists (32 Performances), plus 11 single-bank artist/theme additions.
+- **48 candidate Performances, 240 five-slot Rigs**, across the original five artists (32 Performances), plus 11 single-bank artist/theme additions and five Favorites Performances.
 - **Remaining expansion targets**, including Matt Schofield, Robin Trower, Greg Howe, Slash, Gilmour and more. These are explicitly marked as **planning only**.
 - An **optional original five-song Continuum bank** (`specs/mayer-continuum-five-song-legacy.json`) preserves the exact song grouping first requested: Don't Trust Myself, Vultures, Gravity, Slow Dancing, Crossroads NG-2. It is not assigned an extra live bank number.
 - Full original John Mayer JSON + playbook are preserved in `archive/` and normalized into `specs/mayer.json`.
@@ -26,22 +26,23 @@ A Rig Manager agent must inspect source captures and software capabilities, perf
 
 | Range | Artist | Performances | Slots |
 |---|---|---:|---:|
-| 01–07 | John Mayer | 7 | 35 |
-| 08–12 | Jimi Hendrix | 5 | 25 |
-| 13–20 | Stevie Ray Vaughan | 8 | 40 |
-| 21–26 | Eric Clapton | 6 | 30 |
-| 27–32 | Robben Ford | 6 | 30 |
-| 33 | Vai / Gilbert / Becker | 1 | 5 |
-| 34 | Van Halen | 1 | 5 |
-| 35 | Timmons / Govan | 1 | 5 |
-| 36 | Eagles | 1 | 5 |
-| 37 | Polyphia | 1 | 5 |
-| 38 | Eric Johnson | 1 | 5 |
-| 39 | Jeff Beck | 1 | 5 |
-| 40 | Yngwie Malmsteen | 1 | 5 |
-| 41 | Fleetwood Mac — *Rumours* | 1 | 5 |
-| 42 | Metalcore (ATR/KSE/AILD) | 1 | 5 |
-| 43 | Eagles — One of These Nights / Witchy Woman | 1 | 5 |
+| 01–05 | Favorites: mixed-artist quick access | 5 | 25 |
+| 06–12 | John Mayer | 7 | 35 |
+| 13–17 | Jimi Hendrix | 5 | 25 |
+| 18–25 | Stevie Ray Vaughan | 8 | 40 |
+| 26–31 | Eric Clapton | 6 | 30 |
+| 32–37 | Robben Ford | 6 | 30 |
+| 38 | Vai / Gilbert / Becker | 1 | 5 |
+| 39 | Van Halen | 1 | 5 |
+| 40 | Timmons / Govan | 1 | 5 |
+| 41 | Eagles | 1 | 5 |
+| 42 | Polyphia | 1 | 5 |
+| 43 | Eric Johnson | 1 | 5 |
+| 44 | Jeff Beck | 1 | 5 |
+| 45 | Yngwie Malmsteen | 1 | 5 |
+| 46 | Fleetwood Mac — *Rumours* | 1 | 5 |
+| 47 | Metalcore (ATR/KSE/AILD) | 1 | 5 |
+| 48 | Eagles — One of These Nights / Witchy Woman | 1 | 5 |
 
 These locations are only candidates; earlier chats reused numbers such as 07–12 for several artists. **Never overwrite an occupied Performance**. See `data/performance_registry.json`.
 
@@ -56,6 +57,10 @@ These locations are only candidates; earlier chats reused numbers such as 07–1
 ## GitHub repository
 
 The intended repository is `steven-ford2/kemper-performance-library`. The GitHub connector may publish commits to the repository; confirm the current remote branch and permissions before any future push. **Never force-push or overwrite existing content.**
+
+## Favorites first
+
+Five full-copy Favorites banks occupy **01–05**, followed by the entire original artist library **06–48**. See [Favorites mapping](docs/favorites.md), [JSON specs](specs/favorites.json), and [source provenance](data/favorites_source_map.json). They have not been installed on the Profiler.
 
 ## Artist docs
 

@@ -4,7 +4,7 @@ Read before ANY GUI changes. The user wants **tone fidelity and fast usable soun
 
 ## Absolute safety requirements
 
-1. **Never overwrite any existing user Rig/Performance or preset** without a reliable export/backup and an explicit recorded choice. The proposed 01–43 numbers may be occupied.
+1. **Never overwrite any existing user Rig/Performance or preset** without a reliable export/backup and an explicit recorded choice. The proposed 01–48 numbers may be occupied.
 2. Before editing, inventory: profiler exact model and serial-independent identifier, Profiler OS, Rig Manager version, connected path, available amp profile names/gain/cabinets, preset availability, Remote firmware and expression pedal mappings.
 3. Make BOTH (a) entire Profiler content backup and (b) separate Rig Manager Local Library/selected Rigs export. Check that backup files exist and are nonempty. Preserve originals unmodified.
 4. Do not modify system-wide Output, input sensitivity, global pedal/volume routing, firmware, or Kemper Kabinet/Kone parameters without separate user confirmation and a recovery plan.
@@ -33,6 +33,10 @@ The global wah expression assignment should not be changed blindly. A wah pedal 
 
 **Physical audio:** do not infer amp/speaker/monitor output wiring or a Kabinet/Kone setting from a picture of the Remote. Ask to inspect the user's setup before altering power-amplifier output.
 
+## Required numeric Favorites order
+
+**The user wants the Favorites first, numerically.** `specs/favorites.json` defines full-copy Performances **01–05**, then the existing 43 artist Performances occupy **06–48**. `data/favorites_source_map.json` traces every copied Rig. Do not append the favorites after the artists, overwrite occupied real Kemper banks, or discard original source Rigs. The new order exists only in the repository until the hardware is inspected. Pilot FAVORITES 01 before loading the rest.
+
 ## Artist priorities
 
 1. Mayer: include the separately requested five-song Continuum pilot in `specs/mayer-continuum-five-song-legacy.json`; import exact previous detailed spec from `archive`, preserve Sinewave Continuum character, especially AdrenaLinn-style "Don't Trust Myself" filter and "I Guess I Just Feel Like" fuzz outro experimental rig.
@@ -40,7 +44,7 @@ The global wah expression assignment should not be changed blindly. A wah pedal 
 3. SRV: Dumble SSS/Fender dynamic cleans, two TS gain stages, Vibratone; one Kemper cannot reproduce independent multi-amp outputs.
 4. Clapton: Beano JTM45 2x12, Cream woman tone, Layla tweed Champ, Blackie, Journeyman; pickup tone control matters.
 5. Robben Ford: actual Dumble ODS clean/PAB/OD captures preferred over EQ approximations. 2026 Little Walter 59 is a distinct sound.
-6. New Performances 33–43: researched design candidates exist in `specs/` and `docs/new-performances.md`. These are structurally validated, but not installed, preset-confirmed, profile-matched or audio-calibrated. Instrument restrictions matter: Eagles intro requires a 12-string; early Eagles 1972 songs must not use Joe Walsh or Don Felder as session players; Polyphia Playing God requires nylon; Fleetwood acoustic needs acoustic strings.
+6. New Performances 38–48: researched design candidates exist in `specs/` and `docs/new-performances.md`. These are structurally validated, but not installed, preset-confirmed, profile-matched or audio-calibrated. Instrument restrictions matter: Eagles intro requires a 12-string; early Eagles 1972 songs must not use Joe Walsh or Don Felder as session players; Polyphia Playing God requires nylon; Fleetwood acoustic needs acoustic strings.
 7. Metalcore: use era-appropriate 5150/6505 or Laney profile, an OD808-style low-drive tightener and measured gate threshold; do not simply increase gain.
 8. Remaining backlog: research missing source profiles and tone targets before implementation; planning-only items are not production-ready.
 

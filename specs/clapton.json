@@ -118,7 +118,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 21
+          "performance_number": 26
         },
         {
           "name": "CREAM WOMAN",
@@ -234,7 +234,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 21
+          "performance_number": 26
         },
         {
           "name": "LAYLA CHAMP",
@@ -349,7 +349,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 21
+          "performance_number": 26
         },
         {
           "name": "BLACKIE",
@@ -466,7 +466,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 21
+          "performance_number": 26
         },
         {
           "name": "JOURNEY",
@@ -583,11 +583,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 21
+          "performance_number": 26
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 21
+      "proposed_global_performance_number": 26
     },
     {
       "name": "CLAPTON MARSHALL",
@@ -707,7 +707,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 22
+          "performance_number": 27
         },
         {
           "name": "BEANO CLEAN",
@@ -823,7 +823,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 22
+          "performance_number": 27
         },
         {
           "name": "CREAM FRESH",
@@ -939,7 +939,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 22
+          "performance_number": 27
         },
         {
           "name": "WOMAN TONE",
@@ -1055,7 +1055,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 22
+          "performance_number": 27
         },
         {
           "name": "CROSSROADS",
@@ -1171,11 +1171,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 22
+          "performance_number": 27
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 22
+      "proposed_global_performance_number": 27
     },
     {
       "name": "CLAPTON DOMINOS",
@@ -1294,7 +1294,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 23
+          "performance_number": 28
         },
         {
           "name": "LAYLA SLIDE",
@@ -1409,7 +1409,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 23
+          "performance_number": 28
         },
         {
           "name": "BELL BOTTOM",
@@ -1524,7 +1524,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 23
+          "performance_number": 28
         },
         {
           "name": "KEY TO HIGHWAY",
@@ -1639,7 +1639,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 23
+          "performance_number": 28
         },
         {
           "name": "ANYDAY",
@@ -1755,11 +1755,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 23
+          "performance_number": 28
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 23
+      "proposed_global_performance_number": 28
     },
     {
       "name": "CLAPTON BLACKIE",
@@ -1878,7 +1878,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 24
+          "performance_number": 29
         },
         {
           "name": "COCAINE",
@@ -1993,7 +1993,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 24
+          "performance_number": 29
         },
         {
           "name": "WONDERFUL",
@@ -2108,7 +2108,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 24
+          "performance_number": 29
         },
         {
           "name": "SHERIFF",
@@ -2223,7 +2223,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 24
+          "performance_number": 29
         },
         {
           "name": "80S BOOST",
@@ -2339,11 +2339,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 24
+          "performance_number": 29
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 24
+      "proposed_global_performance_number": 29
     },
     {
       "name": "CLAPTON JOURNEY",
@@ -2462,7 +2462,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 25
+          "performance_number": 30
         },
         {
           "name": "BAD LOVE",
@@ -2577,7 +2577,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 25
+          "performance_number": 30
         },
         {
           "name": "OLD LOVE",
@@ -2692,7 +2692,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 25
+          "performance_number": 30
         },
         {
           "name": "RUNNING FAITH",
@@ -2807,7 +2807,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 25
+          "performance_number": 30
         },
         {
           "name": "NO ALIBIS",
@@ -2922,11 +2922,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 25
+          "performance_number": 30
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 25
+      "proposed_global_performance_number": 30
     },
     {
       "name": "CLAPTON BLUES PLUS",
@@ -3046,7 +3046,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 1,
-          "performance_number": 26
+          "performance_number": 31
         },
         {
           "name": "UNPLUGGED",
@@ -3162,7 +3162,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 2,
-          "performance_number": 26
+          "performance_number": 31
         },
         {
           "name": "RIDING KING",
@@ -3277,7 +3277,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 3,
-          "performance_number": 26
+          "performance_number": 31
         },
         {
           "name": "CLAPTON STRAT",
@@ -3393,7 +3393,7 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 4,
-          "performance_number": 26
+          "performance_number": 31
         },
         {
           "name": "RECENT BLUES",
@@ -3509,11 +3509,11 @@
           "tag": null,
           "calibration_status": "not_auditioned",
           "slot": 5,
-          "performance_number": 26
+          "performance_number": 31
         }
       ],
       "source_status": "reconstructed_from_prior_chat_summary",
-      "proposed_global_performance_number": 26
+      "proposed_global_performance_number": 31
     }
   ],
   "source_status": "reconstructed_from_prior_conversation_summary; detailed original archive not accessible",

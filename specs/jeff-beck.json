@@ -118,7 +118,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 39
+          "performance_number": 44
         },
         {
           "name": "FREEWAY JAM",
@@ -234,7 +234,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 39
+          "performance_number": 44
         },
         {
           "name": "LED BOOTS",
@@ -351,7 +351,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 39
+          "performance_number": 44
         },
         {
           "name": "WHERE WERE YOU",
@@ -467,7 +467,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 39
+          "performance_number": 44
         },
         {
           "name": "NADIA / LATE",
@@ -585,10 +585,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 39
+          "performance_number": 44
         }
       ],
-      "proposed_global_performance_number": 39,
+      "proposed_global_performance_number": 44,
       "artist": "Jeff Beck",
       "artist_slug": "jeff-beck",
       "source_urls": [

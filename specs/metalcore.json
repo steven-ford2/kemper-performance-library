@@ -123,7 +123,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 42
+          "performance_number": 47
         },
         {
           "name": "ATR LEAD",
@@ -243,7 +243,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 42
+          "performance_number": 47
         },
         {
           "name": "KSE DIRTY",
@@ -364,7 +364,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 42
+          "performance_number": 47
         },
         {
           "name": "KSE CLEAN",
@@ -483,7 +483,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 42
+          "performance_number": 47
         },
         {
           "name": "AILD 6505",
@@ -604,10 +604,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 42
+          "performance_number": 47
         }
       ],
-      "proposed_global_performance_number": 42,
+      "proposed_global_performance_number": 47,
       "artist": "All That Remains / Killswitch Engage / As I Lay Dying",
       "artist_slug": "metalcore",
       "source_urls": [

@@ -8,20 +8,20 @@
 
 | Perf | Name | Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 |
 |---:|---|---|---|---|---|---|
-| 13 | SRV CORE | PRIDE JOY | TEXAS LEAD | COLD SHOT | SCUTTLE | SAY WHAT |
-| 14 | SRV TEXAS FLOOD | LOVE STRUCK | PRIDE JOY | TEXAS FLOOD | TELL ME | LENNY |
-| 15 | SRV WEATHER | SCUTTLE | COULDNT STAND | TIN PAN | VOODOO CHILE | COLD SHOT |
-| 16 | SRV SOUL | SAY WHAT | CHANGE IT | LIFE WITHOUT | LOOK AT LITTLE | GONE HOME |
-| 17 | SRV IN STEP | CROSS FIRE | TIGHTROPE | LEAVE MY GIRL | WALL OF DENIAL | RIVIERA |
-| 18 | SRV LIVE | MONTREUX 82 | MONTREUX 85 | EL MOCAMBO | LIVE ALIVE | AUSTIN CITY |
-| 19 | SRV FAMILY STYLE | HARD TO BE | TELEPHONE SONG | TICK TOCK | WHITE BOOTS | BROTHERS |
-| 20 | SRV SKY CRYING | SKY IS CRYING | LITTLE WING | CHITLINS | WHAM | LIFE BY DROP |
+| 18 | SRV CORE | PRIDE JOY | TEXAS LEAD | COLD SHOT | SCUTTLE | SAY WHAT |
+| 19 | SRV TEXAS FLOOD | LOVE STRUCK | PRIDE JOY | TEXAS FLOOD | TELL ME | LENNY |
+| 20 | SRV WEATHER | SCUTTLE | COULDNT STAND | TIN PAN | VOODOO CHILE | COLD SHOT |
+| 21 | SRV SOUL | SAY WHAT | CHANGE IT | LIFE WITHOUT | LOOK AT LITTLE | GONE HOME |
+| 22 | SRV IN STEP | CROSS FIRE | TIGHTROPE | LEAVE MY GIRL | WALL OF DENIAL | RIVIERA |
+| 23 | SRV LIVE | MONTREUX 82 | MONTREUX 85 | EL MOCAMBO | LIVE ALIVE | AUSTIN CITY |
+| 24 | SRV FAMILY STYLE | HARD TO BE | TELEPHONE SONG | TICK TOCK | WHITE BOOTS | BROTHERS |
+| 25 | SRV SKY CRYING | SKY IS CRYING | LITTLE WING | CHITLINS | WHAM | LIFE BY DROP |
 
 ## Implementation detail
 
 For each slot, start from the indicated **captured amp gain family**. Relative EQ offsets are starting values **added to the selected capture**, not physical vintage amp dial positions. Every rig has modules A/B/C/D before amp and X/MOD/DLY/REV after amp. A target only exists if that parameter is available in the installed software.
 
-### 13. SRV CORE
+### 18. SRV CORE
 #### Slot 1: PRIDE JOY
 **Songs:** Pride and Joy, Mary Had a Little Lamb
 **Profile selector:** 1964 Vibroverb / Super Reverb clean edge
@@ -137,7 +137,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** Wah expression. Use optional slot D for Octavia; B/C Tube Screamer stack.
 
-### 14. SRV TEXAS FLOOD
+### 19. SRV TEXAS FLOOD
 #### Slot 1: LOVE STRUCK
 **Songs:** Love Struck Baby
 **Profile selector:** early Vibroverb/Super Reverb
@@ -253,7 +253,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 15. SRV WEATHER
+### 20. SRV WEATHER
 #### Slot 1: SCUTTLE
 **Songs:** Scuttle Buttin
 **Profile selector:** Fender Vibroverb / clean-mid
@@ -369,7 +369,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 16. SRV SOUL
+### 21. SRV SOUL
 #### Slot 1: SAY WHAT
 **Songs:** Say What!
 **Profile selector:** Super Reverb / Dumble SSS
@@ -485,7 +485,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 17. SRV IN STEP
+### 22. SRV IN STEP
 #### Slot 1: CROSS FIRE
 **Songs:** Crossfire
 **Profile selector:** Dumble SSS + Fender Super clean
@@ -601,7 +601,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 18. SRV LIVE
+### 23. SRV LIVE
 #### Slot 1: MONTREUX 82
 **Songs:** Pride and Joy, Hide Away
 **Profile selector:** early hot Fender clean edge
@@ -717,7 +717,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 19. SRV FAMILY STYLE
+### 24. SRV FAMILY STYLE
 #### Slot 1: HARD TO BE
 **Songs:** Hard to Be
 **Profile selector:** clean Dumble SSS/Fender
@@ -833,7 +833,7 @@ For each slot, start from the indicated **captured amp gain family**. Relative E
 
 **Notes:** None; evaluate by ear.
 
-### 20. SRV SKY CRYING
+### 25. SRV SKY CRYING
 #### Slot 1: SKY IS CRYING
 **Songs:** The Sky Is Crying
 **Profile selector:** Vibroverb 15, clean edge

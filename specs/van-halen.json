@@ -124,7 +124,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 1,
-          "performance_number": 34
+          "performance_number": 39
         },
         {
           "name": "VH2 WOMEN",
@@ -243,7 +243,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 2,
-          "performance_number": 34
+          "performance_number": 39
         },
         {
           "name": "VH FAIR",
@@ -362,7 +362,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 3,
-          "performance_number": 34
+          "performance_number": 39
         },
         {
           "name": "VH PANAMA",
@@ -480,7 +480,7 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 4,
-          "performance_number": 34
+          "performance_number": 39
         },
         {
           "name": "VH 5150 ERA",
@@ -598,10 +598,10 @@
           "feasibility": "core_guitar_tone_approximation",
           "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
           "slot": 5,
-          "performance_number": 34
+          "performance_number": 39
         }
       ],
-      "proposed_global_performance_number": 34,
+      "proposed_global_performance_number": 39,
       "artist": "Eddie Van Halen",
       "artist_slug": "van-halen",
       "source_urls": [

@@ -8,7 +8,7 @@
 
 ## Inventory before mutation
 
-1. Record Rig Manager + Profiler OS versions and current Performance names/slot names including occupancy of 01–32 and nearby empty locations.
+1. Record Rig Manager + Profiler OS versions and current Performance names/slot names including occupancy of 01–48 and nearby empty locations.
 2. Record all source Rig candidates and tags: amplifier make/model, clean/edge/crunch/lead capture type, speaker/cab, gain, capture provenance, whether Direct or Studio profile, and guitar pickup assumed in the reference.
 3. Check factory effects by actual installed name: `Kemper Fuzz` (e.g., `Red Germanium`, `Mayer Octavia Min` if available), `Kemper Drive` (`808 Min`, `Klon 2` etc.), `Wah Wah`, `Phaser Vibe`, `Rotary Speaker`, `Studio Equalizer`, `Pure Booster`, `Single Delay`, `Natural Reverb`.
 4. Record input/monitor/output and any Kemper Kone / Kabinet / power amp arrangement only read-only. Do not change global audio output.
@@ -43,3 +43,7 @@
 ## Known fidelity limits
 
 One Kemper Rig uses one captured amp path, while several historical tones used blended amplifiers, mics, tape tricks, room sound, doubling or different guitar instruments. Mark an approximation as such and offer multiple Rigs or recorded multi-tracking when required. Tone controls, neck/bridge pickups and physical guitar electronics remain important even with perfect amplifier profiling.
+
+## Numeric Favorites policy
+
+Favorites are 01–05 and the original 43 artist banks 06–48 (proposed only). Inventory physical occupancy before implementing and pilot Favorites 01, then request approval for further device writes.
