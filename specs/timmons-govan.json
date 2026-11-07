@@ -1,0 +1,618 @@
+{
+  "name": "Andy Timmons / Guthrie Govan",
+  "performances": [
+    {
+      "name": "TIMMONS GOVAN",
+      "purpose": "Mesa Lone Star and Cornford/Victory families; Electric Gypsy has two related slots.",
+      "slots": [
+        {
+          "name": "ELECTRIC GYPSY",
+          "songs": [
+            "Electric Gypsy"
+          ],
+          "capture_selector": "Mesa/Boogie Lone Star or Lone Star Special singing overdriven 1x12/2x12 capture",
+          "tone_target": "Rounded, touch-sensitive violin-like Andy Timmons lead: thick midrange, not heavily gated",
+          "preferred_pickup_or_guitar": "Bridge humbucker / Ibanez AT-style HSS guitar; compare neck",
+          "amp_eq_offsets": {
+            "bass": -0.25,
+            "middle": 0.5,
+            "treble": -0.32,
+            "presence": -0.38
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 1.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.8
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 405,
+                "feedback_percent_target": 29,
+                "mix_percent_target": 22
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "decay_seconds_target": 2.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Analog and digital delay layers on record/live rigs may need a second delay module; this single-delay approximation is an initial live tone.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 1,
+          "performance_number": 35
+        },
+        {
+          "name": "GYPSY CLEAN",
+          "songs": [
+            "Electric Gypsy introductory clean/edge passages"
+          ],
+          "capture_selector": "Mesa/Boogie Lone Star low gain capture",
+          "tone_target": "Articulate warm clean/edge with rounded upper mids and spacious delay",
+          "preferred_pickup_or_guitar": "Neck or neck/middle single coils",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.2,
+            "treble": -0.23,
+            "presence": -0.2
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.9
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 14,
+                "rate_hz_target": 0.32
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 420,
+                "feedback_percent_target": 27,
+                "mix_percent_target": 19
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 16,
+                "decay_seconds_target": 2.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 2,
+          "performance_number": 35
+        },
+        {
+          "name": "GOVAN WAVES",
+          "songs": [
+            "Waves"
+          ],
+          "capture_selector": "Cornford MK50 II mid-gain 4x12 or equivalent British boutique articulate capture",
+          "tone_target": "Three-dimensional dynamic clean-to-crunch with mild compression; preserves touch articulation",
+          "preferred_pickup_or_guitar": "Suhr/Charvel bridge pickup split or neck pickup as appropriate",
+          "amp_eq_offsets": {
+            "bass": -0.35,
+            "middle": 0.35,
+            "treble": -0.1,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.6
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 350,
+                "feedback_percent_target": 18,
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 3,
+          "performance_number": 35
+        },
+        {
+          "name": "GOVAN FIVES",
+          "songs": [
+            "Fives",
+            "Erotic Cakes era lead"
+          ],
+          "capture_selector": "Cornford MK50 II / Cornford lead 4x12 capture, medium-high gain not saturated scooped metal",
+          "tone_target": "Highly vocal fusion lead with immediate dynamic response and dry articulation",
+          "preferred_pickup_or_guitar": "Bridge humbucker for lead / mixed pickups for fusion rhythm",
+          "amp_eq_offsets": {
+            "bass": -0.38,
+            "middle": 0.55,
+            "treble": -0.1,
+            "presence": -0.12
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 1.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.1
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 315,
+                "feedback_percent_target": 18,
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 4,
+          "performance_number": 35
+        },
+        {
+          "name": "GOVAN ARISTOCRATS",
+          "songs": [
+            "Aristocrats live",
+            "Modern fusion solo"
+          ],
+          "capture_selector": "Victory V30 The Countess / V30 Jack / Cornford boutique lead capture, choose based on song period",
+          "tone_target": "Tight modern fusion tone; clean low-end separation and high dynamic control",
+          "preferred_pickup_or_guitar": "Suhr/Charvel humbucker with moderately hot but non-active response",
+          "amp_eq_offsets": {
+            "bass": -0.42,
+            "middle": 0.45,
+            "treble": 0.0,
+            "presence": -0.07
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.7
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 11
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 290,
+                "feedback_percent_target": 18,
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 5,
+          "performance_number": 35
+        }
+      ],
+      "proposed_global_performance_number": 35,
+      "artist": "Andy Timmons / Guthrie Govan",
+      "artist_slug": "timmons-govan",
+      "source_urls": [
+        "https://www.premierguitar.com/gear/rig-rundown-andy-timmons"
+      ],
+      "source_status": "researched_gear_with_proposed_audio_targets",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "research_and_proposed_tone_targets",
+  "description": "Mesa Lone Star and Cornford/Victory families; Electric Gypsy has two related slots.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "selected historical source refs, numerical approximations require listening and GUI verification"
+}

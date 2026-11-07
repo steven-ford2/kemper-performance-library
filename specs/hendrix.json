@@ -1,0 +1,2888 @@
+{
+  "name": "Jimi Hendrix",
+  "performances": [
+    {
+      "name": "HENDRIX CORE",
+      "purpose": "Five-era overview, reconstructed from earlier detailed Hendrix discussion",
+      "slots": [
+        {
+          "name": "EXPERIENCED",
+          "songs": [
+            "Purple Haze",
+            "Foxey Lady",
+            "Fire",
+            "Manic Depression"
+          ],
+          "capture_selector": "JTM45/100 or JTM100 into vintage Greenback 4x12",
+          "tone_target": "Early 1967 fierce open Marshall, germanium fuzz and discrete Octavia on solo",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.4,
+            "middle": 0.5,
+            "treble": 0.0,
+            "presence": 0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Tremolo",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 4.0,
+                "depth": "low"
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "No Uni-Vibe asserted on the first album. Purple Haze solo uses Octavia separately.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 8
+        },
+        {
+          "name": "AXIS",
+          "songs": [
+            "Little Wing",
+            "Castles Made of Sand",
+            "Bold as Love",
+            "Spanish Castle Magic"
+          ],
+          "capture_selector": "JTM100 clean-to-edge or Sound City-inspired clean; vintage 4x12",
+          "tone_target": "Warm chord articulation; Leslie/rotary and studio flanging rather than generic vibe",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 30,
+                "rate_hz_target": 0.16
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": true,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 85
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "D"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Axis tape flanging cannot be reproduced exactly by an algorithmic flanger.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 8
+        },
+        {
+          "name": "LADYLAND",
+          "songs": [
+            "Voodoo Child (Slight Return)",
+            "All Along the Watchtower",
+            "Gypsy Eyes",
+            "1983"
+          ],
+          "capture_selector": "Super Lead 100, Greenback 4x12 mid-crunch",
+          "tone_target": "Dense 1968 studio rock with wah, tape effects and driven Plexi response",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 35
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "1968 studio Univibe assignment is not assumed; 1983 cannot be recreated as one mono live rig.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 8
+        },
+        {
+          "name": "GYPSYS",
+          "songs": [
+            "Machine Gun",
+            "Who Knows",
+            "Power of Soul",
+            "Message to Love"
+          ],
+          "capture_selector": "late-60s Super Lead/JMP + vintage 4x12, moderate driven capture",
+          "tone_target": "1969-70 live punch, silicon fuzz, expressive wah, Uni-Vibe",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Psych 69 Silicon",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": true,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.35,
+                "mix_percent_target": 75
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Vibe on, fuzz off initially for Machine Gun; switch I enables fuzz.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 8
+        },
+        {
+          "name": "CRY LOVE",
+          "songs": [
+            "Freedom",
+            "Ezy Ryder",
+            "Angel",
+            "Drifting",
+            "Night Bird Flying"
+          ],
+          "capture_selector": "Super Lead 100, clean-to-edge profile and vintage 4x12",
+          "tone_target": "1970 expressive studio, cleaner foundation than Gypsys and variable fuzz",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Psych 69 Silicon",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 14,
+                "decay_seconds_target": 2.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Cry of Love released posthumously in 1971; verify individual recording era / overdubs.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 8
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 8
+    },
+    {
+      "name": "HENDRIX 1967",
+      "purpose": "Early Hendrix and Axis focus",
+      "slots": [
+        {
+          "name": "HEY JOE/WIND",
+          "songs": [
+            "Hey Joe",
+            "The Wind Cries Mary",
+            "May This Be Love"
+          ],
+          "capture_selector": "clean JTM100 / JTM45-era amp",
+          "tone_target": "Early clean-to-edge and air",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 9,
+                "decay_seconds_target": 1.3
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Fuzz/Octavia off by default.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 9
+        },
+        {
+          "name": "PURPLE HAZE",
+          "songs": [
+            "Purple Haze",
+            "Stone Free",
+            "Highway Chile"
+          ],
+          "capture_selector": "early Marshall plexi/JTM at crunch",
+          "tone_target": "Tearing upper mids and discrete Octavia solo",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Switch II Octavia for solo; compare fuzz bypass when octave loses clarity.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 9
+        },
+        {
+          "name": "FOXEY/MANIC",
+          "songs": [
+            "Foxey Lady",
+            "Manic Depression",
+            "Fire",
+            "I Don’t Live Today"
+          ],
+          "capture_selector": "early Marshall crunch, greenback 4x12",
+          "tone_target": "Aggressive raspy fuzz and dry amp",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Avoid modern preamp saturation.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 9
+        },
+        {
+          "name": "LITTLE WING",
+          "songs": [
+            "Little Wing",
+            "Castles Made of Sand",
+            "One Rainy Wish"
+          ],
+          "capture_selector": "clean Marshall/Sound City-ish capture",
+          "tone_target": "Clean edge, slow Leslie/rotary, touch-responsive",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": true,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Use slow Rotary Speaker in MOD and minimal clipping.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 9
+        },
+        {
+          "name": "BOLD/SPANISH",
+          "songs": [
+            "Bold as Love",
+            "Spanish Castle Magic",
+            "If 6 Was 9",
+            "Up from the Skies"
+          ],
+          "capture_selector": "mid-crunch Marshall or edge capture",
+          "tone_target": "Fuzz and controllable tape-style modulation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Tape-flanged Bold as Love outro is a studio-production approximation.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 9
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 9
+    },
+    {
+      "name": "HENDRIX LADYLAND",
+      "purpose": "1968 Electric Ladyland studio tonal families",
+      "slots": [
+        {
+          "name": "VOODOO RETURN",
+          "songs": [
+            "Voodoo Child (Slight Return)"
+          ],
+          "capture_selector": "mid-crunch Super Lead 100",
+          "tone_target": "Strong wah sweep into cranked Marshall",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.5,
+            "middle": 0.6,
+            "treble": 0,
+            "presence": 0
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Prefer wah expression as primary tone control; fuzz optional.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 10
+        },
+        {
+          "name": "WATCHTOWER",
+          "songs": [
+            "All Along the Watchtower",
+            "Come On (Part I)"
+          ],
+          "capture_selector": "mid-gain Super Lead / JMP 100",
+          "tone_target": "Melodic compressed lead without artificial high-gain amp",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 340,
+                "mix_percent_target": 12,
+                "feedback_percent_target": 18
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Recorded multitracked electric/acoustic parts are separate; this is core lead approximation.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 10
+        },
+        {
+          "name": "VOODOO CHILE",
+          "songs": [
+            "Voodoo Chile (long)",
+            "Rainy Day, Dream Away",
+            "Still Raining, Still Dreaming"
+          ],
+          "capture_selector": "clean-to-edge Marshall capture",
+          "tone_target": "Round blues clean into drive when guitar output is raised",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Big clean dynamics, minimal modulation.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 10
+        },
+        {
+          "name": "CROSSTOWN",
+          "songs": [
+            "Crosstown Traffic",
+            "Burning of the Midnight Lamp",
+            "Long Hot Summer Night"
+          ],
+          "capture_selector": "mid-crunch Super Lead",
+          "tone_target": "Nasal biting fuzz; tight rhythm",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Do not fake kazoo/doubling as part of single fuzz effect.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 10
+        },
+        {
+          "name": "GYPSY/1983",
+          "songs": [
+            "Gypsy Eyes",
+            "House Burning Down",
+            "1983",
+            "...And the Gods Made Love"
+          ],
+          "capture_selector": "relatively clean British amp capture",
+          "tone_target": "Complex 1968 studio flanging and delays",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": "Subtle",
+              "initial_active": true,
+              "parameter_targets": {
+                "rate_hz_target": 0.2,
+                "mix_percent_target": 35
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 375,
+                "mix_percent_target": 20,
+                "feedback_percent_target": 17
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Requires overdubs/DAW for full record texture; core electric tone only.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 10
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 10
+    },
+    {
+      "name": "HENDRIX GYPSYS",
+      "purpose": "NYE 1969-70 Fillmore East live tonality",
+      "slots": [
+        {
+          "name": "MACHINE GUN",
+          "songs": [
+            "Machine Gun"
+          ],
+          "capture_selector": "late Super Lead/JMP with open 4x12",
+          "tone_target": "Vibe dominated feedback and aggressive, not fizzy, silicon fuzz",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Psych 69 Silicon",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": true,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.35,
+                "mix_percent_target": 75
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 11
+        },
+        {
+          "name": "WHO KNOWS",
+          "songs": [
+            "Who Knows"
+          ],
+          "capture_selector": "late 100 W JMP; punchy open 4x12",
+          "tone_target": "Snarling dry late Hendrix fuzz",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Psych 69 Silicon",
+              "initial_active": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 4,
+                "decay_seconds_target": 1.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 11
+        },
+        {
+          "name": "POWER SOUL",
+          "songs": [
+            "Power of Soul",
+            "Power to Love"
+          ],
+          "capture_selector": "late JMP high-headroom cranked",
+          "tone_target": "Thick fuzz + vibe rock funk",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Psych 69 Silicon",
+              "initial_active": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": true,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.5,
+                "mix_percent_target": 72
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 11
+        },
+        {
+          "name": "MESSAGE LOVE",
+          "songs": [
+            "Message to Love",
+            "Message of Love"
+          ],
+          "capture_selector": "later JMP mid driven",
+          "tone_target": "Articulated midrange and restrained modulation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Psych 69 Silicon",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 11
+        },
+        {
+          "name": "BOG FUNK",
+          "songs": [
+            "Changes",
+            "We Gotta Live Together"
+          ],
+          "capture_selector": "late Marshall edge-of-breakup capture",
+          "tone_target": "Low-gain, dynamic live funk from Band of Gypsys",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 11
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 11
+    },
+    {
+      "name": "HENDRIX CRY LOVE",
+      "purpose": "1970 recordings later assembled into Cry of Love",
+      "slots": [
+        {
+          "name": "FREEDOM/EZY",
+          "songs": [
+            "Freedom",
+            "Ezy Ryder"
+          ],
+          "capture_selector": "late Marshall 100 W driven",
+          "tone_target": "Tight layered rhythm and open expressive lead",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.45,
+            "middle": 0.55,
+            "treble": 0,
+            "presence": 0
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 12
+        },
+        {
+          "name": "NIGHT/STORM",
+          "songs": [
+            "Night Bird Flying",
+            "In From the Storm"
+          ],
+          "capture_selector": "later Marshall 100 W mid crunch",
+          "tone_target": "Warm forward studio lead, less raw than BOG",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 12
+        },
+        {
+          "name": "ANGEL/DRIFT",
+          "songs": [
+            "Angel",
+            "Drifting"
+          ],
+          "capture_selector": "late Marshall clean / edge",
+          "tone_target": "Very clear warm layered-clean with spatial ambience",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 390,
+                "mix_percent_target": 13,
+                "feedback_percent_target": 17
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 16,
+                "decay_seconds_target": 2.4
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "True harp and multitracked sources not reproducible by a single Rig.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 12
+        },
+        {
+          "name": "STRAIGHT/BELLY",
+          "songs": [
+            "Straight Ahead",
+            "Belly Button Window"
+          ],
+          "capture_selector": "late Marshall clean edge",
+          "tone_target": "Bare articulate guitar with little effect density",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 7,
+                "decay_seconds_target": 1.2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 12
+        },
+        {
+          "name": "ASTRO/FRIEND",
+          "songs": [
+            "Astro Man",
+            "My Friend"
+          ],
+          "capture_selector": "period-correct low-drive guitar or acoustic simulator",
+          "tone_target": "Intermediate clean-to-driven 1970 sound; My Friend predates main sessions",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Mayer Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser Vibe",
+              "preset_candidate": "Uni Vintage",
+              "initial_active": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.2,
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "My Friend: actual acoustic-based recording needs acoustic source, do not claim electric exactness.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 12
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 12
+    }
+  ],
+  "source_status": "reconstructed_from_full_current_conversation_and_prior_discussion",
+  "archive": null,
+  "description": "Jimi Hendrix song-specific rigs and effect assignments",
+  "device_validation_required": true,
+  "repo_spec_version": "1.0.0",
+  "device_write_status": "not_applied"
+}

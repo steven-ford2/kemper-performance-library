@@ -1,0 +1,4831 @@
+{
+  "name": "John Mayer Profiler MK2 & Remote Rig Manager Agent Blueprint",
+  "version": "1.0.0",
+  "generated": "2026-11-04",
+  "applied_to_profiler": false,
+  "source_profile_inventory_known": false,
+  "calibration_complete": false,
+  "target": {
+    "model": "Kemper Profiler MK2 Head",
+    "controller": "Kemper Remote",
+    "software": "Rig Manager 4.x verified during setup",
+    "mode": "PERFORM",
+    "desired_destinations": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "slots_per_performance": 5,
+    "safety": "inspect slots 01-06 (previous Mayer/Hendrix plans might not be installed); preserve any existing content and backup before writing"
+  },
+  "specific_known_user_resources": [
+    "Tone Junkie Official Sinewave Continuum OD Kemper pack",
+    "Kemper Remote",
+    "Kemper Profiler MK2",
+    "Strat-style guitar and expression pedal"
+  ],
+  "source_profiles": {
+    "SINE_SIG_G1265": {
+      "priority": 1,
+      "source": "owned Tone Junkie Official Sinewave Continuum OD pack",
+      "match": [
+        "Sinewave",
+        "Continuum",
+        "Sig",
+        "G1265"
+      ],
+      "character": "John Mayer signature low/clean, G12-65 speaker",
+      "fallback": "SINE_LO_G1265",
+      "avoid": "OD-channel capture for dry cleans"
+    },
+    "SINE_LO_G1265": {
+      "priority": 1,
+      "source": "owned Tone Junkie Official Sinewave Continuum OD pack",
+      "match": [
+        "Sinewave",
+        "Continuum",
+        "Lo",
+        "G1265"
+      ],
+      "character": "very clean, wide, bass-rich high-headroom G12-65 clean",
+      "fallback": "SINE_SIG_G1265"
+    },
+    "SINE_M_G1265": {
+      "priority": 1,
+      "source": "owned Tone Junkie Official Sinewave Continuum OD pack",
+      "match": [
+        "Sinewave",
+        "Continuum",
+        "M",
+        "G1265"
+      ],
+      "character": "mid-switched clean or edge profile with additional focus",
+      "fallback": "SINE_SIG_G1265"
+    },
+    "SINE_OD_M75": {
+      "priority": 1,
+      "source": "owned Tone Junkie Official Sinewave Continuum OD pack",
+      "match": [
+        "Sinewave",
+        "Continuum",
+        "OD",
+        "M75"
+      ],
+      "character": "captured amp overdrive with singing harmonics and Scumback M75",
+      "fallback": "SINE_SIG_G1265 + TS drive, mark substitution"
+    },
+    "TWOROCK_CR": {
+      "priority": 2,
+      "source": "owned non-Sinewave profiles or free Rig Exchange",
+      "match": [
+        "Two Rock",
+        "Custom Reverb",
+        "JM Signature",
+        "Sterling",
+        "Dumble clean"
+      ],
+      "character": "wide clean/edge Two-Rock; suitable Nokia Trio and Continuum",
+      "fallback": "SINE_SIG_G1265"
+    },
+    "DUMBLE_SSS": {
+      "priority": 2,
+      "source": "owned or free Rig Exchange",
+      "match": [
+        "Dumble",
+        "SSS",
+        "Steel String Singer",
+        "Clean"
+      ],
+      "character": "fast, authoritative low-end, glassy high headroom; part of 2007 multi-amp aesthetic",
+      "fallback": "SINE_LO_G1265"
+    },
+    "FENDER_BF": {
+      "priority": 2,
+      "source": "owned or free Rig Exchange",
+      "match": [
+        "Fender",
+        "Deluxe Reverb",
+        "Vibro King",
+        "Twin Reverb",
+        "blackface"
+      ],
+      "character": "dry Fender clean to lightly pushed; warmer/less subbass than Two-Rock",
+      "fallback": "SINE_LO_G1265 with high-pass and lower bass"
+    },
+    "FENDER_TWEED": {
+      "priority": 2,
+      "source": "owned or free Rig Exchange",
+      "match": [
+        "Fender",
+        "Tweed",
+        "Deluxe",
+        "5E3",
+        "Bandmaster"
+      ],
+      "character": "soft edged smaller-combo compression with chewy attack",
+      "fallback": "FENDER_BF"
+    },
+    "FENDER_CHAMP_HOT": {
+      "priority": 0,
+      "source": "owned or free Rig Exchange; essential acquisition if absent",
+      "match": [
+        "Fender",
+        "Vibro Champ",
+        "Champ",
+        "5F1",
+        "small tweed",
+        "cranked"
+      ],
+      "character": "highly saturated small Fender combo, small speaker roll-off, not Two-Rock",
+      "fallback": "FENDER_TWEED with hotter capture, no Sinewave as primary",
+      "requires_audition": true
+    },
+    "JMOD_100": {
+      "priority": 2,
+      "source": "owned or free Rig Exchange",
+      "match": [
+        "PRS",
+        "JMOD",
+        "J-MOD",
+        "John Mayer",
+        "Dumble clean"
+      ],
+      "character": "tight huge-clean-headroom PRS J-MOD / later-era pedal platform",
+      "fallback": "SINE_SIG_G1265"
+    },
+    "SOLDANO_SLO": {
+      "priority": 2,
+      "source": "owned or free Rig Exchange",
+      "match": [
+        "Soldano",
+        "SLO-100",
+        "SLO",
+        "Crunch"
+      ],
+      "character": "moderate gain 80s-inflected tube amp with mid focus, NOT maximum saturated channel",
+      "fallback": "SINE_OD_M75 with carefully limited gain"
+    },
+    "ACOUSTIC_DI": {
+      "priority": 2,
+      "source": "genuine acoustic input preferred; otherwise Acoustic Simulator",
+      "match": [
+        "Acoustic",
+        "Martin",
+        "DI"
+      ],
+      "character": "acoustic guitar or acoustic simulator to full-range output, not distorted electric speaker",
+      "fallback": "FENDER_BF + Acoustic Simulator, mark compromised"
+    }
+  },
+  "performances": [
+    {
+      "number": 7,
+      "name": "07 MAYER CORE",
+      "slots": [
+        {
+          "name": "TRIO - DRIVE",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Who Did You Think I Was",
+            "Good Love Is on the Way",
+            "Out of My Mind"
+          ],
+          "tone_target": "2007 Nokia raw edge, clear pick attack, amp almost breaking, TS accent.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.5,
+            "middle": 0.5,
+            "treble": 0.1,
+            "presence": 0.0
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": true,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 1
+        },
+        {
+          "name": "CONTINUUM - SIG",
+          "profile_selection_key": "SINE_SIG_G1265",
+          "songs": [
+            "Gravity",
+            "Slow Dancing in a Burning Room",
+            "Belief",
+            "Vultures"
+          ],
+          "tone_target": "Two-Rock clean with stacked gain and post-amp solo level.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": -0.1,
+            "presence": -0.1
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 2
+        },
+        {
+          "name": "AMERICANA - CLEAN",
+          "profile_selection_key": "FENDER_BF",
+          "songs": [
+            "Queen of California",
+            "Something Like Olivia",
+            "Paper Doll",
+            "Dear Marie"
+          ],
+          "tone_target": "Dryer organic Fender clean, less bass, very low drive.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.15,
+            "treble": 0.0,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 3
+        },
+        {
+          "name": "SEARCH - MODERN",
+          "profile_selection_key": "JMOD_100",
+          "songs": [
+            "Still Feel Like Your Man",
+            "Helpless",
+            "Rosie",
+            "Moving On and Getting Over"
+          ],
+          "tone_target": "Tight, mid-focused modern Mayer headroom with crisp pedal gain.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": -0.1,
+            "presence": -0.1
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 4
+        },
+        {
+          "name": "SOB ROCK - 80S",
+          "profile_selection_key": "SOLDANO_SLO",
+          "songs": [
+            "Last Train Home",
+            "Shot in the Dark",
+            "Wild Blue",
+            "New Light"
+          ],
+          "tone_target": "80s-flavored clean-to-crunch with chorus, delay and restrained gain.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.4,
+            "treble": 0.1,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "CE-1",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 28,
+                "rate_hz_target": 0.7
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Digital",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 355,
+                "mix_percent_target": 14,
+                "feedback_percent_target": 22
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 5
+        }
+      ],
+      "purpose": "Main era overview"
+    },
+    {
+      "number": 8,
+      "name": "08 TRIO NOKIA",
+      "slots": [
+        {
+          "name": "WHO DID I WAS",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Who Did You Think I Was",
+            "Try!"
+          ],
+          "tone_target": "Thick Nokia riff, medium headroom, edge and controlled aggressive TS.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.55,
+            "middle": 0.5,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 1.5
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": true,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 1
+        },
+        {
+          "name": "GOOD LOVE",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Good Love Is on the Way",
+            "Come When I Call"
+          ],
+          "tone_target": "Pushed choppy blues with mild mid drive, clean snap.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.45,
+            "middle": 0.5,
+            "treble": 0.05,
+            "presence": 0.05
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": true,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 2
+        },
+        {
+          "name": "WAIT TOMORROW",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Wait Until Tomorrow",
+            "Bold as Love (live)",
+            "Every Day I Have the Blues"
+          ],
+          "tone_target": "Hendrix-influenced Nokia live fuzz/clean Marshall-like grit; period-appropriate approximation.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.4,
+            "middle": 0.45,
+            "treble": -0.1,
+            "presence": 0.05
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "factory_preset": "Red Germanium",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 5.5
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 3
+        },
+        {
+          "name": "VULTURES NOKIA",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Vultures"
+          ],
+          "tone_target": "Dry fast funk. Moderate pre-drive, compression extremely light, short slap usually OFF.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.6,
+            "middle": 0.1,
+            "treble": 0.15,
+            "presence": 0
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 1.6
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Low Pass",
+              "factory_preset": "Touch",
+              "on": false,
+              "parameter_targets": {
+                "mode": "Touch",
+                "touch": "adjust by ear"
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Room Slap",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 115,
+                "mix_percent_target": 6,
+                "feedback_percent_target": 0
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 4
+        },
+        {
+          "name": "OUT OF MY MIND",
+          "profile_selection_key": "DUMBLE_SSS",
+          "songs": [
+            "Out of My Mind",
+            "I Don't Need No Doctor",
+            "Gravity (Nokia Trio-style)"
+          ],
+          "tone_target": "Big uncompressed vocal blues lead, clean backbone with smoothly gained lead lift.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.5,
+            "middle": 0.55,
+            "treble": -0.25,
+            "presence": -0.25
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Kemper Drive",
+              "factory_preset": "B Breaker Max",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 1.5
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 5
+        }
+      ],
+      "purpose": "Detailed alternate-tones and song families"
+    },
+    {
+      "number": 9,
+      "name": "09 CONTINUUM",
+      "slots": [
+        {
+          "name": "DONT TRUST SELF",
+          "profile_selection_key": "SINE_SIG_G1265",
+          "songs": [
+            "I Don't Trust Myself (With Loving You)"
+          ],
+          "tone_target": "AdrenaLinn-styled rhythmic filter vs auto-envelope wah: preset cannot fully match synchronized resonant motion.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": -0.1,
+            "presence": -0.1
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": 84,
+          "effects": {
+            "A": {
+              "type": "Wah Low Pass",
+              "factory_preset": "Touch",
+              "on": false,
+              "parameter_targets": {
+                "mode": "Touch",
+                "manual": "mid",
+                "peak": "adjust after audition"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Pulse Slicer",
+              "factory_preset": "1/8 Slicer",
+              "on": true,
+              "parameter_targets": {
+                "rate": "tempo_sync",
+                "edge": "moderate",
+                "mix_percent_target": 45
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Phaser",
+              "factory_preset": "Subtle",
+              "on": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.6,
+                "mix_percent_target": 16
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "A",
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "Switch III toggles both A and D; with opposite initial states it swaps rhythmic slicer ↔ touch filter. The pulse slicer is amplitude modulation, not original resonant pattern. Verify two effects are stored opposite states.",
+          "slot": 1
+        },
+        {
+          "name": "GRAVITY",
+          "profile_selection_key": "SINE_LO_G1265",
+          "songs": [
+            "Gravity",
+            "The Heart of Life"
+          ],
+          "tone_target": "Huge warm clean, neck, low sag, small spring, solo brightens without adding high gain.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.2,
+            "treble": -0.15,
+            "presence": -0.2
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 300,
+                "mix_percent_target": 7,
+                "feedback_percent_target": 11
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Spring Reverb",
+              "factory_preset": "Reverb Fan",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 13,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "DLY"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 2
+        },
+        {
+          "name": "SLOW DANCING",
+          "profile_selection_key": "SINE_SIG_G1265",
+          "songs": [
+            "Slow Dancing in a Burning Room"
+          ],
+          "tone_target": "Singing blues lead with clean rhythm and stacked Klon/TS drives.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.3,
+            "middle": 0.35,
+            "treble": -0.2,
+            "presence": -0.25
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Kemper Drive",
+              "factory_preset": "B Breaker Max",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 1.3
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 10,
+                "feedback_percent_target": 15
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 3
+        },
+        {
+          "name": "BELIEF",
+          "profile_selection_key": "SINE_M_G1265",
+          "songs": [
+            "Belief",
+            "Waiting on the World to Change"
+          ],
+          "tone_target": "Driving syncopated clean/edge with overdrive for sustained solo, not blanket compression.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.45,
+            "middle": 0.45,
+            "treble": 0.1,
+            "presence": 0.0
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Pulse Slicer",
+              "factory_preset": "1/8 Feather",
+              "on": false,
+              "parameter_targets": {
+                "rate": "tempo_sync",
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 4
+        },
+        {
+          "name": "IN REPAIR / LEAD",
+          "profile_selection_key": "SINE_OD_M75",
+          "songs": [
+            "In Repair",
+            "I'm Gonna Find Another You",
+            "Dreaming with a Broken Heart"
+          ],
+          "tone_target": "More vocal sustain; Sinewave OD captured channel is preferable to huge distortion added to clean profile.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.3,
+            "middle": 0.35,
+            "treble": -0.15,
+            "presence": -0.25
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Kemper Drive",
+              "factory_preset": "B Breaker Max",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 1.1
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 360,
+                "mix_percent_target": 11,
+                "feedback_percent_target": 18
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 5
+        }
+      ],
+      "purpose": "Detailed alternate-tones and song families"
+    },
+    {
+      "number": 10,
+      "name": "10 AMERICANA",
+      "slots": [
+        {
+          "name": "QUEEN / OLIVIA",
+          "profile_selection_key": "FENDER_BF",
+          "songs": [
+            "Queen of California",
+            "Something Like Olivia",
+            "Love Is a Verb"
+          ],
+          "tone_target": "Airy rootsy single-coil, woody snap, light spring, very small TS option.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.45,
+            "middle": 0.2,
+            "treble": 0.05,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Spring Reverb",
+              "factory_preset": "Reverb Fan",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 1
+        },
+        {
+          "name": "BORN / LIVING",
+          "profile_selection_key": "FENDER_TWEED",
+          "songs": [
+            "Born and Raised",
+            "If I Ever Get Around to Living",
+            "A Face to Call Home",
+            "Whiskey, Whiskey, Whiskey"
+          ],
+          "tone_target": "Dry midrange laid-back roots tones, barely broken low-watt sound.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.2,
+            "middle": 0.4,
+            "treble": -0.2,
+            "presence": -0.2
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Photocell Tremolo",
+              "factory_preset": "Slow Opto Throb",
+              "on": false,
+              "parameter_targets": {
+                "rate_hz_target": 2.5,
+                "depth_percent_target": 20
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 2
+        },
+        {
+          "name": "PARADISE FUNK",
+          "profile_selection_key": "FENDER_BF",
+          "songs": [
+            "Wildfire",
+            "Call Me the Breeze",
+            "Paper Doll"
+          ],
+          "tone_target": "Tighter JJ Cale inspired twang, dry funk and slight amp compression.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.5,
+            "middle": 0.05,
+            "treble": 0.15,
+            "presence": 0.0
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Phaser",
+              "factory_preset": "Subtle",
+              "on": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.55,
+                "mix_percent_target": 15
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape Slapback 1",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 130,
+                "mix_percent_target": 7,
+                "feedback_percent_target": 6
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 3
+        },
+        {
+          "name": "DEAR / WAITING",
+          "profile_selection_key": "FENDER_BF",
+          "songs": [
+            "Dear Marie",
+            "Waitin' on the Day",
+            "On the Way Home",
+            "Who You Love"
+          ],
+          "tone_target": "Quiet neck/neck-middle clean, wider atmospheric spring/delay.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.2,
+            "treble": -0.15,
+            "presence": -0.25
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 430,
+                "mix_percent_target": 11,
+                "feedback_percent_target": 16
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Small Plate",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 17,
+                "decay_seconds_target": 2.2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 4
+        },
+        {
+          "name": "ACOUSTIC / FOLK",
+          "profile_selection_key": "ACOUSTIC_DI",
+          "songs": [
+            "Walt Grace's Submarine Test",
+            "Badge and Gun",
+            "You're No One 'Til Someone Lets You Down",
+            "Speak for Me",
+            "Shadow Days"
+          ],
+          "tone_target": "Acoustic-oriented patch; use real acoustic or simulator into full-range output, never cab simulation into guitar speaker.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": 0,
+            "middle": 0,
+            "treble": 0,
+            "presence": 0
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Acoustic Simulator",
+              "factory_preset": "Neck SC B",
+              "on": true,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "B": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 1.2
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Studio Equalizer",
+              "factory_preset": "Vintage Mix",
+              "on": true,
+              "parameter_targets": {
+                "low_cut_hz": 85,
+                "high_cut_hz": 11000
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "None",
+              "factory_preset": null,
+              "on": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Small Plate",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 14,
+                "decay_seconds_target": 2.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "DLY"
+            ],
+            "IIII": [
+              "REV"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "No amp/cab if true acoustic DI; profiler output to Kabinet could still color acoustics. Prefer full-range monitoring.",
+          "slot": 5
+        }
+      ],
+      "purpose": "Detailed alternate-tones and song families"
+    },
+    {
+      "number": 11,
+      "name": "11 SEARCH",
+      "slots": [
+        {
+          "name": "STILL FEEL MAN",
+          "profile_selection_key": "JMOD_100",
+          "songs": [
+            "Still Feel Like Your Man"
+          ],
+          "tone_target": "Tight compressed neo-soul rhythmic clean, filtered/touch movement and small room.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.55,
+            "middle": 0.1,
+            "treble": 0.05,
+            "presence": -0.05
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Low Pass",
+              "factory_preset": "Touch",
+              "on": false,
+              "parameter_targets": {
+                "mode": "Touch",
+                "peak": "medium"
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "rate_hz_target": 0.55
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "MOD"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 1
+        },
+        {
+          "name": "MOVING ON",
+          "profile_selection_key": "JMOD_100",
+          "songs": [
+            "Moving On and Getting Over"
+          ],
+          "tone_target": "Dry funk with strong bass clarity and slight late-70s phase character; do not overdrive.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.6,
+            "middle": 0.2,
+            "treble": 0.1,
+            "presence": -0.1
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Low Pass",
+              "factory_preset": "Touch",
+              "on": false,
+              "parameter_targets": {
+                "mode": "Touch",
+                "peak": "medium"
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Phaser",
+              "factory_preset": "Subtle",
+              "on": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.5,
+                "mix_percent_target": 14
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "MOD"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 2
+        },
+        {
+          "name": "HELPLESS",
+          "profile_selection_key": "JMOD_100",
+          "songs": [
+            "Helpless"
+          ],
+          "tone_target": "Aggressive sharp funk-rock blues, mild amp dirt, 808 lead stack.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.5,
+            "middle": 0.55,
+            "treble": 0.0,
+            "presence": 0.0
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": true,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Kemper Drive",
+              "factory_preset": "B Breaker Max",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 2.0
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 285,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 3
+        },
+        {
+          "name": "ROSIE",
+          "profile_selection_key": "JMOD_100",
+          "songs": [
+            "Rosie",
+            "Love on the Weekend"
+          ],
+          "tone_target": "Rounded chord clean, bright funk bounce, lightly chorused tails.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.15,
+            "treble": -0.2,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 13,
+                "rate_hz_target": 0.7
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 300,
+                "mix_percent_target": 8,
+                "feedback_percent_target": 13
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 4
+        },
+        {
+          "name": "CHANGING / WAVE",
+          "profile_selection_key": "JMOD_100",
+          "songs": [
+            "Changing",
+            "Emoji of a Wave",
+            "In the Blood",
+            "Roll It on Home",
+            "Never on the Day You Leave"
+          ],
+          "tone_target": "Broader dynamic clean with midrange solo excursion and longer atmospheric ambience.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.25,
+            "middle": 0.25,
+            "treble": -0.2,
+            "presence": -0.2
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 400,
+                "mix_percent_target": 12,
+                "feedback_percent_target": 18
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Small Plate",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 16,
+                "decay_seconds_target": 2.2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "DLY"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 5
+        }
+      ],
+      "purpose": "Detailed alternate-tones and song families"
+    },
+    {
+      "number": 12,
+      "name": "12 SOB ROCK",
+      "slots": [
+        {
+          "name": "LAST TRAIN HOME",
+          "profile_selection_key": "SOLDANO_SLO",
+          "songs": [
+            "Last Train Home"
+          ],
+          "tone_target": "Journeyman-inspired 80s mid-gain solo with CE-1-like chorus and spacious repeats; keep amp below fizz.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.45,
+            "middle": 0.6,
+            "treble": -0.15,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "CE-1",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 27,
+                "rate_hz_target": 0.7
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Digital",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 360,
+                "mix_percent_target": 18,
+                "feedback_percent_target": 24
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Small Plate",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 13,
+                "decay_seconds_target": 2.2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "Mayer described Silver Sky -> Soldano + chorus approach in published Guitar World interview; exact recorded settings not documented.",
+          "slot": 1
+        },
+        {
+          "name": "WILD BLUE",
+          "profile_selection_key": "FENDER_BF",
+          "songs": [
+            "Wild Blue"
+          ],
+          "tone_target": "Clean mellow rhythmic Knopfler-like finger-tone; additional Ross Phaser/Distortion double part in interlude.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.4,
+            "middle": 0.0,
+            "treble": -0.15,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": true,
+              "parameter_targets": {
+                "intensity": 1.2
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Phaser",
+              "factory_preset": "Stone 1",
+              "on": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.65,
+                "mix_percent_target": 24
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape Slapback 1",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 130,
+                "mix_percent_target": 6,
+                "feedback_percent_target": 8
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "Mayer independently described using a Ross phaser on the double of guitar interlude, not necessarily main guitar track. Another reference says his scratch pass used Fractal clean. Do not assert all tracks used Fender amp.",
+          "slot": 2
+        },
+        {
+          "name": "NEW LIGHT",
+          "profile_selection_key": "FENDER_BF",
+          "songs": [
+            "New Light",
+            "Carry Me Away",
+            "Til the Right One Comes"
+          ],
+          "tone_target": "Clean compressed/chorused pop guitar with minimalist 80s-width, medium slap.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.0,
+            "treble": 0.15,
+            "presence": -0.05
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "CE-1",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 20,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape Slapback 2",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 165,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 9
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 3
+        },
+        {
+          "name": "FEEL LIKE OUTRO",
+          "profile_selection_key": "FENDER_CHAMP_HOT",
+          "songs": [
+            "I Guess I Just Feel Like (outro fuzz)"
+          ],
+          "tone_target": "EPIPHONE CASINO P-90 -> BC109 silicon fuzz family -> cranked Fender Vibro Champ, low-fi warmly clipped vocal sustain with rolled-off highs.",
+          "pickups_or_guitar": "Closest: Epiphone Casino P-90 neck; on Strat use neck pickup with tone rolled down ~4–6 and apply post EQ shaping",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.2,
+            "middle": 0.6,
+            "treble": -0.5,
+            "presence": -0.5
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Kemper Fuzz",
+              "factory_preset": "Dark Blue Silicon",
+              "on": true,
+              "parameter_targets": {
+                "drive_target_0to10": 6.5,
+                "mix_percent_target": 100,
+                "volume_db_target": 0.0
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Fuzz",
+              "factory_preset": "Tyco Octavia Min",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 3.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 1",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 1.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "factory_preset": "Vintage Mix",
+              "on": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 90,
+                "high_cut_hz_target": 6000,
+                "low_mid_boost_freq_hz": 400,
+                "low_mid_gain_db_target": 1.2,
+                "high_mid_cut_freq_hz": 3200,
+                "high_mid_gain_db_target": -2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Phaser Vibe",
+              "factory_preset": "Uni Vintage",
+              "on": false,
+              "parameter_targets": {
+                "stages": 4,
+                "rate_hz_target": 1.1,
+                "mix_percent_target": 35
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 260,
+                "mix_percent_target": 5,
+                "feedback_percent_target": 9
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 7,
+                "decay_seconds_target": 1.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "High priority: do NOT use Sinewave clean as primary. The documented Shin-ei Psychedelic Machine offers fuzz, vibe, octavia, but there is no confirmed evidence all were active. Start fuzz ON, Octavia and Vibe OFF. Capture should already sound broken up. Not a Big Muff or Cornish NG-2 tone. A/B against alternate silicon and Muffin, record short DI loops.",
+          "slot": 4
+        },
+        {
+          "name": "SHOT IN DARK",
+          "profile_selection_key": "SOLDANO_SLO",
+          "songs": [
+            "Shot in the Dark",
+            "Why You No Love Me",
+            "All I Want Is to Be with You",
+            "Shouldn't Matter but It Does"
+          ],
+          "tone_target": "Moderate polished 80s overdrive lead with slower chorus and time-domain width.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.35,
+            "middle": 0.4,
+            "treble": -0.1,
+            "presence": -0.1
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 2",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 23,
+                "rate_hz_target": 0.5
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 410,
+                "mix_percent_target": 16,
+                "feedback_percent_target": 18
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 5
+        }
+      ],
+      "purpose": "Detailed alternate-tones and song families"
+    },
+    {
+      "number": 13,
+      "name": "13 BATTLE EXTRAS",
+      "slots": [
+        {
+          "name": "EDGE OF DESIRE",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Edge of Desire"
+          ],
+          "tone_target": "Bright pushed clean carrying sustained expressive lead; minimal chorus and mids from stacked 808.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.5,
+            "middle": 0.5,
+            "treble": 0.0,
+            "presence": -0.05
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 315,
+                "mix_percent_target": 10,
+                "feedback_percent_target": 17
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "DLY"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 1
+        },
+        {
+          "name": "HEARTBREAK WAR",
+          "profile_selection_key": "TWOROCK_CR",
+          "songs": [
+            "Heartbreak Warfare",
+            "Perfectly Lonely"
+          ],
+          "tone_target": "Spacious clean with rhythmic delay and wet modern pop edge.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.3,
+            "middle": 0.2,
+            "treble": 0.0,
+            "presence": -0.2
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.5
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 415,
+                "mix_percent_target": 17,
+                "feedback_percent_target": 22
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 2
+        },
+        {
+          "name": "CROSSROADS NG2",
+          "profile_selection_key": "SINE_LO_G1265",
+          "songs": [
+            "Crossroads (Battle Studies)"
+          ],
+          "tone_target": "Pete Cornish NG-2-style angular, almost gated and highly saturated fuzz, different architecture from Sob Rock outro.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.45,
+            "middle": 0.55,
+            "treble": -0.45,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Kemper Fuzz",
+              "factory_preset": "Dark Blue Silicon",
+              "on": true,
+              "parameter_targets": {
+                "drive_target_0to10": 8.0
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 1.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Noise Gate 4:1",
+              "factory_preset": "Basic",
+              "on": true,
+              "parameter_targets": {
+                "threshold": "tune until staccato decay without chopping pick attack"
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 5
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 330,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 14
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "C"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "Mayer named NG-2 directly in 2010 interview and guitar volume around 4. Emulation is analog behavior approximation; do not claim modeled NG-2 circuit.",
+          "slot": 3
+        },
+        {
+          "name": "ASSASSIN",
+          "profile_selection_key": "SINE_OD_M75",
+          "songs": [
+            "Assassin",
+            "Half of My Heart"
+          ],
+          "tone_target": "More saturated but articulate lead with medium delay and dry rhythm.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.45,
+            "middle": 0.5,
+            "treble": -0.1,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Wah Wah",
+              "factory_preset": "Vox Old",
+              "on": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": "Expression pedal; only active when called for"
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": true,
+              "parameter_targets": {
+                "time_ms_target": 335,
+                "mix_percent_target": 11,
+                "feedback_percent_target": 13
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "DLY"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 4
+        },
+        {
+          "name": "MAYER SOUL LEAD",
+          "profile_selection_key": "SINE_M_G1265",
+          "songs": [
+            "I'm Gonna Find Another You",
+            "Covered in Rain",
+            "Slow Dancing (extended live solos)",
+            "I Don't Need No Doctor"
+          ],
+          "tone_target": "Two-Rock/Dumble-like expressive midrange, TS/Bluesbreaker/Klon in layers, true post-amp level boost.",
+          "pickups_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+          "amp_eq_delta_not_absolute": {
+            "bass": -0.4,
+            "middle": 0.55,
+            "treble": -0.1,
+            "presence": -0.15
+          },
+          "gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+          "rig_volume_trim_db_start": 0,
+          "tempo_bpm_start": null,
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "factory_preset": "Soft",
+              "on": false,
+              "parameter_targets": {
+                "intensity": 2.0,
+                "attack": "use factory Soft initially"
+              },
+              "notes": "Keep gentle; avoid flattening pick transient"
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "factory_preset": "Klon 2",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.0,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp transparent/upper-mid boost"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "factory_preset": "808 Min",
+              "on": false,
+              "parameter_targets": {
+                "drive": 1.3,
+                "volume_db_target": 0.0
+              },
+              "notes": "Preamp TS midrange drive"
+            },
+            "D": {
+              "type": "Kemper Drive",
+              "factory_preset": "B Breaker Max",
+              "on": false,
+              "parameter_targets": {
+                "drive_target_0to10": 1.5
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "factory_preset": "4dB Solo",
+              "on": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Post-amp solo level, not a gain stage"
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "factory_preset": "Subtle 1",
+              "on": false,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "rate_hz_target": 0.65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "factory_preset": "Tape",
+              "on": false,
+              "parameter_targets": {
+                "time_ms_target": 360,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "factory_preset": "Room",
+              "on": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "alternate_methods": [],
+          "source_certainty": "tone-target",
+          "notes_for_agent": "",
+          "slot": 5
+        }
+      ],
+      "purpose": "Detailed alternate-tones and song families"
+    }
+  ],
+  "fuzz_outro_critical_audition": {
+    "target_slot": "12.4 FEEL LIKE OUTRO",
+    "reconstruction_source": [
+      "Epiphone Casino E230TD with two P90s",
+      "Cranked small Fender Vibro Champ/Champ",
+      "Shin-ei Psychedelic Machine reported by gear analysis"
+    ],
+    "manufacturer_reference": "Shin-ei describes internal effects as BC109 Fuzz, Tycobrahe-style Octave, Uni-Vibe",
+    "signal_priority": "P90-like front end -> silicon fuzz -> genuinely overdriven low-watt Champ capture -> 6 kHz post low-pass -> sparse echo/room",
+    "routing_nonnegotiables": [
+      "Fuzz before amplifier; do not post-amp place fuzz",
+      "Do not use a large pristine Two-Rock head as the primary amp",
+      "Do not turn on Octavia or Uni-Vibe merely because they are housed in reported Shin-ei unit",
+      "Use tonal A/B and match loudness within 0.5 dB before judging",
+      "If no Champ capture is present, pause exact-match claim and mark profile absent"
+    ],
+    "primary": {
+      "profile_key": "FENDER_CHAMP_HOT",
+      "fuzz_effect": "Kemper Fuzz",
+      "fuzz_preset": "Dark Blue Silicon",
+      "fuzz_on": true,
+      "octave_off": true,
+      "vibe_off": true
+    },
+    "alternate_a": {
+      "profile_key": "FENDER_CHAMP_HOT",
+      "fuzz_effect": "Kemper Fuzz",
+      "fuzz_preset": "Psych 69 Silicon",
+      "starting_note": "alternate silicon clipping/feel"
+    },
+    "alternate_b": {
+      "profile_key": "FENDER_CHAMP_HOT",
+      "fuzz_effect": "Muffin",
+      "fuzz_preset": "Soft",
+      "starting_note": "nonhistorical spectral fallback if heavy compressed texture missing; labeled approximation"
+    },
+    "alternate_c": {
+      "profile_key": "FENDER_TWEED",
+      "fuzz_effect": "Kemper Fuzz",
+      "fuzz_preset": "Dark Blue Silicon",
+      "starting_note": "only if Champ unavailable; flag speaker/response mismatch"
+    },
+    "listener_test": "Compare isolated outro reference level-matched to 10-second recorded Kemper DI reamp phrases (single notes, double stops, note-decay), rank attack rounding, midrange vowel, high-frequency rolloff, controlled feedback, decay shape",
+    "critical_uncertainty": "Reported gear comes from fan documentation/gear analyses, not independently confirmed session stem list. Shin-ei model used does not establish which individual effects were enabled."
+  },
+  "catalog_coverage": [
+    {
+      "collection": "Nokia Trio live Dec 8 2007",
+      "songs": [
+        {
+          "song": "Everyday I Have the Blues",
+          "target_slot": "08.5"
+        },
+        {
+          "song": "Wait Until Tomorrow",
+          "target_slot": "08.3"
+        },
+        {
+          "song": "Who Did You Think I Was",
+          "target_slot": "08.1"
+        },
+        {
+          "song": "Come When I Call",
+          "target_slot": "08.2"
+        },
+        {
+          "song": "Good Love Is on the Way",
+          "target_slot": "08.2"
+        },
+        {
+          "song": "Out of My Mind",
+          "target_slot": "08.5"
+        },
+        {
+          "song": "Vultures",
+          "target_slot": "08.4"
+        },
+        {
+          "song": "Bold as Love",
+          "target_slot": "08.3"
+        }
+      ]
+    },
+    {
+      "collection": "Continuum (2006)",
+      "songs": [
+        {
+          "song": "Waiting on the World to Change",
+          "target_slot": "09.4"
+        },
+        {
+          "song": "I Don't Trust Myself (With Loving You)",
+          "target_slot": "09.1"
+        },
+        {
+          "song": "Belief",
+          "target_slot": "09.4"
+        },
+        {
+          "song": "Gravity",
+          "target_slot": "09.2"
+        },
+        {
+          "song": "The Heart of Life",
+          "target_slot": "09.2"
+        },
+        {
+          "song": "Vultures",
+          "target_slot": "08.4"
+        },
+        {
+          "song": "Stop This Train",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Slow Dancing in a Burning Room",
+          "target_slot": "09.3"
+        },
+        {
+          "song": "Bold as Love",
+          "target_slot": "08.3"
+        },
+        {
+          "song": "Dreaming with a Broken Heart",
+          "target_slot": "09.5"
+        },
+        {
+          "song": "In Repair",
+          "target_slot": "09.5"
+        },
+        {
+          "song": "I'm Gonna Find Another You",
+          "target_slot": "09.5"
+        }
+      ]
+    },
+    {
+      "collection": "Battle Studies (2009)",
+      "songs": [
+        {
+          "song": "Heartbreak Warfare",
+          "target_slot": "13.2"
+        },
+        {
+          "song": "All We Ever Do Is Say Goodbye",
+          "target_slot": "10.4"
+        },
+        {
+          "song": "Half of My Heart",
+          "target_slot": "13.4"
+        },
+        {
+          "song": "Who Says",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Perfectly Lonely",
+          "target_slot": "13.2"
+        },
+        {
+          "song": "Assassin",
+          "target_slot": "13.4"
+        },
+        {
+          "song": "Crossroads",
+          "target_slot": "13.3"
+        },
+        {
+          "song": "War of My Life",
+          "target_slot": "10.4"
+        },
+        {
+          "song": "Edge of Desire",
+          "target_slot": "13.1"
+        },
+        {
+          "song": "Do You Know Me",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Friends, Lovers or Nothing",
+          "target_slot": "13.5"
+        }
+      ]
+    },
+    {
+      "collection": "Born and Raised (2012)",
+      "songs": [
+        {
+          "song": "Queen of California",
+          "target_slot": "10.1"
+        },
+        {
+          "song": "The Age of Worry",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Shadow Days",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Speak for Me",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Something Like Olivia",
+          "target_slot": "10.1"
+        },
+        {
+          "song": "Born and Raised",
+          "target_slot": "10.2"
+        },
+        {
+          "song": "If I Ever Get Around to Living",
+          "target_slot": "10.2"
+        },
+        {
+          "song": "Love Is a Verb",
+          "target_slot": "10.1"
+        },
+        {
+          "song": "Walt Grace's Submarine Test, January 1967",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Whiskey, Whiskey, Whiskey",
+          "target_slot": "10.2"
+        },
+        {
+          "song": "A Face to Call Home",
+          "target_slot": "10.2"
+        },
+        {
+          "song": "Born and Raised (Reprise)",
+          "target_slot": "10.5"
+        }
+      ]
+    },
+    {
+      "collection": "Paradise Valley (2013)",
+      "songs": [
+        {
+          "song": "Wildfire",
+          "target_slot": "10.3"
+        },
+        {
+          "song": "Dear Marie",
+          "target_slot": "10.4"
+        },
+        {
+          "song": "Waitin' on the Day",
+          "target_slot": "10.4"
+        },
+        {
+          "song": "Paper Doll",
+          "target_slot": "10.3"
+        },
+        {
+          "song": "Call Me the Breeze",
+          "target_slot": "10.3"
+        },
+        {
+          "song": "Who You Love",
+          "target_slot": "10.4"
+        },
+        {
+          "song": "I Will Be Found (Lost at Sea)",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Wildfire (Reprise)",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "You're No One 'Til Someone Lets You Down",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "Badge and Gun",
+          "target_slot": "10.5"
+        },
+        {
+          "song": "On the Way Home",
+          "target_slot": "10.4"
+        }
+      ]
+    },
+    {
+      "collection": "The Search for Everything (2017)",
+      "songs": [
+        {
+          "song": "Still Feel Like Your Man",
+          "target_slot": "11.1"
+        },
+        {
+          "song": "Emoji of a Wave",
+          "target_slot": "11.5"
+        },
+        {
+          "song": "Helpless",
+          "target_slot": "11.3"
+        },
+        {
+          "song": "Love on the Weekend",
+          "target_slot": "11.4"
+        },
+        {
+          "song": "In the Blood",
+          "target_slot": "11.5"
+        },
+        {
+          "song": "Changing",
+          "target_slot": "11.5"
+        },
+        {
+          "song": "Theme from The Search for Everything",
+          "target_slot": "11.5"
+        },
+        {
+          "song": "Moving On and Getting Over",
+          "target_slot": "11.2"
+        },
+        {
+          "song": "Never on the Day You Leave",
+          "target_slot": "11.5"
+        },
+        {
+          "song": "Rosie",
+          "target_slot": "11.4"
+        },
+        {
+          "song": "Roll It on Home",
+          "target_slot": "11.5"
+        },
+        {
+          "song": "You're Gonna Live Forever in Me",
+          "target_slot": "10.5"
+        }
+      ]
+    },
+    {
+      "collection": "Sob Rock (2021)",
+      "songs": [
+        {
+          "song": "Last Train Home",
+          "target_slot": "12.1"
+        },
+        {
+          "song": "Shouldn't Matter but It Does",
+          "target_slot": "12.5"
+        },
+        {
+          "song": "New Light",
+          "target_slot": "12.3"
+        },
+        {
+          "song": "Why You No Love Me",
+          "target_slot": "12.5"
+        },
+        {
+          "song": "Wild Blue",
+          "target_slot": "12.2"
+        },
+        {
+          "song": "Shot in the Dark",
+          "target_slot": "12.5"
+        },
+        {
+          "song": "I Guess I Just Feel Like",
+          "target_slot": "12.4"
+        },
+        {
+          "song": "Til the Right One Comes",
+          "target_slot": "12.3"
+        },
+        {
+          "song": "Carry Me Away",
+          "target_slot": "12.3"
+        },
+        {
+          "song": "All I Want Is to Be with You",
+          "target_slot": "12.5"
+        }
+      ]
+    }
+  ],
+  "global_controls": {
+    "expression_pedal": {
+      "goal": "Wah",
+      "assignment": "only a pedal input explicitly configured as Wah Pedal",
+      "WahPedal_to_Volume": "OFF",
+      "WahPedal_to_Pitch": "OFF",
+      "pedal_mode": "Bypass @ Toe where desired",
+      "note": "A module may be compressor on a rig; only those Rigs with Wah loaded in a module will respond as wah"
+    },
+    "switches": "Per-Rig mappings in remote_buttons. I and II usually Klon/808, III special, IIII solo level, modulation or delay according to Rig.",
+    "morph": "Do not activate by default; leave selected Rig re-press morph behaviour at existing state unless requested",
+    "noise_gate": "Input Noise Gate 0 to low, particularly fuzz; do not lock input parameter across clean/fuzz without test",
+    "monitoring": "test with Kemper Kabinet and with direct headphone/recording output; do not confuse cab emulation output routing",
+    "all_param_values": "proposed initial targets; agent must map to live editable UI ranges; do not invent exact knob scale when type different"
+  },
+  "agent_instructions": [
+    "Read connected device details and software/firmware versions. Build inventory of existing Performances 1-13 and amp source Rigs; do not write yet.",
+    "Backup all current profiler content and save screenshots. Any occupied desired destination 07..13 requires alternate unused slot selection or explicit approval to overwrite.",
+    "Search Sinewave pack using metadata tags: Sig/Lo/M/OD/G1265/M75, not fabricated exact Rig names; prefer Studio over Direct if using existing capture cabinet.",
+    "Find Fender Champ driven profile and Soldano SLO profile by source, rated dynamic accuracy, version and cab; if missing, search Rig Exchange, do not assert that arbitrary free files are authenticated.",
+    "Create each Performance and each slot per JSON, selecting a best-fit source Rig with captured drive amount. Preserve cabinet unless clear reason to substitute.",
+    "Load only documented Kemper effect types/presets. Enter initial state and approximate numeric target ranges; record actual UI setting after update. For empty effects use Type None.",
+    "For special filters, set Touch response in Wah Low Pass and confirm on-screen fields. For slicer set 1/8 Slicer at 84 BPM; it cannot reproduce full AdrenaLinn resonant sequencing by itself.",
+    "Assign upper Remote effects separately in each Rig, verify assignments and initial states persist after changing slots.",
+    "Configure any wah pedal to Wah only; do not overwrite a functional pedal configuration without backup.",
+    "Store all Performances in My Profiler, not only computer Local Library. Reboot or change Performances then inspect state after reload.",
+    "Record 10-second reference dry/lead reamp examples for each distinct amp family, keep loudness matched, adjust Rig Volume only for cross-bank normalization.",
+    "For Sob 12.4 conduct A/B fuzz procedure and archive primary plus alternatives as local Rig copies. Choose final based on measured spectral/attack similarity and ear, not brand/model assumption.",
+    "Deliver final ledger of exact original profile name, selected cabinet, full actual setting values, footswitch map and changed global settings for each rig. Flag any unverified tones and missing profiles."
+  ],
+  "acceptance_tests": [
+    "7 Performances at confirmed free destinations, with five named slots each; no accidental overwrite of any occupied location.",
+    "35 sound slots can be selected from Remote and recall exactly after changing bank and returning.",
+    "Sinewave pack profile tags match selected sounds; no non-existent capture filenames are asserted.",
+    "Every effect has a valid existing effect type and preset or is marked None/custom with UI verification.",
+    "Each Rig retains four switch assignments and intended initial effect states, with A/B/alternate modules per specification.",
+    "Mayer Sob 12.4 uses a driven Champ-family capture, fuzz before amp, EQ high cut, octave/vibe OFF initially, and separate alternate audition notes.",
+    "Wah pedal is calibrated; not unexpectedly changing volume; effects bypass at toe where needed.",
+    "No unintended source/library or system/global setting changes; all existing performances backed up.",
+    "All changes are auditable with before/after screenshots or setting export and profile list."
+  ],
+  "references": {
+    "Kemper drive/fuzz": "https://www.kemper-amps.com/effects/distortion",
+    "Kemper tremolo/slicer": "https://www.kemper-amps.com/effects/tremolo",
+    "Kemper chorus": "https://www.kemper-amps.com/effects/chorus",
+    "Kemper delay": "https://www.kemper-amps.com/effects/delay",
+    "Kemper reverb": "https://www.kemper-amps.com/effects/reverb",
+    "Kemper phaser": "https://www.kemper-amps.com/effects/phaser-and-flanger",
+    "Kemper compressor": "https://www.kemper-amps.com/effects/compressor",
+    "Kemper EQ": "https://www.kemper-amps.com/effects/equalizer",
+    "Sinewave pack": "https://tonejunkiestore.com/profile-packs/p/official-sinewave-continuum-od-kemper-profile-pack",
+    "Nokia show list": "https://www.nugs.net/live-download-of-john-mayer-where-the-light-is%3A-nokia-theatre-los-angeles-ca-12-08-2007-mp3-flac-or-online-music-streaming/20827.html",
+    "Mayer first person gear (2010 interview)": "https://johnmayer.info/subjects/gear",
+    "Mayer Sob Rock 2021 interview": "https://www.guitarworld.com/features/john-mayer-sob-rock",
+    "Shin-ei official circuit description": "https://www.shin-ei.com/",
+    "Casino photo background": "https://www.groundguitar.com/john-mayer-guitars-and-gear/john-mayers-epiphone-casino-e230td/",
+    "Outtro reconstruction": "https://www.jonkaneshiroguitar.com/products/line-6-helix-hx-stomp-john-mayer-i-guess-i-just-feel-like",
+    "Mayer NG2 first person interview": "https://www.musicradar.com/news/john-mayer-interview-251957",
+    "Mayer gear eras": "https://www.guitarworld.com/features/john-mayers-guitar-gear-era-by-era",
+    "Wild Blue Ross": "https://equipboard.com/albums/john-mayer-last-train-home-ballad-version"
+  },
+  "honesty": {
+    "manufacturer_preset_names": "from official Kemper effects catalog as of 2026-11-04",
+    "amp_profile_filenames": "unknown until actual user library scan",
+    "source_gear": "mixed: first person interviews versus fan equipment analyses; label confidence",
+    "sound_values": "best-effort engineering targets, not historical settings",
+    "unachievable_in_one_rig": "multi-amp simultaneous parallel outputs, full stereo production, layered acoustic parts and source tape overdubs"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_inventory_status": "not_inspected",
+  "verified_owned_from_user_discussion": [
+    "Sinewave Continuum OD Kemper pack",
+    "Tone Junkie free JM Continuum rig",
+    "Kemper Remote"
+  ],
+  "device_note": "MK2; prior registration indicates PowerRack MK2, but inspect actual connected unit/model before assuming head/rack/power outputs.",
+  "capture_filenames": "not_known",
+  "audition_and_audio_calibration": "not_done",
+  "hardware_network_connections": "not verified in current conversation",
+  "candidate_libraries": [
+    "Kemper factory/Rig Exchange",
+    "owned Tone Junkie JM Continuum Rig",
+    "owned Sinewave Continuum OD pack",
+    "other installed profiles determined by Rig Manager inventory"
+  ],
+  "prohibited": "Do not ship, redistribute, or commit commercial/profile files or exported settings copied from paid packs unless explicitly licensed."
+}

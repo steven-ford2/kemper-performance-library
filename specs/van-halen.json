@@ -1,0 +1,620 @@
+{
+  "name": "Eddie Van Halen",
+  "performances": [
+    {
+      "name": "VAN HALEN",
+      "purpose": "Five album-era target captures; no assumption that a Peavey 5150 was used for the 1986 album.",
+      "slots": [
+        {
+          "name": "VH1 BROWN",
+          "songs": [
+            "Ain’t Talkin’ ’Bout Love",
+            "Runnin’ with the Devil",
+            "Eruption"
+          ],
+          "capture_selector": "1968 Marshall Super Lead 100 used with reduced line voltage, 4x12 Greenback; use a capture of the correct response",
+          "tone_target": "Dry loud brown sound with sharp hair, warm low mids and distinct transients",
+          "preferred_pickup_or_guitar": "Hot vintage bridge humbucker; volume 10",
+          "amp_eq_offsets": {
+            "bass": -0.4,
+            "middle": 0.3,
+            "treble": -0.12,
+            "presence": -0.3
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.4
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.5
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.14,
+                "mix_percent_target": 32
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.55,
+                "mix_percent_target": 40
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 285,
+                "feedback_percent_target": 8,
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 8,
+                "decay_seconds_target": 1.5
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Do NOT alter mains voltage or advise a physical Variac. Select captured brown-sound profile; subtle plate/room rather than modern high gain.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 1,
+          "performance_number": 34
+        },
+        {
+          "name": "VH2 WOMEN",
+          "songs": [
+            "Beautiful Girls",
+            "Dance the Night Away",
+            "Everybody Wants Some!!"
+          ],
+          "capture_selector": "Vintage 1968 Marshall Super Lead 100 cranked 4x12 Greenback; slightly clearer response",
+          "tone_target": "Open crunch, spongy lower mids, subtle slap; less compression than modern 5150",
+          "preferred_pickup_or_guitar": "As available; compare pickup and output level with source.",
+          "amp_eq_offsets": {
+            "bass": -0.38,
+            "middle": 0.28,
+            "treble": 0,
+            "presence": -0.15
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 27,
+                "rate_hz_target": 0.15
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 33,
+                "rate_hz_target": 0.5
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 310,
+                "feedback_percent_target": 10,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 2,
+          "performance_number": 34
+        },
+        {
+          "name": "VH FAIR",
+          "songs": [
+            "Mean Street",
+            "Unchained",
+            "So This Is Love?"
+          ],
+          "capture_selector": "Marshall Super Lead/Plexi driven capture with dense, dark mid bite and Greenback 4x12",
+          "tone_target": "Dark raw Fair Warning; dramatic flanger available for Unchained",
+          "preferred_pickup_or_guitar": "As available; compare pickup and output level with source.",
+          "amp_eq_offsets": {
+            "bass": -0.45,
+            "middle": 0.6,
+            "treble": -0.25,
+            "presence": -0.28
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "rate_hz_target": 0.18,
+                "mix_percent_target": 50,
+                "feedback_target": "moderate"
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 300,
+                "feedback_percent_target": 11,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Save flanger ON for Unchained but OFF in variants of Mean Street.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 3,
+          "performance_number": 34
+        },
+        {
+          "name": "VH PANAMA",
+          "songs": [
+            "Panama",
+            "Hot for Teacher",
+            "Jump guitar"
+          ],
+          "capture_selector": "Marshall Super Lead 100 vintage 4x12, captured at a more saturated performance level",
+          "tone_target": "Upper-mid punch, dry biting attack, tight echo and occasional chorus-like widening",
+          "preferred_pickup_or_guitar": "As available; compare pickup and output level with source.",
+          "amp_eq_offsets": {
+            "bass": -0.5,
+            "middle": 0.5,
+            "treble": -0.05,
+            "presence": -0.12
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "rate_hz_target": 0.6
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 310,
+                "feedback_percent_target": 15,
+                "mix_percent_target": 11
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Post-amp widening is an optional live approximation, not an authenticated part of the original Panama track.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 4,
+          "performance_number": 34
+        },
+        {
+          "name": "VH 5150 ERA",
+          "songs": [
+            "5150 (song, 1986)",
+            "Poundcake (1991)",
+            "Right Now (1991)"
+          ],
+          "capture_selector": "For 1986–91 use driven Marshall Super Lead or transitional Soldano-type capture; optional alternate later Peavey 5150 capture only for post-1992 tone",
+          "tone_target": "Fuller, tighter Sammy-era lead; optional post-1992 Peavey variant must be separate, not mislabeled as 1986 recording",
+          "preferred_pickup_or_guitar": "As available; compare pickup and output level with source.",
+          "amp_eq_offsets": {
+            "bass": -0.5,
+            "middle": 0.45,
+            "treble": -0.1,
+            "presence": -0.18
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 16
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 360,
+                "feedback_percent_target": 18,
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.8,
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Historically: 1986 5150 is the album, not the Peavey amp introduced 1992.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 5,
+          "performance_number": 34
+        }
+      ],
+      "proposed_global_performance_number": 34,
+      "artist": "Eddie Van Halen",
+      "artist_slug": "van-halen",
+      "source_urls": [
+        "https://www.uaudio.com/blogs/ua/the-history-of-the-peavey-5150"
+      ],
+      "source_status": "researched_gear_with_proposed_audio_targets",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "research_and_proposed_tone_targets",
+  "description": "Five album-era target captures; no assumption that a Peavey 5150 was used for the 1986 album.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "selected historical source refs, numerical approximations require listening and GUI verification"
+}

@@ -1,0 +1,80 @@
+{
+  "generated": "2026-11-07",
+  "editor": "OpenAI ChatGPT compilation (agent-ready source); not user-performed actions",
+  "repository_name": "kemper-performance-library",
+  "default_github_owner": "steven-ford2",
+  "remote_github_created": true,
+  "source_archive_available": [
+    "mayer original JSON and markdown only"
+  ],
+  "artist_counts": {
+    "mayer": {
+      "performances": 7,
+      "rigs": 35
+    },
+    "hendrix": {
+      "performances": 5,
+      "rigs": 25
+    },
+    "srv": {
+      "performances": 8,
+      "rigs": 40
+    },
+    "clapton": {
+      "performances": 6,
+      "rigs": 30
+    },
+    "robben-ford": {
+      "performances": 6,
+      "rigs": 30
+    },
+    "shred-triad": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "van-halen": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "timmons-govan": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "eagles": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "polyphia": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "eric-johnson": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "jeff-beck": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "yngwie": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "fleetwood-rumours": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "metalcore": {
+      "performances": 1,
+      "rigs": 5
+    },
+    "eagles-early": {
+      "performances": 1,
+      "rigs": 5
+    }
+  },
+  "extension_targets": 13,
+  "total_performances": 43,
+  "total_rigs": 215,
+  "addition_source": "11 single-bank requests appended to 01–32, including separate 43 Eagles Early"
+}

@@ -1,0 +1,21 @@
+# Local state, backed up profiler/library, and proprietary music assets
+state/
+backups/
+*.kpabackup
+*.kipr
+*.kperform
+*.krig
+*.wav
+*.flac
+*.mp3
+*.aif
+*.aiff
+*.ir
+*.kpack
+*.zip
+*.bundle
+.env
+*.secret
+.venv/
+__pycache__/
+.DS_Store

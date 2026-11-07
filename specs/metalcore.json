@@ -1,0 +1,627 @@
+{
+  "name": "All That Remains / Killswitch Engage / As I Lay Dying",
+  "performances": [
+    {
+      "name": "METALCORE",
+      "purpose": "Early/mid-2000s 5150/6505-family tight rhythm and Killswitch atmospheric clean. Exact tuning and guitar scale are instrument-dependent.",
+      "slots": [
+        {
+          "name": "ATR SIX",
+          "songs": [
+            "Six",
+            "This Calling",
+            "Not Alone"
+          ],
+          "capture_selector": "Peavey block-letter 5150 or 5150 II/6505+ lead channel, Mesa/Boogie 4x12 Celestion V30-like cab",
+          "tone_target": "Very fast precise palm-mute attack, tightly gated lows, driven high mids; avoid excessive gain",
+          "preferred_pickup_or_guitar": "High-output bridge humbucker, Oli Herbert/active-equivalent; appropriate drop tuning",
+          "amp_eq_offsets": {
+            "bass": -0.65,
+            "middle": 0.25,
+            "treble": 0.05,
+            "presence": 0.0
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Noise Gate 4:1",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "threshold_db_target": -43
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.2,
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 85,
+                "high_cut_hz_target": 8500
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 300,
+                "mix_percent_target": 7,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 4,
+                "decay_seconds_target": 1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "OD808 Level high / drive near zero strategy sourced from Oli Herbert gear interviews. Gate threshold must be set to pickup noise floor.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 1,
+          "performance_number": 42
+        },
+        {
+          "name": "ATR LEAD",
+          "songs": [
+            "Two Weeks",
+            "The Air That I Breathe",
+            "All That Remains lead passages"
+          ],
+          "capture_selector": "EVH 5150III / Peavey 5150 II/6505 lead into Mesa 4x12 V30, historically varies by record",
+          "tone_target": "Singing upper mids with some additional sustain, chorus and stereo lead echo without overly scooped rhythm tone",
+          "preferred_pickup_or_guitar": "Bridge humbucker high output, match tuning to track",
+          "amp_eq_offsets": {
+            "bass": -0.57,
+            "middle": 0.38,
+            "treble": -0.07,
+            "presence": -0.15
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Noise Gate 2:1",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "threshold_db_target": -45
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.3,
+                "volume_db_target": 1.5
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.2
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 90,
+                "high_cut_hz_target": 8200
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 365,
+                "feedback_percent_target": 20,
+                "mix_percent_target": 13
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 8,
+                "decay_seconds_target": 1.4
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 2,
+          "performance_number": 42
+        },
+        {
+          "name": "KSE DIRTY",
+          "songs": [
+            "My Curse",
+            "The End of Heartache",
+            "Rose of Sharyn"
+          ],
+          "capture_selector": "early Peavey 5150/Framus Cobra or later Laney Ironheart head; 4x12 V30; choose track-era capture",
+          "tone_target": "Aggressive tight Killswitch rhythm with moderate gain, mids intact, low drive OD808 always on",
+          "preferred_pickup_or_guitar": "Caparison/EVH active high-output bridge pickup, Drop C / per song",
+          "amp_eq_offsets": {
+            "bass": -0.68,
+            "middle": 0.42,
+            "treble": 0.03,
+            "presence": 0.08
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Noise Gate 4:1",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "threshold_db_target": -43
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.15,
+                "volume_db_target": 1.8
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 95,
+                "high_cut_hz_target": 8600
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 325,
+                "feedback_percent_target": 14,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "KSE later uses Laney Ironheart, older records often 5150/Cobra; must pick record-era capture. OD808 used as tightener NOT added distortion.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 3,
+          "performance_number": 42
+        },
+        {
+          "name": "KSE CLEAN",
+          "songs": [
+            "My Curse clean passages",
+            "The Arms of Sorrow",
+            "The End of Heartache clean passages"
+          ],
+          "capture_selector": "Matchless Clubman 30/Fuchs Clean Machine or Fender/modern clean capture, not high-gain 5150 channel",
+          "tone_target": "Wide chime, controlled compression, atmospheric delay and reverb with defined attack",
+          "preferred_pickup_or_guitar": "Coil-split high-output pickups or clean humbucker",
+          "amp_eq_offsets": {
+            "bass": -0.26,
+            "middle": 0.15,
+            "treble": 0.02,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.4,
+                "mix_percent_target": 13
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 90,
+                "high_cut_hz_target": 9000
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "rate_hz_target": 0.33,
+                "mix_percent_target": 18
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 425,
+                "feedback_percent_target": 27,
+                "mix_percent_target": 20
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 20,
+                "decay_seconds_target": 2.8
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 4,
+          "performance_number": 42
+        },
+        {
+          "name": "AILD 6505",
+          "songs": [
+            "94 Hours",
+            "Through Struggle",
+            "Nothing Left",
+            "Confined"
+          ],
+          "capture_selector": "Peavey 5150/6505 lead, optionally boosted Framus Cobra period profile, Mesa V30 4x12",
+          "tone_target": "Razor-edged tight drop-tuned rhythm: disciplined low end, aggressive pick, little ambience",
+          "preferred_pickup_or_guitar": "Bridge active or high-output humbucker, song-specific drop tuning",
+          "amp_eq_offsets": {
+            "bass": -0.75,
+            "middle": 0.38,
+            "treble": 0.08,
+            "presence": 0.07
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Noise Gate 4:1",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "threshold_db_target": -44
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.15,
+                "volume_db_target": 2.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 14
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 100,
+                "high_cut_hz_target": 8300
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 285,
+                "feedback_percent_target": 12,
+                "mix_percent_target": 6
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 4,
+                "decay_seconds_target": 1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "As I Lay Dying guitar rigs varied across albums; this is a verified genre/era target family, not an authenticated exact session patch.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 5,
+          "performance_number": 42
+        }
+      ],
+      "proposed_global_performance_number": 42,
+      "artist": "All That Remains / Killswitch Engage / As I Lay Dying",
+      "artist_slug": "metalcore",
+      "source_urls": [
+        "https://www.premierguitar.com/artists/all-that-remains-against-the-wind?page=1",
+        "https://www.premierguitar.com/artists/killswitch-engage-ironhearts-redemption-and-big-digits"
+      ],
+      "source_status": "researched_gear_with_proposed_audio_targets",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "research_and_proposed_tone_targets",
+  "description": "Early/mid-2000s 5150/6505-family tight rhythm and Killswitch atmospheric clean. Exact tuning and guitar scale are instrument-dependent.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "selected historical source refs, numerical approximations require listening and GUI verification"
+}

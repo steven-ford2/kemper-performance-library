@@ -1,0 +1,619 @@
+{
+  "name": "Eric Johnson",
+  "performances": [
+    {
+      "name": "ERIC JOHNSON",
+      "purpose": "Separate Johnson clean, crunchy rhythm, and Plexi/Tube Driver violin leads; effects cannot substitute for multiple independent amps.",
+      "slots": [
+        {
+          "name": "CLIFFS STUDIO",
+          "songs": [
+            "Cliffs of Dover studio - main lead"
+          ],
+          "capture_selector": "1969 100 W Marshall 1959 Super Lead, cab G12-80 style 4x12; capture warm with muted high end",
+          "tone_target": "Violin lead: long liquid sustain, softened attack, low treble/presence, pronounced low mids",
+          "preferred_pickup_or_guitar": "ES-335 bridge dominates album body; 1954 Strat used for segments",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.3,
+            "treble": -0.6,
+            "presence": -0.65
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "source_reference": "Chandler/Butler Tube Driver",
+                "drive_target_0_10": 2.3,
+                "tone_target": "dark",
+                "volume_db_target": 1.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.7
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 6
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 310,
+                "feedback_percent_target": 20,
+                "mix_percent_target": 13
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 7,
+                "decay_seconds_target": 1.4
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Original order can include Echoplex before Tube Driver; Kemper DLY after Amp is a live approximation. Do not assert it reproduces preamp-loading of the original.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 1,
+          "performance_number": 38
+        },
+        {
+          "name": "CLIFFS LIVE",
+          "songs": [
+            "Cliffs of Dover live",
+            "Zap lead"
+          ],
+          "capture_selector": "1969 50/100 W Marshall Plexi lead capture, dark input/cab",
+          "tone_target": "More immediate attack than studio, still smooth violin sustain and dark top",
+          "preferred_pickup_or_guitar": "Strat neck/bridge custom wiring as applicable",
+          "amp_eq_offsets": {
+            "bass": -0.26,
+            "middle": 0.4,
+            "treble": -0.55,
+            "presence": -0.6
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "source_reference": "Tube Driver",
+                "drive_target_0_10": 2
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 18,
+                "rate_hz_target": 0.6
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 365,
+                "feedback_percent_target": 22,
+                "mix_percent_target": 15
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 2,
+          "performance_number": 38
+        },
+        {
+          "name": "EJ CLEAN STEREO",
+          "songs": [
+            "Manhattan clean intro",
+            "Trademark",
+            "East Wes clean passages"
+          ],
+          "capture_selector": "Fender Twin Reverb or Deluxe Reverb 2x12 clean capture (two amps in stereo originally)",
+          "tone_target": "Bell-like dry clean with wide TC-style chorus and restrained Echoplex echo",
+          "preferred_pickup_or_guitar": "Strat neck or neck-middle",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": -0.04,
+            "treble": -0.05,
+            "presence": -0.14
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.5
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 25,
+                "rate_hz_target": 0.35
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 360,
+                "feedback_percent_target": 14,
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Spring Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 13,
+                "decay_seconds_target": 1.5
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Single Kemper rig cannot produce true dual Fender head stereo interaction.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 3,
+          "performance_number": 38
+        },
+        {
+          "name": "EJ DIRTY RHTHM",
+          "songs": [
+            "Righteous rhythm",
+            "Desert Rose rhythm",
+            "Trademark crunch"
+          ],
+          "capture_selector": "Two-Rock Traditional Clean driven / Marshall 50 W mid-crunch capture, selectable alternate",
+          "tone_target": "Pushed sparkly but articulate crunch, no modern scooped fizz",
+          "preferred_pickup_or_guitar": "Strat bridge or neck pickup",
+          "amp_eq_offsets": {
+            "bass": -0.25,
+            "middle": 0.35,
+            "treble": -0.28,
+            "presence": -0.25
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.9
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 310,
+                "feedback_percent_target": 11,
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Eric Johnson used separate amps for rhythm and lead; do not use lead amp and turn guitar volume down as sole substitute.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 4,
+          "performance_number": 38
+        },
+        {
+          "name": "EJ FUZZ LEAD",
+          "songs": [
+            "Righteous lead",
+            "Desert Rose lead",
+            "High Landrons"
+          ],
+          "capture_selector": "warm cranked Marshall Plexi 50/100 with 4x12 G12H/G12-80",
+          "tone_target": "Fat Fuzz Face lead with guitar-volume cleanup, dark smooth high-end and vocal mids",
+          "preferred_pickup_or_guitar": "Strat bridge or neck according to song",
+          "amp_eq_offsets": {
+            "bass": -0.22,
+            "middle": 0.4,
+            "treble": -0.5,
+            "presence": -0.55
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.8
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Red Germanium",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 5.5
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 365,
+                "feedback_percent_target": 23,
+                "mix_percent_target": 13
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "C"
+            ],
+            "II": [
+              "B"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Place Fuzz Face before buffered/drive blocks for believable guitar-volume cleanup, check effective module order.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 5,
+          "performance_number": 38
+        }
+      ],
+      "proposed_global_performance_number": 38,
+      "artist": "Eric Johnson",
+      "artist_slug": "eric-johnson",
+      "source_urls": [
+        "https://www.guitarworld.com/gear/the-secrets-behind-eric-johnsons-guitar-tone-on-cliffs-of-dover",
+        "https://www.premierguitar.com/gear/rig-rundown-eric-johnson-2018"
+      ],
+      "source_status": "researched_gear_with_proposed_audio_targets",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "research_and_proposed_tone_targets",
+  "description": "Separate Johnson clean, crunchy rhythm, and Plexi/Tube Driver violin leads; effects cannot substitute for multiple independent amps.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "selected historical source refs, numerical approximations require listening and GUI verification"
+}

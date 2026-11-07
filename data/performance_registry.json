@@ -1,0 +1,656 @@
+{
+  "schema_version": "2.0.0",
+  "date": "2026-11-07",
+  "status": "proposed_all_locations_subject_to_inventory",
+  "hard_limit": "Kemper Performances contain five slots; this map requires 42 distinct free locations and must be checked before any write.",
+  "canonical_registry": [
+    {
+      "global_number": 1,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "MAYER CORE",
+      "slots": [
+        "TRIO - DRIVE",
+        "CONTINUUM - SIG",
+        "AMERICANA - CLEAN",
+        "SEARCH - MODERN",
+        "SOB ROCK - 80S"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 2,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "TRIO NOKIA",
+      "slots": [
+        "WHO DID I WAS",
+        "GOOD LOVE",
+        "WAIT TOMORROW",
+        "VULTURES NOKIA",
+        "OUT OF MY MIND"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 3,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "CONTINUUM",
+      "slots": [
+        "DONT TRUST SELF",
+        "GRAVITY",
+        "SLOW DANCING",
+        "BELIEF",
+        "IN REPAIR / LEAD"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 4,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "AMERICANA",
+      "slots": [
+        "QUEEN / OLIVIA",
+        "BORN / LIVING",
+        "PARADISE FUNK",
+        "DEAR / WAITING",
+        "ACOUSTIC / FOLK"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 5,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "SEARCH",
+      "slots": [
+        "STILL FEEL MAN",
+        "MOVING ON",
+        "HELPLESS",
+        "ROSIE",
+        "CHANGING / WAVE"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 6,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "SOB ROCK",
+      "slots": [
+        "LAST TRAIN HOME",
+        "WILD BLUE",
+        "NEW LIGHT",
+        "FEEL LIKE OUTRO",
+        "SHOT IN DARK"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 7,
+      "artist_slug": "mayer",
+      "artist": "John Mayer",
+      "name": "BATTLE EXTRAS",
+      "slots": [
+        "EDGE OF DESIRE",
+        "HEARTBREAK WAR",
+        "CROSSROADS NG2",
+        "ASSASSIN",
+        "MAYER SOUL LEAD"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "verbatim_transform_of_available_detailed_artifact"
+    },
+    {
+      "global_number": 8,
+      "artist_slug": "hendrix",
+      "artist": "Jimi Hendrix",
+      "name": "HENDRIX CORE",
+      "slots": [
+        "EXPERIENCED",
+        "AXIS",
+        "LADYLAND",
+        "GYPSYS",
+        "CRY LOVE"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 9,
+      "artist_slug": "hendrix",
+      "artist": "Jimi Hendrix",
+      "name": "HENDRIX 1967",
+      "slots": [
+        "HEY JOE/WIND",
+        "PURPLE HAZE",
+        "FOXEY/MANIC",
+        "LITTLE WING",
+        "BOLD/SPANISH"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 10,
+      "artist_slug": "hendrix",
+      "artist": "Jimi Hendrix",
+      "name": "HENDRIX LADYLAND",
+      "slots": [
+        "VOODOO RETURN",
+        "WATCHTOWER",
+        "VOODOO CHILE",
+        "CROSSTOWN",
+        "GYPSY/1983"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 11,
+      "artist_slug": "hendrix",
+      "artist": "Jimi Hendrix",
+      "name": "HENDRIX GYPSYS",
+      "slots": [
+        "MACHINE GUN",
+        "WHO KNOWS",
+        "POWER SOUL",
+        "MESSAGE LOVE",
+        "BOG FUNK"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 12,
+      "artist_slug": "hendrix",
+      "artist": "Jimi Hendrix",
+      "name": "HENDRIX CRY LOVE",
+      "slots": [
+        "FREEDOM/EZY",
+        "NIGHT/STORM",
+        "ANGEL/DRIFT",
+        "STRAIGHT/BELLY",
+        "ASTRO/FRIEND"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 13,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV CORE",
+      "slots": [
+        "PRIDE JOY",
+        "TEXAS LEAD",
+        "COLD SHOT",
+        "SCUTTLE",
+        "SAY WHAT"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 14,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV TEXAS FLOOD",
+      "slots": [
+        "LOVE STRUCK",
+        "PRIDE JOY",
+        "TEXAS FLOOD",
+        "TELL ME",
+        "LENNY"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 15,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV WEATHER",
+      "slots": [
+        "SCUTTLE",
+        "COULDNT STAND",
+        "TIN PAN",
+        "VOODOO CHILE",
+        "COLD SHOT"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 16,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV SOUL",
+      "slots": [
+        "SAY WHAT",
+        "CHANGE IT",
+        "LIFE WITHOUT",
+        "LOOK AT LITTLE",
+        "GONE HOME"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 17,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV IN STEP",
+      "slots": [
+        "CROSS FIRE",
+        "TIGHTROPE",
+        "LEAVE MY GIRL",
+        "WALL OF DENIAL",
+        "RIVIERA"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 18,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV LIVE",
+      "slots": [
+        "MONTREUX 82",
+        "MONTREUX 85",
+        "EL MOCAMBO",
+        "LIVE ALIVE",
+        "AUSTIN CITY"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 19,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV FAMILY STYLE",
+      "slots": [
+        "HARD TO BE",
+        "TELEPHONE SONG",
+        "TICK TOCK",
+        "WHITE BOOTS",
+        "BROTHERS"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 20,
+      "artist_slug": "srv",
+      "artist": "Stevie Ray Vaughan",
+      "name": "SRV SKY CRYING",
+      "slots": [
+        "SKY IS CRYING",
+        "LITTLE WING",
+        "CHITLINS",
+        "WHAM",
+        "LIFE BY DROP"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 21,
+      "artist_slug": "clapton",
+      "artist": "Eric Clapton",
+      "name": "CLAPTON CORE",
+      "slots": [
+        "BEANO",
+        "CREAM WOMAN",
+        "LAYLA CHAMP",
+        "BLACKIE",
+        "JOURNEY"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 22,
+      "artist_slug": "clapton",
+      "artist": "Eric Clapton",
+      "name": "CLAPTON MARSHALL",
+      "slots": [
+        "BEANO BLUES",
+        "BEANO CLEAN",
+        "CREAM FRESH",
+        "WOMAN TONE",
+        "CROSSROADS"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 23,
+      "artist_slug": "clapton",
+      "artist": "Eric Clapton",
+      "name": "CLAPTON DOMINOS",
+      "slots": [
+        "LAYLA RIFF",
+        "LAYLA SLIDE",
+        "BELL BOTTOM",
+        "KEY TO HIGHWAY",
+        "ANYDAY"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 24,
+      "artist_slug": "clapton",
+      "artist": "Eric Clapton",
+      "name": "CLAPTON BLACKIE",
+      "slots": [
+        "LAY DOWN",
+        "COCAINE",
+        "WONDERFUL",
+        "SHERIFF",
+        "80S BOOST"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 25,
+      "artist_slug": "clapton",
+      "artist": "Eric Clapton",
+      "name": "CLAPTON JOURNEY",
+      "slots": [
+        "PRETENDING",
+        "BAD LOVE",
+        "OLD LOVE",
+        "RUNNING FAITH",
+        "NO ALIBIS"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 26,
+      "artist_slug": "clapton",
+      "artist": "Eric Clapton",
+      "name": "CLAPTON BLUES PLUS",
+      "slots": [
+        "FROM CRADLE",
+        "UNPLUGGED",
+        "RIDING KING",
+        "CLAPTON STRAT",
+        "RECENT BLUES"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 27,
+      "artist_slug": "robben-ford",
+      "artist": "Robben Ford",
+      "name": "RF CORE",
+      "slots": [
+        "ODS CLEAN",
+        "ODS PAB",
+        "ODS LEAD",
+        "ZENDRIVE CLEAN",
+        "LITTLE WALTER"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 28,
+      "artist_slug": "robben-ford",
+      "artist": "Robben Ford",
+      "name": "RF EARLY 80S",
+      "slots": [
+        "YELLOWJACKETS",
+        "WILD ABOUT",
+        "TALK DAUGHTER",
+        "BLUE LINE PRE",
+        "EARLY LEAD"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 29,
+      "artist_slug": "robben-ford",
+      "artist": "Robben Ford",
+      "name": "RF BLUE LINE",
+      "slots": [
+        "B LINE CLEAN",
+        "B LINE DRIVE",
+        "CANNONBALL",
+        "HELP THE POOR",
+        "BLUE LINE LEAD"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 30,
+      "artist_slug": "robben-ford",
+      "artist": "Robben Ford",
+      "name": "RF 1997-2009",
+      "slots": [
+        "SOUL ON TEN",
+        "HAND FATE",
+        "SUPERNATURAL",
+        "TRUTH",
+        "STUDIO CLEAN"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 31,
+      "artist_slug": "robben-ford",
+      "artist": "Robben Ford",
+      "name": "RF 2013-2023",
+      "slots": [
+        "BRINGING",
+        "DAY IN NASH",
+        "PURPLE HOUSE",
+        "PURE 2021",
+        "MODERN LEAD"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 32,
+      "artist_slug": "robben-ford",
+      "artist": "Robben Ford",
+      "name": "RF 2026",
+      "slots": [
+        "MAKE WEATHER",
+        "BLACK NIGHT",
+        "TWO SHADES",
+        "LIGHT FANDANGO",
+        "FANDANGO FM"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "reconstructed_from_prior_chat_summary"
+    },
+    {
+      "global_number": 33,
+      "artist_slug": "shred-triad",
+      "artist": "Vai / Paul Gilbert / Jason Becker",
+      "name": "VAI GILBERT BECKER",
+      "slots": [
+        "VAI FTLOG",
+        "VAI TENDER",
+        "GILBERT GOY",
+        "GILBERT SILENCE",
+        "BECKER ALTIT"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 34,
+      "artist_slug": "van-halen",
+      "artist": "Eddie Van Halen",
+      "name": "VAN HALEN",
+      "slots": [
+        "VH1 BROWN",
+        "VH2 WOMEN",
+        "VH FAIR",
+        "VH PANAMA",
+        "VH 5150 ERA"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 35,
+      "artist_slug": "timmons-govan",
+      "artist": "Andy Timmons / Guthrie Govan",
+      "name": "TIMMONS GOVAN",
+      "slots": [
+        "ELECTRIC GYPSY",
+        "GYPSY CLEAN",
+        "GOVAN WAVES",
+        "GOVAN FIVES",
+        "GOVAN ARISTOCRATS"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 36,
+      "artist_slug": "eagles",
+      "artist": "Eagles",
+      "name": "EAGLES",
+      "slots": [
+        "HOTEL 12STR",
+        "HOTEL FELDER",
+        "HOTEL WALSH",
+        "FAST LANE",
+        "EAGLES CLEAN"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 37,
+      "artist_slug": "polyphia",
+      "artist": "Polyphia",
+      "name": "POLYPHIA",
+      "slots": [
+        "POLY GOAT",
+        "PLAYING GOD",
+        "40OZ CHAMPAGNE",
+        "OD EGO LEAD",
+        "CHIMERA HEAVY"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 38,
+      "artist_slug": "eric-johnson",
+      "artist": "Eric Johnson",
+      "name": "ERIC JOHNSON",
+      "slots": [
+        "CLIFFS STUDIO",
+        "CLIFFS LIVE",
+        "EJ CLEAN STEREO",
+        "EJ DIRTY RHTHM",
+        "EJ FUZZ LEAD"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 39,
+      "artist_slug": "jeff-beck",
+      "artist": "Jeff Beck",
+      "name": "JEFF BECK",
+      "slots": [
+        "CAUSE LOVERS",
+        "FREEWAY JAM",
+        "LED BOOTS",
+        "WHERE WERE YOU",
+        "NADIA / LATE"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 40,
+      "artist_slug": "yngwie",
+      "artist": "Yngwie Malmsteen",
+      "name": "YNGWIE MALMSTEEN",
+      "slots": [
+        "BLACK STAR CLEAN",
+        "RISING FORCE",
+        "FAR BEYOND",
+        "TRILOGY ODYSSEY",
+        "MODERN YJM"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 41,
+      "artist_slug": "fleetwood-rumours",
+      "artist": "Fleetwood Mac",
+      "name": "FLEETWOOD RUMOURS",
+      "slots": [
+        "DREAMS CLEAN",
+        "GO YOUR WAY",
+        "THE CHAIN OUTRO",
+        "NEVER GOING",
+        "GOLD DUST"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 42,
+      "artist_slug": "metalcore",
+      "artist": "All That Remains / Killswitch Engage / As I Lay Dying",
+      "name": "METALCORE",
+      "slots": [
+        "ATR SIX",
+        "ATR LEAD",
+        "KSE DIRTY",
+        "KSE CLEAN",
+        "AILD 6505"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "researched_gear_engineered_tone_targets"
+    },
+    {
+      "global_number": 43,
+      "artist_slug": "eagles-early",
+      "artist": "Eagles",
+      "name": "EAGLES EARLY",
+      "slots": [
+        "NIGHTS RHYTHM",
+        "NIGHTS FELDER",
+        "NIGHTS HARMONY",
+        "WITCHY RIFF",
+        "WITCHY SOLO"
+      ],
+      "status": "proposed_not_installed",
+      "source_status": "selectively_documented_gear_engineered_tone_targets"
+    }
+  ],
+  "source_number_collisions": "Earlier conversations reused 07–12 for several artists. This repository allocates unique, non-overlapping numbers, but never writes before checking occupancy.",
+  "backlog_artist_count": 13,
+  "updated": "2026-11-07"
+}

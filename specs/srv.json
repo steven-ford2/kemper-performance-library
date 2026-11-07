@@ -1,0 +1,4525 @@
+{
+  "name": "Stevie Ray Vaughan",
+  "performances": [
+    {
+      "name": "SRV CORE",
+      "purpose": "Primary SRV modes; four switches I TS low, II TS high, III Vibratone, IIII solo boost",
+      "slots": [
+        {
+          "name": "PRIDE JOY",
+          "songs": [
+            "Pride and Joy",
+            "Mary Had a Little Lamb"
+          ],
+          "capture_selector": "1964 Vibroverb / Super Reverb clean edge",
+          "tone_target": "Dry snappy 15-inch style and sharp transients",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.4,
+            "middle": 0.25,
+            "treble": 0.1,
+            "presence": 0
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 13
+        },
+        {
+          "name": "TEXAS LEAD",
+          "songs": [
+            "Texas Flood",
+            "Lenny"
+          ],
+          "capture_selector": "Fender Vibroverb 15 inch clean drive",
+          "tone_target": "Open sustained clean and TS for soaring lines",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 13
+        },
+        {
+          "name": "COLD SHOT",
+          "songs": [
+            "Cold Shot"
+          ],
+          "capture_selector": "clean blackface Fender Super Reverb",
+          "tone_target": "Funky dry clean with tube screamer available",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "No generic wah auto sweep; percussive clean source.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 13
+        },
+        {
+          "name": "SCUTTLE",
+          "songs": [
+            "Scuttle Buttin",
+            "Rude Mood"
+          ],
+          "capture_selector": "Super Reverb + Vibroverb mix proxy",
+          "tone_target": "Very tight bright rhythm, minimal delay",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 13
+        },
+        {
+          "name": "SAY WHAT",
+          "songs": [
+            "Say What!",
+            "Voodoo Chile (Slight Return)"
+          ],
+          "capture_selector": "Dumble Steel String Singer / Super Reverb clean",
+          "tone_target": "Heavy wah and optional Fuzz / Octavia",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Wah expression. Use optional slot D for Octavia; B/C Tube Screamer stack.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 13
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 13
+    },
+    {
+      "name": "SRV TEXAS FLOOD",
+      "purpose": "Texas Flood studio family",
+      "slots": [
+        {
+          "name": "LOVE STRUCK",
+          "songs": [
+            "Love Struck Baby"
+          ],
+          "capture_selector": "early Vibroverb/Super Reverb",
+          "tone_target": "Snappy Fender bite; low gain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 14
+        },
+        {
+          "name": "PRIDE JOY",
+          "songs": [
+            "Pride and Joy"
+          ],
+          "capture_selector": "Fender blackface / EV-type speaker",
+          "tone_target": "Clear rhythmic breakup",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 14
+        },
+        {
+          "name": "TEXAS FLOOD",
+          "songs": [
+            "Texas Flood"
+          ],
+          "capture_selector": "Vibroverb/Super edge",
+          "tone_target": "Full clean sustain with TS accent",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 14
+        },
+        {
+          "name": "TELL ME",
+          "songs": [
+            "Tell Me"
+          ],
+          "capture_selector": "blackface Super Reverb crunch",
+          "tone_target": "Sharp boogie attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 14
+        },
+        {
+          "name": "LENNY",
+          "songs": [
+            "Lenny"
+          ],
+          "capture_selector": "Vibroverb clean",
+          "tone_target": "Floating low-gain attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 13,
+                "decay_seconds_target": 2.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 14
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 14
+    },
+    {
+      "name": "SRV WEATHER",
+      "purpose": "Couldn’t Stand the Weather family",
+      "slots": [
+        {
+          "name": "SCUTTLE",
+          "songs": [
+            "Scuttle Buttin"
+          ],
+          "capture_selector": "Fender Vibroverb / clean-mid",
+          "tone_target": "Fast bright articulation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 15
+        },
+        {
+          "name": "COULDNT STAND",
+          "songs": [
+            "Couldn’t Stand the Weather"
+          ],
+          "capture_selector": "Dumble Steel String Singer / Vibroverb clean edge",
+          "tone_target": "Clear rhythm with solid bass",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 15
+        },
+        {
+          "name": "TIN PAN",
+          "songs": [
+            "Tin Pan Alley"
+          ],
+          "capture_selector": "clean Vibroverb 15",
+          "tone_target": "Wide quiet dynamics and minimal distortion",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 11,
+                "decay_seconds_target": 2.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 15
+        },
+        {
+          "name": "VOODOO CHILE",
+          "songs": [
+            "Voodoo Chile (Slight Return)"
+          ],
+          "capture_selector": "Dumble SSS + Fender profile",
+          "tone_target": "Wah- and fuzz-rich midrange",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 15
+        },
+        {
+          "name": "COLD SHOT",
+          "songs": [
+            "Cold Shot"
+          ],
+          "capture_selector": "clean blackface Super Reverb",
+          "tone_target": "Dry muted rhythm",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 15
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 15
+    },
+    {
+      "name": "SRV SOUL",
+      "purpose": "Soul to Soul family",
+      "slots": [
+        {
+          "name": "SAY WHAT",
+          "songs": [
+            "Say What!"
+          ],
+          "capture_selector": "Super Reverb / Dumble SSS",
+          "tone_target": "Deep wah with light overdrive",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 16
+        },
+        {
+          "name": "CHANGE IT",
+          "songs": [
+            "Change It"
+          ],
+          "capture_selector": "Fender Super Reverb medium edge",
+          "tone_target": "Clean articulate riff sound",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 16
+        },
+        {
+          "name": "LIFE WITHOUT",
+          "songs": [
+            "Life Without You"
+          ],
+          "capture_selector": "Vibroverb clean",
+          "tone_target": "Long sustain from amp/headroom and gentle TS",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 16
+        },
+        {
+          "name": "LOOK AT LITTLE",
+          "songs": [
+            "Look at Little Sister"
+          ],
+          "capture_selector": "Super Reverb driven",
+          "tone_target": "Pushed crisp blues",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 16
+        },
+        {
+          "name": "GONE HOME",
+          "songs": [
+            "Gone Home"
+          ],
+          "capture_selector": "Fender / steel string singer clean",
+          "tone_target": "Clean jazz-blues with reverb",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 14,
+                "decay_seconds_target": 2.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 16
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 16
+    },
+    {
+      "name": "SRV IN STEP",
+      "purpose": "In Step family",
+      "slots": [
+        {
+          "name": "CROSS FIRE",
+          "songs": [
+            "Crossfire"
+          ],
+          "capture_selector": "Dumble SSS + Fender Super clean",
+          "tone_target": "Punchy later clean with drive accents",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 17
+        },
+        {
+          "name": "TIGHTROPE",
+          "songs": [
+            "Tightrope"
+          ],
+          "capture_selector": "late SRV Fender/Dumble clean edge",
+          "tone_target": "Confident clean-mid core",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 17
+        },
+        {
+          "name": "LEAVE MY GIRL",
+          "songs": [
+            "Leave My Girl Alone"
+          ],
+          "capture_selector": "Vibroverb + Super driven",
+          "tone_target": "Sustained vocal Texas lead",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 17
+        },
+        {
+          "name": "WALL OF DENIAL",
+          "songs": [
+            "Wall of Denial"
+          ],
+          "capture_selector": "Dumble + Marshall proxy",
+          "tone_target": "High-headroom with defined dirty mid attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 17
+        },
+        {
+          "name": "RIVIERA",
+          "songs": [
+            "Riviera Paradise"
+          ],
+          "capture_selector": "clean SSS + Vibroverb",
+          "tone_target": "Very clean expansive stereo-feeling ambience",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 350,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 13
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 18,
+                "decay_seconds_target": 2.8
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 17
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 17
+    },
+    {
+      "name": "SRV LIVE",
+      "purpose": "Live sets, historically changing rigs; no one fixed historical chain",
+      "slots": [
+        {
+          "name": "MONTREUX 82",
+          "songs": [
+            "Pride and Joy",
+            "Hide Away"
+          ],
+          "capture_selector": "early hot Fender clean edge",
+          "tone_target": "Raw bright live attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 18
+        },
+        {
+          "name": "MONTREUX 85",
+          "songs": [
+            "Texas Flood",
+            "Scuttle Buttin"
+          ],
+          "capture_selector": "Dumble + Fender/EV speaker proxy",
+          "tone_target": "Bigger cleaner mid-80s stage response",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 18
+        },
+        {
+          "name": "EL MOCAMBO",
+          "songs": [
+            "Texas Flood",
+            "Lenny"
+          ],
+          "capture_selector": "Vibroverb + Super Reverb",
+          "tone_target": "Flexible articulate live clean",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 18
+        },
+        {
+          "name": "LIVE ALIVE",
+          "songs": [
+            "Superstition",
+            "Voodoo Chile"
+          ],
+          "capture_selector": "large Dumble/Fender live rig",
+          "tone_target": "Huge clean/fuzz/wah options",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 18
+        },
+        {
+          "name": "AUSTIN CITY",
+          "songs": [
+            "Pride and Joy",
+            "Crossfire"
+          ],
+          "capture_selector": "late Super/Dumble live proxy",
+          "tone_target": "Controlled bright big-stage clean",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 18
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 18
+    },
+    {
+      "name": "SRV FAMILY STYLE",
+      "purpose": "Family Style collaborative period",
+      "slots": [
+        {
+          "name": "HARD TO BE",
+          "songs": [
+            "Hard to Be"
+          ],
+          "capture_selector": "clean Dumble SSS/Fender",
+          "tone_target": "1990 polished Texas clean",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 19
+        },
+        {
+          "name": "TELEPHONE SONG",
+          "songs": [
+            "Telephone Song"
+          ],
+          "capture_selector": "Dumble clean edge",
+          "tone_target": "Articulate funk attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 19
+        },
+        {
+          "name": "TICK TOCK",
+          "songs": [
+            "Tick Tock"
+          ],
+          "capture_selector": "Fender clean / natural delay",
+          "tone_target": "Chime and air",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 16,
+                "decay_seconds_target": 2.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 19
+        },
+        {
+          "name": "WHITE BOOTS",
+          "songs": [
+            "White Boots"
+          ],
+          "capture_selector": "mid-drive Fender",
+          "tone_target": "Tighter medium crunch",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 19
+        },
+        {
+          "name": "BROTHERS",
+          "songs": [
+            "Brothers",
+            "Hillbillies From Outerspace"
+          ],
+          "capture_selector": "clear clean-to-crunch profile",
+          "tone_target": "Instrumental lead with controlled compression",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 19
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 19
+    },
+    {
+      "name": "SRV SKY CRYING",
+      "purpose": "Posthumous collection varies in actual recording dates",
+      "slots": [
+        {
+          "name": "SKY IS CRYING",
+          "songs": [
+            "The Sky Is Crying"
+          ],
+          "capture_selector": "Vibroverb 15, clean edge",
+          "tone_target": "Singing low-mid sustain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 20
+        },
+        {
+          "name": "LITTLE WING",
+          "songs": [
+            "Little Wing"
+          ],
+          "capture_selector": "Vibroverb/Super clean edge",
+          "tone_target": "Clear dynamic lead with light Vibrotone",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 14,
+                "decay_seconds_target": 2.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 20
+        },
+        {
+          "name": "CHITLINS",
+          "songs": [
+            "Chitlins Con Carne"
+          ],
+          "capture_selector": "Super Reverb clean",
+          "tone_target": "Round jazz-inflected clean rhythm",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 20
+        },
+        {
+          "name": "WHAM",
+          "songs": [
+            "Wham"
+          ],
+          "capture_selector": "Super Reverb driven",
+          "tone_target": "Aggressive short-decay overdrive",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 20
+        },
+        {
+          "name": "LIFE BY DROP",
+          "songs": [
+            "Life By the Drop"
+          ],
+          "capture_selector": "acoustic guitar or acoustic simulation",
+          "tone_target": "Raw unplugged resonance; needs acoustic guitar",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Mid",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.7
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": "Tyco Octavia Min",
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Do not claim close fidelity with an electric amp profile.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 20
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 20
+    }
+  ],
+  "source_status": "reconstructed_from_prior_conversation_summary; detailed original archive not accessible",
+  "archive": null,
+  "description": "Stevie Ray Vaughan song-specific rigs and effect assignments",
+  "device_validation_required": true,
+  "repo_spec_version": "1.0.0",
+  "device_write_status": "not_applied"
+}

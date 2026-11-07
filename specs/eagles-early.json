@@ -1,0 +1,627 @@
+{
+  "name": "Eagles — One of These Nights / Witchy Woman",
+  "performances": [
+    {
+      "name": "EAGLES EARLY",
+      "purpose": "One of These Nights (1975) and Witchy Woman (1972): rhythm, main lead, harmony, riff and solo",
+      "slots": [
+        {
+          "name": "NIGHTS RHYTHM",
+          "songs": [
+            "One of These Nights - layered rhythm"
+          ],
+          "capture_selector": "1970s Fender blackface Deluxe Reverb or Twin Reverb clean-to-edge, vintage 1x12/2x12, NOT a modern high-gain stack",
+          "tone_target": "Dry articulate, slightly compressed R&B-rock accompaniment; gentle breakup on harder attacks, wide midrange with clean upper-register chime",
+          "preferred_pickup_or_guitar": "single-coil or low-output humbucker; model layered Frey/Leadon parts as one primary guitar, not identical multi-guitar stereo",
+          "amp_eq_offsets": {
+            "bass": -0.25,
+            "middle": 0.15,
+            "treble": -0.05,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Prefer a source capture already at target dynamic breakup; adjust Gain no more than ~0.7 at first pass; never substitute high-gain modern amp for tweed/blackface.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "low",
+                "mix_percent_target": 65
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.4
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.5
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.5,
+                "mix_percent_target": 18
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 8000
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 215,
+                "feedback_percent_target": 9,
+                "mix_percent_target": 6
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.4,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "artist_gear_documented_but_effect_values_are_engineering_targets",
+          "notes": "Rhythm recording combines guitars and studio mixing; avoid putting obviously modern chorus or heavy compression on the default patch. Amp not documented per guitar part. 1975 track with Don Felder and Bernie Leadon, not Joe Walsh.",
+          "tag": "EAGLES EARLY 1972-75",
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "single_guitar_representation_of_recorded_layers",
+          "provenance": "Gear attribution grounded in linked sources; numeric EQ and effect settings are provisional, not historically verified studio knob positions.",
+          "slot": 1,
+          "performance_number": 43
+        },
+        {
+          "name": "NIGHTS FELDER",
+          "songs": [
+            "One of These Nights - main guitar solo"
+          ],
+          "capture_selector": "mid-to-hot Fender narrow-panel tweed Deluxe 5E3 1950s capture with original-style 1x12; choose responsive slightly compressed natural overdrive",
+          "tone_target": "Don Felder sax-like singing lead: rich upper-mid vowel quality and controlled treble, sustain primarily from driven tweed and Les Paul humbuckers",
+          "preferred_pickup_or_guitar": "1959 Les Paul Standard-style humbucker, ideally neck/bridge compare; lower tone knob modestly if harsh",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.5,
+            "treble": -0.25,
+            "presence": -0.3
+          },
+          "amp_gain_policy": "Prefer a source capture already at target dynamic breakup; adjust Gain no more than ~0.7 at first pass; never substitute high-gain modern amp for tweed/blackface.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.2,
+                "tone_target_0_10": 4.0
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 2
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.35,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7200,
+                "mid_peak_hz_target": 900,
+                "mid_peak_db_target": 1.0
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 245,
+                "feedback_percent_target": 12,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.4,
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "X"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "artist_gear_documented_but_effect_values_are_engineering_targets",
+          "notes": "Felder personally identified his 1959 Les Paul through narrow-panel Fender Tweed Deluxe for this song; melodic sax-like contour is tonal intent, NOT an envelope filter. Exact Echoplex inclusion on this master unconfirmed. Never save with heavy fuzz or phaser active.",
+          "tag": "EAGLES EARLY 1972-75",
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "single_guitar_representation_of_recorded_layers",
+          "provenance": "Gear attribution grounded in linked sources; numeric EQ and effect settings are provisional, not historically verified studio knob positions.",
+          "slot": 2,
+          "performance_number": 43
+        },
+        {
+          "name": "NIGHTS HARMONY",
+          "songs": [
+            "One of These Nights - harmony electric guitars"
+          ],
+          "capture_selector": "narrow-panel Fender tweed Deluxe or balanced blackface Deluxe, crunchy but clean enough to resolve harmonized lines",
+          "tone_target": "Clear, less saturated harmony guitar to complement Felder lead; tighter low end, minimal stereo effect; both harmonies are separately recorded guitar parts",
+          "preferred_pickup_or_guitar": "Les Paul humbucker or Telecaster bridge depending on available instrument, tone slightly more open than NIGHTS FELDER",
+          "amp_eq_offsets": {
+            "bass": -0.3,
+            "middle": 0.3,
+            "treble": 0.0,
+            "presence": -0.05
+          },
+          "amp_gain_policy": "Prefer a source capture already at target dynamic breakup; adjust Gain no more than ~0.7 at first pass; never substitute high-gain modern amp for tweed/blackface.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.4
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.5
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "rate_hz_target": 0.4
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 92,
+                "high_cut_hz_target": 8200
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 170,
+                "feedback_percent_target": 9,
+                "mix_percent_target": 6
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.2,
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "artist_gear_documented_but_effect_values_are_engineering_targets",
+          "notes": "A recorded two-guitar harmony cannot be faithfully generated by one Kemper mono signal with static pitch shifting; create two mono tracked parts or add a separately validated harmonizer if needed. Rig is the harmony-guitar source tone.",
+          "tag": "EAGLES EARLY 1972-75",
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "single_guitar_representation_of_recorded_layers",
+          "provenance": "Gear attribution grounded in linked sources; numeric EQ and effect settings are provisional, not historically verified studio knob positions.",
+          "slot": 3,
+          "performance_number": 43
+        },
+        {
+          "name": "WITCHY RIFF",
+          "songs": [
+            "Witchy Woman - Bernie Leadon riff"
+          ],
+          "capture_selector": "early-1970s Fender Deluxe Reverb 1x12 clean-to-edge; a similar era amp may be used, but exact tracking amp for 1972 recording is not verified",
+          "tone_target": "Dark nasal, slightly gritty early-Eagles guitar riff; mild edge-of-breakup with restrained ambience and clear string attack",
+          "preferred_pickup_or_guitar": "Gibson Les Paul Deluxe mini-humbuckers (documented as Leadon Witchy Woman guitar in retrospective gear coverage); if unavailable compare P-90 / lower-output humbuckers",
+          "amp_eq_offsets": {
+            "bass": -0.15,
+            "middle": 0.25,
+            "treble": -0.2,
+            "presence": -0.2
+          },
+          "amp_gain_policy": "Prefer a source capture already at target dynamic breakup; adjust Gain no more than ~0.7 at first pass; never substitute high-gain modern amp for tweed/blackface.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.5
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.4
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.36,
+                "mix_percent_target": 18
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 85,
+                "high_cut_hz_target": 6700
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Tremolo",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 3.0,
+                "depth_percent_target": 18
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 230,
+                "feedback_percent_target": 9,
+                "mix_percent_target": 6
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Spring Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.2,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "artist_gear_documented_but_effect_values_are_engineering_targets",
+          "notes": "Original 1972 record features Leadon and Frey; no Don Felder or Joe Walsh. Mini-humbucker Les Paul is documented for later performances of the song; do NOT assert it is independently proven for studio master. Avoid asserting exact Fender Twin original amp; choose blackface clean-to-edge capture based on period sound.",
+          "tag": "EAGLES EARLY 1972-75",
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "single_guitar_representation_of_recorded_layers",
+          "provenance": "Gear attribution grounded in linked sources; numeric EQ and effect settings are provisional, not historically verified studio knob positions.",
+          "slot": 4,
+          "performance_number": 43
+        },
+        {
+          "name": "WITCHY SOLO",
+          "songs": [
+            "Witchy Woman - Glenn Frey solo"
+          ],
+          "capture_selector": "early-1970s Fender Deluxe Reverb or equivalent small Fender combo at medium breakup, 1x12",
+          "tone_target": "Focused, saturated P-90 lead with singing sustained notes; firmer attack than the riff, dry mids-forward 1972 studio guitar sound",
+          "preferred_pickup_or_guitar": "Glenn Frey 1950s Les Paul Junior \"Old Black\" with P-90 (candidate from retrospective reporting; not direct studio session confirmation)",
+          "amp_eq_offsets": {
+            "bass": -0.3,
+            "middle": 0.48,
+            "treble": -0.12,
+            "presence": -0.2
+          },
+          "amp_gain_policy": "Prefer a source capture already at target dynamic breakup; adjust Gain no more than ~0.7 at first pass; never substitute high-gain modern amp for tweed/blackface.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.35,
+                "tone_target_0_10": 4.5
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Fuzz",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 2.5
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.45,
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 90,
+                "high_cut_hz_target": 7600,
+                "mid_peak_hz_target": 850,
+                "mid_peak_db_target": 1.0
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 210,
+                "feedback_percent_target": 9,
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Spring Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.3,
+                "mix_percent_target": 8
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "X"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "artist_gear_documented_but_effect_values_are_engineering_targets",
+          "notes": "Glenn Frey is credited with Witchy Woman lead in secondary accounts; plausible Les Paul Jr and modified Deluxe Reverb gear is retrospective inference. No fuzz/phaser active by default. Preserve articulation; tone is amp gain, not boosted preamp distortion.",
+          "tag": "EAGLES EARLY 1972-75",
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "single_guitar_representation_of_recorded_layers",
+          "provenance": "Gear attribution grounded in linked sources; numeric EQ and effect settings are provisional, not historically verified studio knob positions.",
+          "slot": 5,
+          "performance_number": 43
+        }
+      ],
+      "proposed_global_performance_number": 43,
+      "artist": "Eagles",
+      "artist_slug": "eagles-early",
+      "source_urls": [
+        "https://www.guitarworld.com/features/don-felder-eagles-dear-guitar-2013",
+        "https://www.guitarplayer.com/music/don-felder-on-his-eagles-one-of-these-nights-solo",
+        "https://reverb.com/ca/news/the-gear-of-the-eagles",
+        "https://www.musicradar.com/news/eagles-songs-guitar-glenn-frey-bernie-leadon-don-felder-joe-walsh",
+        "https://musicbrainz.org/release/9175ffb2-97c0-48ac-9b2d-8c66b19a1e27"
+      ],
+      "source_status": "historical_gear_selectively_documented__values_engineered",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "researched_reference_tone_targets",
+  "description": "Additional five-slot Eagles 1972-1975 Performance, separate from original Eagles 36 and with track-specific solo voices.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "gear statements classified by evidential strength; effect settings unverified"
+}

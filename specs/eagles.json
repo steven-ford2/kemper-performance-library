@@ -1,0 +1,619 @@
+{
+  "name": "Eagles",
+  "performances": [
+    {
+      "name": "EAGLES",
+      "purpose": "Split Felder and Walsh electric timbres. Real 12-string acoustic intro requires appropriate instrument.",
+      "slots": [
+        {
+          "name": "HOTEL 12STR",
+          "songs": [
+            "Hotel California - 12-string intro"
+          ],
+          "capture_selector": "No electric amp if genuine Takamine 12-string DI; fallback ultra-clean acoustic/piezo profile",
+          "tone_target": "Bright percussive 12-string acoustic direct center plus optional Echoplex/Leslie wet component",
+          "preferred_pickup_or_guitar": "12-string acoustic with pickup strongly preferred; electric-to-12-string cannot accurately create physical doubled courses",
+          "amp_eq_offsets": {
+            "bass": -0.25,
+            "middle": -0.15,
+            "treble": 0.1,
+            "presence": 0
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 95
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 35,
+                "speed": "Slow"
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 260,
+                "feedback_percent_target": 12,
+                "mix_percent_target": 11
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.7,
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Felder described DeArmond pickup -> Echoplex -> Leslie blended with direct mic. A single Kemper cannot produce original stereo microphone mix.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "requires_12_string_instrument_for_fidelity",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 1,
+          "performance_number": 36
+        },
+        {
+          "name": "HOTEL FELDER",
+          "songs": [
+            "Hotel California - Don Felder lead"
+          ],
+          "capture_selector": "Fender Tweed Deluxe narrow-panel 5E3 cranked with 1x12 vintage Jensen-like cab",
+          "tone_target": "Warm singing LP-humbucker lead with grainy amp edge, very little stomp dirt",
+          "preferred_pickup_or_guitar": "1959 Les Paul-style bridge humbucker",
+          "amp_eq_offsets": {
+            "bass": -0.25,
+            "middle": 0.3,
+            "treble": -0.16,
+            "presence": -0.18
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.4
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 260,
+                "feedback_percent_target": 17,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 8,
+                "decay_seconds_target": 1.5
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Do not mistake the 12-string intro Leslie treatment for the electric solo rig.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 2,
+          "performance_number": 36
+        },
+        {
+          "name": "HOTEL WALSH",
+          "songs": [
+            "Hotel California - Joe Walsh lead"
+          ],
+          "capture_selector": "Fender blackface Deluxe or Roland Cube-era clean-to-crunch small combo (Walsh recollection); 1x10/1x12 speaker",
+          "tone_target": "Brighter, thinner and more percussive Telecaster voice to contrast Felder Les Paul",
+          "preferred_pickup_or_guitar": "Telecaster bridge single-coil",
+          "amp_eq_offsets": {
+            "bass": -0.35,
+            "middle": 0.35,
+            "treble": -0.05,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.6
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 270,
+                "feedback_percent_target": 15,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Walsh suggested Tele through Roland Cube (uncertain exact track); use contrasting tone rather than identical LP amp.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 3,
+          "performance_number": 36
+        },
+        {
+          "name": "FAST LANE",
+          "songs": [
+            "Life in the Fast Lane"
+          ],
+          "capture_selector": "small driven Roland Cube / Tweed Deluxe 1x12 captures, compare to session references",
+          "tone_target": "Dry cutting riff attack, gritty not modern high-gain, minimal ambience",
+          "preferred_pickup_or_guitar": "Single-coil Strat bridge for Walsh; Les Paul overdub variant",
+          "amp_eq_offsets": {
+            "bass": -0.4,
+            "middle": 0.3,
+            "treble": 0.1,
+            "presence": 0
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.5
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Flanger",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.2,
+                "mix_percent_target": 35
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 225,
+                "feedback_percent_target": 8,
+                "mix_percent_target": 5
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Tape flanging on the song end is in production; D is a performance approximation.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 4,
+          "performance_number": 36
+        },
+        {
+          "name": "EAGLES CLEAN",
+          "songs": [
+            "Take It Easy",
+            "One of These Nights",
+            "New Kid in Town",
+            "Lyin’ Eyes"
+          ],
+          "capture_selector": "blackface Fender Deluxe Reverb/Twin clean-to-edge capture, 1x12/2x12",
+          "tone_target": "Open 1970s country-rock comping: glassy, rounded single-coil, light compression and spring ambience",
+          "preferred_pickup_or_guitar": "Telecaster or Strat single-coil; song-by-song response",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.1,
+            "treble": 0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 0.5
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Phaser",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "rate_hz_target": 0.7,
+                "mix_percent_target": 30
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 10
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 260,
+                "mix_percent_target": 8,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Spring Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "decay_seconds_target": 1.5
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 5,
+          "performance_number": 36
+        }
+      ],
+      "proposed_global_performance_number": 36,
+      "artist": "Eagles",
+      "artist_slug": "eagles",
+      "source_urls": [
+        "https://www.guitarworld.com/artists/guitarists/the-eagles-hotel-california-guitar-gear",
+        "https://reverb.com/ca/news/the-gear-of-the-eagles"
+      ],
+      "source_status": "researched_gear_with_proposed_audio_targets",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "research_and_proposed_tone_targets",
+  "description": "Split Felder and Walsh electric timbres. Real 12-string acoustic intro requires appropriate instrument.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "selected historical source refs, numerical approximations require listening and GUI verification"
+}

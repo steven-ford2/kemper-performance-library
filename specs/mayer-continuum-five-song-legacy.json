@@ -1,0 +1,611 @@
+{
+  "name": "MAYER CONTINUUM ORIGINAL FIVE",
+  "status": "optional_pilot_not_assigned_a_canonical_bank_number",
+  "notes": "Explicitly requested original five-song Sinewave Continuum performance, assembled from the later detailed seven-bank Mayer archive without inventing an eighth installed bank. All module settings are inherited from the exact available prior Mayer spec and remain unauditioned. For Crossroads prefer NG-2 approximation rather than generic fuzz; for Vultures source is the Nokia-era live tone and agent should adapt profile to Continuum album if separate capture available.",
+  "slots": [
+    {
+      "name": "DONT TRUST SELF",
+      "songs": [
+        "I Don't Trust Myself (With Loving You)"
+      ],
+      "capture_selector": "SINE_SIG_G1265",
+      "tone_target": "AdrenaLinn-styled rhythmic filter vs auto-envelope wah: preset cannot fully match synchronized resonant motion.",
+      "preferred_pickup_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+      "amp_eq_offsets": {
+        "bass": -0.2,
+        "middle": 0.25,
+        "treble": -0.1,
+        "presence": -0.1
+      },
+      "amp_gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+      "effects": {
+        "A": {
+          "type": "Wah Low Pass",
+          "preset_candidate": "Touch",
+          "initial_active": false,
+          "parameter_targets": {
+            "mode": "Touch",
+            "manual": "mid",
+            "peak": "adjust after audition"
+          },
+          "notes": ""
+        },
+        "B": {
+          "type": "Kemper Drive",
+          "preset_candidate": "Klon 2",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.0,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp transparent/upper-mid boost"
+        },
+        "C": {
+          "type": "Kemper Drive",
+          "preset_candidate": "808 Min",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.3,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp TS midrange drive"
+        },
+        "D": {
+          "type": "Pulse Slicer",
+          "preset_candidate": "1/8 Slicer",
+          "initial_active": true,
+          "parameter_targets": {
+            "rate": "tempo_sync",
+            "edge": "moderate",
+            "mix_percent_target": 45
+          },
+          "notes": ""
+        },
+        "X": {
+          "type": "Pure Booster",
+          "preset_candidate": "4dB Solo",
+          "initial_active": false,
+          "parameter_targets": {
+            "volume_db_target": 2.0
+          },
+          "notes": "Post-amp solo level, not a gain stage"
+        },
+        "MOD": {
+          "type": "Phaser",
+          "preset_candidate": "Subtle",
+          "initial_active": false,
+          "parameter_targets": {
+            "rate_hz_target": 0.6,
+            "mix_percent_target": 16
+          },
+          "notes": ""
+        },
+        "DLY": {
+          "type": "Single Delay",
+          "preset_candidate": "Tape",
+          "initial_active": false,
+          "parameter_targets": {
+            "time_ms_target": 330,
+            "mix_percent_target": 9,
+            "feedback_percent_target": 14
+          },
+          "notes": ""
+        },
+        "REV": {
+          "type": "Natural Reverb",
+          "preset_candidate": "Room",
+          "initial_active": true,
+          "parameter_targets": {
+            "mix_percent_target": 10,
+            "decay_seconds_target": 1.7
+          },
+          "notes": ""
+        }
+      },
+      "remote_buttons": {
+        "I": [
+          "B"
+        ],
+        "II": [
+          "C"
+        ],
+        "III": [
+          "A",
+          "D"
+        ],
+        "IIII": [
+          "DLY"
+        ]
+      },
+      "confidence": "derived_from_original_mayer_agent_spec; user-requested original five-song grouping",
+      "notes": "Switch III toggles both A and D; with opposite initial states it swaps rhythmic slicer ↔ touch filter. The pulse slicer is amplitude modulation, not original resonant pattern. Verify two effects are stored opposite states.",
+      "slot": 1,
+      "calibration_status": "not_auditioned",
+      "tempo_bpm_start": 84,
+      "source_original_performance": 9,
+      "alternates": [],
+      "performance_number": null,
+      "legacy_source_canonical_performance": 3,
+      "legacy_source_slot": 1
+    },
+    {
+      "name": "VULTURES NOKIA",
+      "songs": [
+        "Vultures"
+      ],
+      "capture_selector": "TWOROCK_CR",
+      "tone_target": "Dry fast funk. Moderate pre-drive, compression extremely light, short slap usually OFF.",
+      "preferred_pickup_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+      "amp_eq_offsets": {
+        "bass": -0.6,
+        "middle": 0.1,
+        "treble": 0.15,
+        "presence": 0
+      },
+      "amp_gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+      "effects": {
+        "A": {
+          "type": "Compressor",
+          "preset_candidate": "Soft",
+          "initial_active": true,
+          "parameter_targets": {
+            "intensity": 1.6
+          },
+          "notes": ""
+        },
+        "B": {
+          "type": "Kemper Drive",
+          "preset_candidate": "Klon 2",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.0,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp transparent/upper-mid boost"
+        },
+        "C": {
+          "type": "Kemper Drive",
+          "preset_candidate": "808 Min",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.3,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp TS midrange drive"
+        },
+        "D": {
+          "type": "Wah Low Pass",
+          "preset_candidate": "Touch",
+          "initial_active": false,
+          "parameter_targets": {
+            "mode": "Touch",
+            "touch": "adjust by ear"
+          },
+          "notes": ""
+        },
+        "X": {
+          "type": "Pure Booster",
+          "preset_candidate": "4dB Solo",
+          "initial_active": false,
+          "parameter_targets": {
+            "volume_db_target": 2.0
+          },
+          "notes": "Post-amp solo level, not a gain stage"
+        },
+        "MOD": {
+          "type": "Vintage Chorus",
+          "preset_candidate": "Subtle 1",
+          "initial_active": false,
+          "parameter_targets": {
+            "mix_percent_target": 15,
+            "rate_hz_target": 0.65
+          },
+          "notes": ""
+        },
+        "DLY": {
+          "type": "Single Delay",
+          "preset_candidate": "Room Slap",
+          "initial_active": false,
+          "parameter_targets": {
+            "time_ms_target": 115,
+            "mix_percent_target": 6,
+            "feedback_percent_target": 0
+          },
+          "notes": ""
+        },
+        "REV": {
+          "type": "Natural Reverb",
+          "preset_candidate": "Room",
+          "initial_active": true,
+          "parameter_targets": {
+            "mix_percent_target": 10,
+            "decay_seconds_target": 1.7
+          },
+          "notes": ""
+        }
+      },
+      "remote_buttons": {
+        "I": [
+          "B"
+        ],
+        "II": [
+          "C"
+        ],
+        "III": [
+          "D"
+        ],
+        "IIII": [
+          "DLY"
+        ]
+      },
+      "confidence": "derived_from_original_mayer_agent_spec; user-requested original five-song grouping",
+      "notes": "",
+      "slot": 2,
+      "calibration_status": "not_auditioned",
+      "tempo_bpm_start": null,
+      "source_original_performance": 8,
+      "alternates": [],
+      "performance_number": null,
+      "legacy_source_canonical_performance": 2,
+      "legacy_source_slot": 4
+    },
+    {
+      "name": "GRAVITY",
+      "songs": [
+        "Gravity",
+        "The Heart of Life"
+      ],
+      "capture_selector": "SINE_LO_G1265",
+      "tone_target": "Huge warm clean, neck, low sag, small spring, solo brightens without adding high gain.",
+      "preferred_pickup_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+      "amp_eq_offsets": {
+        "bass": -0.35,
+        "middle": 0.2,
+        "treble": -0.15,
+        "presence": -0.2
+      },
+      "amp_gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+      "effects": {
+        "A": {
+          "type": "Compressor",
+          "preset_candidate": "Soft",
+          "initial_active": true,
+          "parameter_targets": {
+            "intensity": 2.0,
+            "attack": "use factory Soft initially"
+          },
+          "notes": "Keep gentle; avoid flattening pick transient"
+        },
+        "B": {
+          "type": "Kemper Drive",
+          "preset_candidate": "Klon 2",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.0,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp transparent/upper-mid boost"
+        },
+        "C": {
+          "type": "Kemper Drive",
+          "preset_candidate": "808 Min",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.3,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp TS midrange drive"
+        },
+        "D": {
+          "type": "Wah Wah",
+          "preset_candidate": "Vox Old",
+          "initial_active": false,
+          "parameter_targets": {
+            "pedal_mode": "Bypass @ Toe"
+          },
+          "notes": "Expression pedal; only active when called for"
+        },
+        "X": {
+          "type": "Pure Booster",
+          "preset_candidate": "4dB Solo",
+          "initial_active": false,
+          "parameter_targets": {
+            "volume_db_target": 2.0
+          },
+          "notes": "Post-amp solo level, not a gain stage"
+        },
+        "MOD": {
+          "type": "Vintage Chorus",
+          "preset_candidate": "Subtle 1",
+          "initial_active": false,
+          "parameter_targets": {
+            "mix_percent_target": 15,
+            "rate_hz_target": 0.65
+          },
+          "notes": ""
+        },
+        "DLY": {
+          "type": "Single Delay",
+          "preset_candidate": "Tape",
+          "initial_active": false,
+          "parameter_targets": {
+            "time_ms_target": 300,
+            "mix_percent_target": 7,
+            "feedback_percent_target": 11
+          },
+          "notes": ""
+        },
+        "REV": {
+          "type": "Spring Reverb",
+          "preset_candidate": "Reverb Fan",
+          "initial_active": true,
+          "parameter_targets": {
+            "mix_percent_target": 13,
+            "decay_seconds_target": 1.6
+          },
+          "notes": ""
+        }
+      },
+      "remote_buttons": {
+        "I": [
+          "B"
+        ],
+        "II": [
+          "C"
+        ],
+        "III": [
+          "DLY"
+        ],
+        "IIII": [
+          "X"
+        ]
+      },
+      "confidence": "derived_from_original_mayer_agent_spec; user-requested original five-song grouping",
+      "notes": "",
+      "slot": 3,
+      "calibration_status": "not_auditioned",
+      "tempo_bpm_start": null,
+      "source_original_performance": 9,
+      "alternates": [],
+      "performance_number": null,
+      "legacy_source_canonical_performance": 3,
+      "legacy_source_slot": 2
+    },
+    {
+      "name": "SLOW DANCING",
+      "songs": [
+        "Slow Dancing in a Burning Room"
+      ],
+      "capture_selector": "SINE_SIG_G1265",
+      "tone_target": "Singing blues lead with clean rhythm and stacked Klon/TS drives.",
+      "preferred_pickup_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+      "amp_eq_offsets": {
+        "bass": -0.3,
+        "middle": 0.35,
+        "treble": -0.2,
+        "presence": -0.25
+      },
+      "amp_gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+      "effects": {
+        "A": {
+          "type": "Compressor",
+          "preset_candidate": "Soft",
+          "initial_active": false,
+          "parameter_targets": {
+            "intensity": 2.0,
+            "attack": "use factory Soft initially"
+          },
+          "notes": "Keep gentle; avoid flattening pick transient"
+        },
+        "B": {
+          "type": "Kemper Drive",
+          "preset_candidate": "Klon 2",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.0,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp transparent/upper-mid boost"
+        },
+        "C": {
+          "type": "Kemper Drive",
+          "preset_candidate": "808 Min",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive": 1.3,
+            "volume_db_target": 0.0
+          },
+          "notes": "Preamp TS midrange drive"
+        },
+        "D": {
+          "type": "Kemper Drive",
+          "preset_candidate": "B Breaker Max",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive_target_0to10": 1.3
+          },
+          "notes": ""
+        },
+        "X": {
+          "type": "Pure Booster",
+          "preset_candidate": "4dB Solo",
+          "initial_active": false,
+          "parameter_targets": {
+            "volume_db_target": 2.0
+          },
+          "notes": "Post-amp solo level, not a gain stage"
+        },
+        "MOD": {
+          "type": "Vintage Chorus",
+          "preset_candidate": "Subtle 1",
+          "initial_active": false,
+          "parameter_targets": {
+            "mix_percent_target": 15,
+            "rate_hz_target": 0.65
+          },
+          "notes": ""
+        },
+        "DLY": {
+          "type": "Single Delay",
+          "preset_candidate": "Tape",
+          "initial_active": true,
+          "parameter_targets": {
+            "time_ms_target": 320,
+            "mix_percent_target": 10,
+            "feedback_percent_target": 15
+          },
+          "notes": ""
+        },
+        "REV": {
+          "type": "Natural Reverb",
+          "preset_candidate": "Room",
+          "initial_active": true,
+          "parameter_targets": {
+            "mix_percent_target": 10,
+            "decay_seconds_target": 1.7
+          },
+          "notes": ""
+        }
+      },
+      "remote_buttons": {
+        "I": [
+          "B"
+        ],
+        "II": [
+          "C"
+        ],
+        "III": [
+          "D"
+        ],
+        "IIII": [
+          "X"
+        ]
+      },
+      "confidence": "derived_from_original_mayer_agent_spec; user-requested original five-song grouping",
+      "notes": "",
+      "slot": 4,
+      "calibration_status": "not_auditioned",
+      "tempo_bpm_start": null,
+      "source_original_performance": 9,
+      "alternates": [],
+      "performance_number": null,
+      "legacy_source_canonical_performance": 3,
+      "legacy_source_slot": 3
+    },
+    {
+      "name": "CROSSROADS NG2",
+      "songs": [
+        "Crossroads (Battle Studies)"
+      ],
+      "capture_selector": "SINE_LO_G1265",
+      "tone_target": "Pete Cornish NG-2-style angular, almost gated and highly saturated fuzz, different architecture from Sob Rock outro.",
+      "preferred_pickup_or_guitar": "Strat/Silver Sky; neck/neck-middle to start",
+      "amp_eq_offsets": {
+        "bass": -0.45,
+        "middle": 0.55,
+        "treble": -0.45,
+        "presence": -0.15
+      },
+      "amp_gain_policy": "first choose correctly captured gain; then adjust Amp Gain ≤±0.7 if necessary",
+      "effects": {
+        "A": {
+          "type": "Kemper Fuzz",
+          "preset_candidate": "Dark Blue Silicon",
+          "initial_active": true,
+          "parameter_targets": {
+            "drive_target_0to10": 8.0
+          },
+          "notes": ""
+        },
+        "B": {
+          "type": "Kemper Drive",
+          "preset_candidate": "808 Min",
+          "initial_active": false,
+          "parameter_targets": {
+            "drive_target_0to10": 1.0
+          },
+          "notes": ""
+        },
+        "C": {
+          "type": "Noise Gate 4:1",
+          "preset_candidate": "Basic",
+          "initial_active": true,
+          "parameter_targets": {
+            "threshold": "tune until staccato decay without chopping pick attack"
+          },
+          "notes": ""
+        },
+        "D": {
+          "type": "Wah Wah",
+          "preset_candidate": "Vox Old",
+          "initial_active": false,
+          "parameter_targets": {},
+          "notes": ""
+        },
+        "X": {
+          "type": "Pure Booster",
+          "preset_candidate": "4dB Solo",
+          "initial_active": false,
+          "parameter_targets": {
+            "volume_db_target": 2.0
+          },
+          "notes": "Post-amp solo level, not a gain stage"
+        },
+        "MOD": {
+          "type": "Vintage Chorus",
+          "preset_candidate": "Subtle 1",
+          "initial_active": false,
+          "parameter_targets": {
+            "mix_percent_target": 5
+          },
+          "notes": ""
+        },
+        "DLY": {
+          "type": "Single Delay",
+          "preset_candidate": "Tape",
+          "initial_active": false,
+          "parameter_targets": {
+            "time_ms_target": 330,
+            "mix_percent_target": 9,
+            "feedback_percent_target": 14
+          },
+          "notes": ""
+        },
+        "REV": {
+          "type": "Natural Reverb",
+          "preset_candidate": "Room",
+          "initial_active": true,
+          "parameter_targets": {
+            "mix_percent_target": 5,
+            "decay_seconds_target": 1.0
+          },
+          "notes": ""
+        }
+      },
+      "remote_buttons": {
+        "I": [
+          "A"
+        ],
+        "II": [
+          "B"
+        ],
+        "III": [
+          "C"
+        ],
+        "IIII": [
+          "X"
+        ]
+      },
+      "confidence": "derived_from_original_mayer_agent_spec; user-requested original five-song grouping",
+      "notes": "Mayer named NG-2 directly in 2010 interview and guitar volume around 4. Emulation is analog behavior approximation; do not claim modeled NG-2 circuit.",
+      "slot": 5,
+      "calibration_status": "not_auditioned",
+      "tempo_bpm_start": null,
+      "source_original_performance": 13,
+      "alternates": [],
+      "performance_number": null,
+      "legacy_source_canonical_performance": 7,
+      "legacy_source_slot": 3
+    }
+  ]
+}

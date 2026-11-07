@@ -1,0 +1,309 @@
+{
+  "status": "planning_only",
+  "artists": [
+    {
+      "slug": "matt-schofield",
+      "artist": "Matt Schofield",
+      "proposed_slots": [
+        "Clean Tone",
+        "Crank / Low Gain",
+        "Dumble-like Rhythm",
+        "Lead",
+        "Vibe/Rotary Texture"
+      ],
+      "requested_song_targets": [
+        "Anything But Time",
+        "Where Do I Have to Stand",
+        "Shipwrecked"
+      ],
+      "amp_and_effect_direction": "Two-Rock/Dumble-inspired clean/crunch; mid-pushed blues lead",
+      "note": "Interested in faithful tone quality; broad plan only",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "robin-trower",
+      "artist": "Robin Trower",
+      "proposed_slots": [
+        "Day of the Eagle",
+        "Bridge of Sighs",
+        "Too Rolling Stoned",
+        "Vibe Lead",
+        "Clean"
+      ],
+      "requested_song_targets": [
+        "Bridge of Sighs",
+        "Day of the Eagle",
+        "Too Rolling Stoned"
+      ],
+      "amp_and_effect_direction": "Marshall cranked, Fuzz Face, Uni-Vibe",
+      "note": "Target noted, not a prior fully specified bank",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "andy-timmons",
+      "artist": "Andy Timmons",
+      "proposed_slots": [
+        "Electric Gypsy Clean",
+        "Electric Gypsy Rhythm",
+        "Electric Gypsy Lead",
+        "Fusion Lead",
+        "Ambient"
+      ],
+      "requested_song_targets": [
+        "Electric Gypsy"
+      ],
+      "amp_and_effect_direction": "VHT/Pitbull UL or compatible detailed captured amp, subtle delay; prefer verified rig references",
+      "note": "Prior detailed Electric Gypsy case; verify amp profile against track",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "eddie-van-halen",
+      "artist": "Eddie Van Halen",
+      "proposed_slots": [
+        "VH I Brown",
+        "Eruption",
+        "Panama",
+        "Unchained",
+        "1984 Clean"
+      ],
+      "requested_song_targets": [
+        "Eruption",
+        "Panama",
+        "Unchained"
+      ],
+      "amp_and_effect_direction": "Variac-era Marshall Plexi 4x12; phaser/flanger/short echo, later period separate",
+      "note": "Keep early-era tonal targets distinct from 1984 album",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "steve-vai",
+      "artist": "Steve Vai",
+      "proposed_slots": [
+        "For the Love of God",
+        "Tender Surrender",
+        "Rhythm",
+        "Clean",
+        "Wah Lead"
+      ],
+      "requested_song_targets": [
+        "For the Love of God",
+        "Tender Surrender"
+      ],
+      "amp_and_effect_direction": "Carvin Legacy/JEM-era lead, delays, harmonizer/pitch; require profile inventory",
+      "note": "Do not pretend all eras use same amplifier",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "paul-gilbert-racerx",
+      "artist": "Paul Gilbert / Racer X",
+      "proposed_slots": [
+        "Technical Difficulties",
+        "Scarified",
+        "Classic Gilbert Lead",
+        "Clean",
+        "Modern Gilbert"
+      ],
+      "requested_song_targets": [
+        "Technical Difficulties",
+        "Scarified"
+      ],
+      "amp_and_effect_direction": "Marshall/Laney-style articulate high gain; no falsely inferred guitar hardware",
+      "note": "Clear picking transients without excess gain",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "greg-howe",
+      "artist": "Greg Howe",
+      "proposed_slots": [
+        "Introspection",
+        "Extraction",
+        "Clean Fusion",
+        "Modern Lead",
+        "Vocal Fusion"
+      ],
+      "requested_song_targets": [
+        "Introspection",
+        "Extraction"
+      ],
+      "amp_and_effect_direction": "Singing fast fusion; more midrange than scooped shred",
+      "note": "Prior tone target; requires profile-based refinement",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "guns-n-roses",
+      "artist": "Guns N Roses / Slash",
+      "proposed_slots": [
+        "Sweet Child",
+        "Welcome Jungle",
+        "November Rain Lead",
+        "AFD Crunch",
+        "Izzy Rhythm"
+      ],
+      "requested_song_targets": [
+        "Sweet Child O’ Mine",
+        "Welcome to the Jungle",
+        "November Rain"
+      ],
+      "amp_and_effect_direction": "Modded Marshall/Silver Jubilee/AFD-style; rhythm versus Slash lead distinct",
+      "note": "Do not imply specific amps recorded on every track",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "pink-floyd",
+      "artist": "David Gilmour / Pink Floyd",
+      "proposed_slots": [
+        "Shine On Clean",
+        "Time",
+        "Comfortably Numb",
+        "Echoes",
+        "Wall Ambient"
+      ],
+      "requested_song_targets": [
+        "Shine On You Crazy Diamond",
+        "Time",
+        "Comfortably Numb"
+      ],
+      "amp_and_effect_direction": "Hiwatt clean high headroom, Fuzz/Big Muff-style drive, spacious delay",
+      "note": "Separate subtle compression and lead fuzz, vintage delays",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "fleetwood-mac",
+      "artist": "Fleetwood Mac",
+      "proposed_slots": [
+        "Dreams Clean",
+        "Albatross",
+        "The Chain",
+        "Go Your Own Way",
+        "Rhiannon"
+      ],
+      "requested_song_targets": [
+        "Dreams",
+        "Albatross"
+      ],
+      "amp_and_effect_direction": "Fender clean, Buckingham direct-ish studio bite, gentle modulation",
+      "note": "These are materially different guitarists/recordings",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "joe-satriani",
+      "artist": "Joe Satriani",
+      "proposed_slots": [
+        "Always With Me",
+        "Satch Boogie",
+        "Surfing",
+        "Clean",
+        "Solo"
+      ],
+      "requested_song_targets": [
+        "Always with Me Always with You",
+        "Satch Boogie"
+      ],
+      "amp_and_effect_direction": "Smooth rock/fusion high-gain amp; delay and EQ",
+      "note": "Additional requested guitar tone target, no full previous spec",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "nuno-bettencourt",
+      "artist": "Nuno Bettencourt",
+      "proposed_slots": [
+        "Get the Funk Out",
+        "More Than Words",
+        "Decadence Dance",
+        "High Gain",
+        "Tight Funk"
+      ],
+      "requested_song_targets": [
+        "Get the Funk Out"
+      ],
+      "amp_and_effect_direction": "Saturated yet tight Marshall-type rhythm",
+      "note": "Backlog only",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    },
+    {
+      "slug": "modern-metal",
+      "artist": "Modern Metal / Shred",
+      "proposed_slots": [
+        "Mark Morton",
+        "All That Remains",
+        "Arsis",
+        "Black Dahlia Murder",
+        "Jason Becker"
+      ],
+      "requested_song_targets": [
+        "Arsis",
+        "All That Remains",
+        "Jason Becker"
+      ],
+      "amp_and_effect_direction": "High gain, noise gate, cabinet/IR choice, high precision; split into separate later banks",
+      "note": "Planning targets only; no assumed sound fidelity",
+      "status": "backlog_needs_profile_research_and_audio_calibration",
+      "reserved_global_performance": null
+    }
+  ],
+  "note": "Not built as complete Performances. No fake numeric controls. Add once core 32 banks are tested.",
+  "promoted_to_spec": [
+    {
+      "slug": "shred-triad",
+      "performance": 33,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "van-halen",
+      "performance": 34,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "timmons-govan",
+      "performance": 35,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "eagles",
+      "performance": 36,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "polyphia",
+      "performance": 37,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "eric-johnson",
+      "performance": 38,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "jeff-beck",
+      "performance": 39,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "yngwie",
+      "performance": 40,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "fleetwood-rumours",
+      "performance": 41,
+      "status": "spec_proposed_not_installed"
+    },
+    {
+      "slug": "metalcore",
+      "performance": 42,
+      "status": "spec_proposed_not_installed"
+    }
+  ]
+}

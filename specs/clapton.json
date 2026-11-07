@@ -1,0 +1,3525 @@
+{
+  "name": "Eric Clapton",
+  "performances": [
+    {
+      "name": "CLAPTON CORE",
+      "purpose": "Five broad Clapton phases",
+      "slots": [
+        {
+          "name": "BEANO",
+          "songs": [
+            "Hideaway",
+            "All Your Love"
+          ],
+          "capture_selector": "Marshall 1962 Bluesbreaker/JTM45 2x12 driven capture",
+          "tone_target": "Les Paul/PAF to compressed KT66 combo bite",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": "Optional treble-boost approximation; historical use debated"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Prefer high-gain captured JTM45 combination, not high-gain modern amp.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 21
+        },
+        {
+          "name": "CREAM WOMAN",
+          "songs": [
+            "Sunshine of Your Love",
+            "Crossroads (live)"
+          ],
+          "capture_selector": "100 W JTM45/100 Marshall + 4x12 Greenback",
+          "tone_target": "SG/Les Paul tone rolled off, warm singing mids",
+          "preferred_pickup_or_guitar": "Humbuckers; neck or bridge with tone rolled way down; adjust by source track",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "high_shelf_db": -3.0,
+                "high_shelf_hz": 3200
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.1
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 21
+        },
+        {
+          "name": "LAYLA CHAMP",
+          "songs": [
+            "Layla",
+            "Bell Bottom Blues"
+          ],
+          "capture_selector": "Fender tweed Champ small speaker / pushed combo",
+          "tone_target": "Bright grainy strat/tweed breakup",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 55
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Vibratone rotary is a possibility for some material, not all Layla overdubs.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 21
+        },
+        {
+          "name": "BLACKIE",
+          "songs": [
+            "Wonderful Tonight",
+            "Cocaine",
+            "I Shot the Sheriff"
+          ],
+          "capture_selector": "Music Man HD130 or blackface Fender Twin",
+          "tone_target": "Clear Strat rhythm, gradual breakup",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Keep drive mostly disabled; guitar midboost circuitry varied by era.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 21
+        },
+        {
+          "name": "JOURNEY",
+          "songs": [
+            "Bad Love",
+            "Pretending",
+            "Old Love"
+          ],
+          "capture_selector": "Soldano SLO-100 low/mid gain lead or Clapton 1989 stage amp",
+          "tone_target": "Thick active midboost and well-behaved sustain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 11,
+                "feedback_percent_target": 15
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 21
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 21
+    },
+    {
+      "name": "CLAPTON MARSHALL",
+      "purpose": "1966-68 Beano and Cream Marshall detail",
+      "slots": [
+        {
+          "name": "BEANO BLUES",
+          "songs": [
+            "Hideaway",
+            "Steppin Out"
+          ],
+          "capture_selector": "Marshall 1962 Bluesbreaker combo (KT66)",
+          "tone_target": "Cranked Les Paul and KT66 2x12 mids",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 22
+        },
+        {
+          "name": "BEANO CLEAN",
+          "songs": [
+            "Have You Heard",
+            "Double Crossing Time"
+          ],
+          "capture_selector": "JTM45/Marshall 1962 edge capture",
+          "tone_target": "Cranked amp but articulate guitar volume cleanup",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 22
+        },
+        {
+          "name": "CREAM FRESH",
+          "songs": [
+            "I Feel Free",
+            "Strange Brew"
+          ],
+          "capture_selector": "JTM45/100 Marshall 4x12",
+          "tone_target": "Open dynamic SG/Les Paul attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 22
+        },
+        {
+          "name": "WOMAN TONE",
+          "songs": [
+            "Sunshine of Your Love",
+            "White Room"
+          ],
+          "capture_selector": "100 W Marshall JTM45/100",
+          "tone_target": "Thick dark singing with rolled tone and EQ",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 22
+        },
+        {
+          "name": "CROSSROADS",
+          "songs": [
+            "Crossroads",
+            "Spoonful"
+          ],
+          "capture_selector": "Marshall Super 100 / 4x12 crunch",
+          "tone_target": "Hard lively Cream live lead, little reverb",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 3,
+                "decay_seconds_target": 1.0
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 22
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 22
+    },
+    {
+      "name": "CLAPTON DOMINOS",
+      "purpose": "1970 Derek and the Dominos, studio layers beyond one Rig",
+      "slots": [
+        {
+          "name": "LAYLA RIFF",
+          "songs": [
+            "Layla"
+          ],
+          "capture_selector": "small tweed Champ driven capture",
+          "tone_target": "Raw double-track Strat/amp bite",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 23
+        },
+        {
+          "name": "LAYLA SLIDE",
+          "songs": [
+            "Layla slide lines"
+          ],
+          "capture_selector": "small tweed Champ driven capture",
+          "tone_target": "Singing slide track; real guitar/slide attack remains required",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 23
+        },
+        {
+          "name": "BELL BOTTOM",
+          "songs": [
+            "Bell Bottom Blues"
+          ],
+          "capture_selector": "tweed Fender medium breakup",
+          "tone_target": "Tender transparent overdrive",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 23
+        },
+        {
+          "name": "KEY TO HIGHWAY",
+          "songs": [
+            "Key to the Highway"
+          ],
+          "capture_selector": "small Fender edge breakup",
+          "tone_target": "Unprocessed blues dry room",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 23
+        },
+        {
+          "name": "ANYDAY",
+          "songs": [
+            "Anyday",
+            "Why Does Love Got to Be So Sad"
+          ],
+          "capture_selector": "Fender tweed/blackface crunched",
+          "tone_target": "Layered loud Strat brightness",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 23
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 23
+    },
+    {
+      "name": "CLAPTON BLACKIE",
+      "purpose": "70s to mid-80s Strat/Blackie tone families",
+      "slots": [
+        {
+          "name": "LAY DOWN",
+          "songs": [
+            "Lay Down Sally"
+          ],
+          "capture_selector": "Fender / Music Man very clean",
+          "tone_target": "Low-drive country Strat chime",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 24
+        },
+        {
+          "name": "COCAINE",
+          "songs": [
+            "Cocaine"
+          ],
+          "capture_selector": "Music Man HD-130 or Fender big clean driven",
+          "tone_target": "Dark midrange punch with moderate amp drive",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 24
+        },
+        {
+          "name": "WONDERFUL",
+          "songs": [
+            "Wonderful Tonight"
+          ],
+          "capture_selector": "Fender/Music Man clean",
+          "tone_target": "Warm round long sustain, less saturation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "decay_seconds_target": 1.9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 24
+        },
+        {
+          "name": "SHERIFF",
+          "songs": [
+            "I Shot the Sheriff"
+          ],
+          "capture_selector": "Fender Music Man clean edge",
+          "tone_target": "Tighter funk and medium spring ambience",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 24
+        },
+        {
+          "name": "80S BOOST",
+          "songs": [
+            "Forever Man",
+            "Behind the Sun"
+          ],
+          "capture_selector": "80s clean Fender/Music Man",
+          "tone_target": "Active mid-boost-style sustain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 24
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 24
+    },
+    {
+      "name": "CLAPTON JOURNEY",
+      "purpose": "Late 80s Journeyman/modern Clapton",
+      "slots": [
+        {
+          "name": "PRETENDING",
+          "songs": [
+            "Pretending"
+          ],
+          "capture_selector": "Soldano SLO clean/lead capture",
+          "tone_target": "Big smooth modern blues sustain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 25
+        },
+        {
+          "name": "BAD LOVE",
+          "songs": [
+            "Bad Love"
+          ],
+          "capture_selector": "Soldano SLO 100 medium drive",
+          "tone_target": "Compressed high-headroom lead with strong mids",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 16
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 25
+        },
+        {
+          "name": "OLD LOVE",
+          "songs": [
+            "Old Love"
+          ],
+          "capture_selector": "Soldano SLO low-to-mid-gain",
+          "tone_target": "Expansive long sustain with expressive dynamics",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 360,
+                "mix_percent_target": 12,
+                "feedback_percent_target": 15
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 25
+        },
+        {
+          "name": "RUNNING FAITH",
+          "songs": [
+            "Running on Faith"
+          ],
+          "capture_selector": "Soldano/Fender clean",
+          "tone_target": "Soft clear guitar attack",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 15,
+                "decay_seconds_target": 2.3
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 25
+        },
+        {
+          "name": "NO ALIBIS",
+          "songs": [
+            "No Alibis"
+          ],
+          "capture_selector": "Soldano-inspired medium lead",
+          "tone_target": "1989 polished presence and controlled chorus",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 25
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 25
+    },
+    {
+      "name": "CLAPTON BLUES PLUS",
+      "purpose": "Later blues projects, 1990s through modern",
+      "slots": [
+        {
+          "name": "FROM CRADLE",
+          "songs": [
+            "Five Long Years",
+            "Reconsider Baby"
+          ],
+          "capture_selector": "Fender tweed Twin + low gain",
+          "tone_target": "Modern straightforward blues clean/crunch",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 26
+        },
+        {
+          "name": "UNPLUGGED",
+          "songs": [
+            "Tears in Heaven",
+            "Layla (Unplugged)"
+          ],
+          "capture_selector": "acoustic guitar / appropriate acoustic capture",
+          "tone_target": "Actual acoustic guitar resonance, not equivalent to electric profile",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Switch to acoustic instrument for high fidelity.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 26
+        },
+        {
+          "name": "RIDING KING",
+          "songs": [
+            "Riding with the King"
+          ],
+          "capture_selector": "Fender Twin / low gain",
+          "tone_target": "Clean blues duet response",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 26
+        },
+        {
+          "name": "CLAPTON STRAT",
+          "songs": [
+            "Before You Accuse Me",
+            "Key to the Highway"
+          ],
+          "capture_selector": "Fender Custom Twin or tweed",
+          "tone_target": "Warm bluesman Strat with active-mid available",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 26
+        },
+        {
+          "name": "RECENT BLUES",
+          "songs": [
+            "Further on Up the Road",
+            "Crossroads late live"
+          ],
+          "capture_selector": "Fender Twin/Clapton stage low medium",
+          "tone_target": "Open modern blues tone, subtle chorus or solo boost",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 4.0,
+                "mid_center_hz_target": 500
+              },
+              "notes": "Intended as Fender active-mid boost emulator when placed before amplifier; not exact onboard electronics"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.6
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 17
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 26
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 26
+    }
+  ],
+  "source_status": "reconstructed_from_prior_conversation_summary; detailed original archive not accessible",
+  "archive": null,
+  "description": "Eric Clapton song-specific rigs and effect assignments",
+  "device_validation_required": true,
+  "repo_spec_version": "1.0.0",
+  "device_write_status": "not_applied"
+}

@@ -1,0 +1,621 @@
+{
+  "name": "Polyphia",
+  "performances": [
+    {
+      "name": "POLYPHIA",
+      "purpose": "2018 clean processing, 2022 nylon and digital/hybrid production; no implied Neural DSP plugin hosting in Kemper.",
+      "slots": [
+        {
+          "name": "POLY GOAT",
+          "songs": [
+            "G.O.A.T.",
+            "New Levels New Devils clean leads"
+          ],
+          "capture_selector": "pristine boutique Matchless/Chieftain-like clean capture; no amp breakup",
+          "tone_target": "Extremely even glassy compressed DI-like clean with crisp high-end and restrained stereo widening",
+          "preferred_pickup_or_guitar": "Ibanez AZ/THBB10 split-coil or middle-plus-bridge pickup",
+          "amp_eq_offsets": {
+            "bass": -0.48,
+            "middle": 0.25,
+            "treble": 0.15,
+            "presence": 0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "medium-high",
+                "attack_target": "moderate"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {},
+              "notes": ""
+            },
+            "C": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 110,
+                "high_cut_hz_target": 9000
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 15
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 20,
+                "rate_hz_target": 0.45
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 290,
+                "feedback_percent_target": 12,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.4
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Strong compression must preserve pick onset. Some Polyphia synth/keyboard-like transients are DAW processing, not from guitar alone.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 1,
+          "performance_number": 37
+        },
+        {
+          "name": "PLAYING GOD",
+          "songs": [
+            "Playing God"
+          ],
+          "capture_selector": "acoustic nylon-string / piezo DI path; bypass conventional distorted amp/cab; select acoustic/piezo-specific capture if useful",
+          "tone_target": "Dry percussive nylon-string attack, limited compression, stereo studio polish",
+          "preferred_pickup_or_guitar": "Actual nylon string / piezo instrument required for high-fidelity result",
+          "amp_eq_offsets": {
+            "bass": -0.15,
+            "middle": -0.1,
+            "treble": -0.05,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "low"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 85
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 1.4
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 90,
+                "high_cut_hz_target": 11500
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 7
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 260,
+                "mix_percent_target": 7,
+                "feedback_percent_target": 10
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.3,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Do not label a distorted electric model as a nylon-string simulator. Original SC500N/TOD10N nylon lineage; recorded/instrument version varies.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "requires_nylon_string_or_high_quality_piezo_source",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 2,
+          "performance_number": 37
+        },
+        {
+          "name": "40OZ CHAMPAGNE",
+          "songs": [
+            "40oz",
+            "Champagne",
+            "Light",
+            "Goose"
+          ],
+          "capture_selector": "ultra-clean boutique amp or direct guitar preamp capture with headroom",
+          "tone_target": "Sparkling glassy articulated clean with very fast compression recovery, moderate chorus",
+          "preferred_pickup_or_guitar": "Split humbucker/neck-middle single-coil",
+          "amp_eq_offsets": {
+            "bass": -0.4,
+            "middle": 0.2,
+            "treble": 0.1,
+            "presence": 0.06
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Compressor",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "intensity_target": "medium-high"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive_target_0_10": 1.0,
+                "mix_percent_target": 100
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 105
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 14
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 24
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 240,
+                "feedback_percent_target": 13,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "A"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 3,
+          "performance_number": 37
+        },
+        {
+          "name": "OD EGO LEAD",
+          "songs": [
+            "O.D.",
+            "Ego Death lead passages"
+          ],
+          "capture_selector": "tight modern British high-gain / boutique crunch capture, clean low-frequency attack and clear midrange",
+          "tone_target": "Stacked guitar layers and bright fluid lead; moderate gain, clear tapped harmonics",
+          "preferred_pickup_or_guitar": "Bridge humbucker on modern Ibanez",
+          "amp_eq_offsets": {
+            "bass": -0.56,
+            "middle": 0.45,
+            "treble": 0.0,
+            "presence": 0.0
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Noise Gate 2:1",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "threshold_db_target": -48
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.5
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 18
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 80,
+                "high_cut_hz_target": 7900
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 11
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "time_ms_target": 295,
+                "mix_percent_target": 12,
+                "feedback_percent_target": 18
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "decay_seconds_target": 1.5,
+                "mix_percent_target": 9
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Ego Death guest Vai lead may need his own distinct sound. Do not promise exact stacked/orchestrated album production.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 4,
+          "performance_number": 37
+        },
+        {
+          "name": "CHIMERA HEAVY",
+          "songs": [
+            "Chimera",
+            "Neurotica",
+            "ABC distorted textures"
+          ],
+          "capture_selector": "modern high-gain 7/8-string-capable tight voiced amp profile into V30 4x12, e.g. 5150III-style or equivalent",
+          "tone_target": "Tight filtered low-end, aggressive definition, dry front; some synth/pitch production impossible from Kemper alone",
+          "preferred_pickup_or_guitar": "7-/8-string or appropriately down-tuned humbucker guitar for track",
+          "amp_eq_offsets": {
+            "bass": -0.64,
+            "middle": 0.25,
+            "treble": 0.1,
+            "presence": 0.1
+          },
+          "amp_gain_policy": "Select a captured profile at the target gain. Limit initial Amp Gain edits to ±0.7; never force clean captures to emulate fully driven amps.",
+          "effects": {
+            "A": {
+              "type": "Noise Gate 4:1",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "threshold_db_target": -43
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive_target_0_10": 0.2,
+                "volume_db_target": 1.7
+              },
+              "notes": ""
+            },
+            "C": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "D": {
+              "type": "Harmonic Pitch",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 15
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "low_cut_hz_target": 95,
+                "high_cut_hz_target": 8200
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Vintage Chorus",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 300,
+                "mix_percent_target": 7,
+                "feedback_percent_target": 11
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 5,
+                "decay_seconds_target": 1.2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "D"
+            ],
+            "III": [
+              "MOD"
+            ],
+            "IIII": [
+              "DLY"
+            ]
+          },
+          "confidence": "researched_gear_with_engineered_kemper_starting_values",
+          "notes": "Kemper Harmonic Pitch is not a replacement for Neural DSP Multivoicer/DAW polyphonic processing. Audit note range and latency.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "tone_reference": [],
+          "feasibility": "core_guitar_tone_approximation",
+          "provenance": "Current-turn proposed architecture. Numerical effect/EQ settings are inferred tuning starting points, not original artist controls.",
+          "slot": 5,
+          "performance_number": 37
+        }
+      ],
+      "proposed_global_performance_number": 37,
+      "artist": "Polyphia",
+      "artist_slug": "polyphia",
+      "source_urls": [
+        "https://www.premierguitar.com/artists/guitarists/polyphia",
+        "https://www.guitarworld.com/news/ibanez-tim-henson-tod10n"
+      ],
+      "source_status": "researched_gear_with_proposed_audio_targets",
+      "device_validation_required": true
+    }
+  ],
+  "source_status": "research_and_proposed_tone_targets",
+  "description": "2018 clean processing, 2022 nylon and digital/hybrid production; no implied Neural DSP plugin hosting in Kemper.",
+  "device_validation_required": true,
+  "repo_spec_version": "2.0.0",
+  "device_write_status": "not_installed",
+  "research_status": "selected historical source refs, numerical approximations require listening and GUI verification"
+}

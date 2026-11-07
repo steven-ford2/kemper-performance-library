@@ -1,0 +1,3517 @@
+{
+  "name": "Robben Ford",
+  "performances": [
+    {
+      "name": "RF CORE",
+      "purpose": "Five principal Ford tones",
+      "slots": [
+        {
+          "name": "ODS CLEAN",
+          "songs": [
+            "Talk to Your Daughter",
+            "Help the Poor"
+          ],
+          "capture_selector": "Dumble Overdrive Special clean channel captured",
+          "tone_target": "Punchy balanced warm clean",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 27
+        },
+        {
+          "name": "ODS PAB",
+          "songs": [
+            "Talk to Your Daughter",
+            "Ain’t Got Nothin But the Blues"
+          ],
+          "capture_selector": "Dumble ODS with PAB boost captured",
+          "tone_target": "PAB boosted big vocal midrange",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Prefer captured PAB state, avoid EQ emulation when capture exists.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 27
+        },
+        {
+          "name": "ODS LEAD",
+          "songs": [
+            "Revelation",
+            "The Brother"
+          ],
+          "capture_selector": "Dumble ODS actual OD channel capture",
+          "tone_target": "Smooth articulated vocal sustain, defined low bass",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 27
+        },
+        {
+          "name": "ZENDRIVE CLEAN",
+          "songs": [
+            "Indianola",
+            "Cannonball Shuffle"
+          ],
+          "capture_selector": "ODS clean or Fender clean + Zendrive approximation",
+          "tone_target": "Controlled mid-driven articulation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 27
+        },
+        {
+          "name": "LITTLE WALTER",
+          "songs": [
+            "The Light Fandango",
+            "Fire Flute",
+            "Fandango"
+          ],
+          "capture_selector": "Little Walter 59 + 2x12",
+          "tone_target": "Clear punchy Strat/Jazz-Fusion 2026 tones",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Source artist interview verifies Little Walter 59 with 66 Strat for selected recent tracks.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 27
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 27
+    },
+    {
+      "name": "RF EARLY 80S",
+      "purpose": "Early/1980s and transition",
+      "slots": [
+        {
+          "name": "YELLOWJACKETS",
+          "songs": [
+            "Imperial Strut"
+          ],
+          "capture_selector": "Dumble clean / Fender blackface",
+          "tone_target": "Early smooth fusion clean with low chorus",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 28
+        },
+        {
+          "name": "WILD ABOUT",
+          "songs": [
+            "Wild About You"
+          ],
+          "capture_selector": "Dumble ODS clean medium",
+          "tone_target": "Big cleaner 80s rhythm",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 28
+        },
+        {
+          "name": "TALK DAUGHTER",
+          "songs": [
+            "Talk to Your Daughter"
+          ],
+          "capture_selector": "Dumble ODS PAB / OD",
+          "tone_target": "Vocal rhythm-to-lead mid boost",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 28
+        },
+        {
+          "name": "BLUE LINE PRE",
+          "songs": [
+            "Help the Poor"
+          ],
+          "capture_selector": "Dumble ODS clean",
+          "tone_target": "Raw punchy first-half blues",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 28
+        },
+        {
+          "name": "EARLY LEAD",
+          "songs": [
+            "Revelation"
+          ],
+          "capture_selector": "ODS OD driven capture",
+          "tone_target": "Bright but full note sustain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 28
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 28
+    },
+    {
+      "name": "RF BLUE LINE",
+      "purpose": "Blue Line trio-era tones",
+      "slots": [
+        {
+          "name": "B LINE CLEAN",
+          "songs": [
+            "Start It Up"
+          ],
+          "capture_selector": "Dumble ODS clean big cabinet",
+          "tone_target": "Sharp confident blue line funk",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 29
+        },
+        {
+          "name": "B LINE DRIVE",
+          "songs": [
+            "The Brother"
+          ],
+          "capture_selector": "Dumble ODS mild OD",
+          "tone_target": "Solid vocal overdrive",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 29
+        },
+        {
+          "name": "CANNONBALL",
+          "songs": [
+            "Cannonball Shuffle"
+          ],
+          "capture_selector": "Dumble ODS pushed clean",
+          "tone_target": "Singing but percussive articulation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 29
+        },
+        {
+          "name": "HELP THE POOR",
+          "songs": [
+            "Help the Poor"
+          ],
+          "capture_selector": "Dumble ODS PAB",
+          "tone_target": "Controlled rich clean crunch",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 29
+        },
+        {
+          "name": "BLUE LINE LEAD",
+          "songs": [
+            "You Cut Me to the Bone"
+          ],
+          "capture_selector": "Dumble ODS OD",
+          "tone_target": "Singing fat blues lead",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 300,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 11
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 29
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 29
+    },
+    {
+      "name": "RF 1997-2009",
+      "purpose": "1997–2009 evolving Ford tone families",
+      "slots": [
+        {
+          "name": "SOUL ON TEN",
+          "songs": [
+            "Indianola"
+          ],
+          "capture_selector": "Dumble ODS clean / Fender big clean",
+          "tone_target": "Warm adult-blues articulation",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 30
+        },
+        {
+          "name": "HAND FATE",
+          "songs": [
+            "Handful of Blues"
+          ],
+          "capture_selector": "Dumble ODS medium gain",
+          "tone_target": "Mid-forward rich lead",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 30
+        },
+        {
+          "name": "SUPERNATURAL",
+          "songs": [
+            "Supernatural"
+          ],
+          "capture_selector": "Dumble ODS clean",
+          "tone_target": "Big spacious singing clean",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 12,
+                "decay_seconds_target": 2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 30
+        },
+        {
+          "name": "TRUTH",
+          "songs": [
+            "Truth"
+          ],
+          "capture_selector": "Dumble ODS OD",
+          "tone_target": "Smooth blues-rock lead",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 30
+        },
+        {
+          "name": "STUDIO CLEAN",
+          "songs": [
+            "Lateral Climb"
+          ],
+          "capture_selector": "ODS clean vintage speaker",
+          "tone_target": "Articulate low-gain fusion",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 30
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 30
+    },
+    {
+      "name": "RF 2013-2023",
+      "purpose": "Ford latter period",
+      "slots": [
+        {
+          "name": "BRINGING",
+          "songs": [
+            "Bringing It Back Home"
+          ],
+          "capture_selector": "Dumble ODS clean",
+          "tone_target": "Natural jazz-blues small room",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 31
+        },
+        {
+          "name": "DAY IN NASH",
+          "songs": [
+            "A Day in Nashville"
+          ],
+          "capture_selector": "Fender / ODS clean edge",
+          "tone_target": "Raw fast-recorded sound",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 31
+        },
+        {
+          "name": "PURPLE HOUSE",
+          "songs": [
+            "Purple House"
+          ],
+          "capture_selector": "ODS OD driven",
+          "tone_target": "Vocal warm blues rock",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 31
+        },
+        {
+          "name": "PURE 2021",
+          "songs": [
+            "Pure"
+          ],
+          "capture_selector": "ODS clean/lead captures",
+          "tone_target": "Refined smooth fusion sustain",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 31
+        },
+        {
+          "name": "MODERN LEAD",
+          "songs": [
+            "Everything I Do Gonna Be Funky"
+          ],
+          "capture_selector": "ODS PAB/OD",
+          "tone_target": "Forward mid punch, modest delay",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": true,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 31
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 31
+    },
+    {
+      "name": "RF 2026",
+      "purpose": "2026 Two Shades of Blue artist-described instrument/amp sources",
+      "slots": [
+        {
+          "name": "MAKE WEATHER",
+          "songs": [
+            "Make My Own Weather"
+          ],
+          "capture_selector": "Dumble ODS + Les Paul",
+          "tone_target": "Punchy rounded OD 2026 recorded main riff/solo",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 1,
+          "performance_number": 32
+        },
+        {
+          "name": "BLACK NIGHT",
+          "songs": [
+            "Black Night"
+          ],
+          "capture_selector": "Dumble ODS + Les Paul",
+          "tone_target": "Warm biting OD solos",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": true,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 2,
+          "performance_number": 32
+        },
+        {
+          "name": "TWO SHADES",
+          "songs": [
+            "Two Shades of Blue"
+          ],
+          "capture_selector": "Dumble ODS / Tele clean depending part",
+          "tone_target": "Vocal ODS melody / clean Tele rhythm",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "Track has both instrument/amp combinations; this is lead proxy.",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 3,
+          "performance_number": 32
+        },
+        {
+          "name": "LIGHT FANDANGO",
+          "songs": [
+            "The Light Fandango",
+            "Fire Flute"
+          ],
+          "capture_selector": "Little Walter 59 + mismatched 2x12 / 66 Strat",
+          "tone_target": "Articulate spanky Jeff Beck-influenced modern clean with headroom",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 10,
+                "decay_seconds_target": 1.6
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 4,
+          "performance_number": 32
+        },
+        {
+          "name": "FANDANGO FM",
+          "songs": [
+            "Fandango",
+            "Feeling’s Mutual"
+          ],
+          "capture_selector": "Little Walter 59 + 66 Strat",
+          "tone_target": "More expression with minimal OD",
+          "preferred_pickup_or_guitar": "Guitar-dependent; see tone target. Do not change the guitar without approval.",
+          "amp_eq_offsets": {
+            "bass": -0.2,
+            "middle": 0.25,
+            "treble": 0.0,
+            "presence": -0.1
+          },
+          "amp_gain_policy": "Select the closest captured gain before adjusting Kemper Amp Gain; no more than ±0.7 initially.",
+          "effects": {
+            "A": {
+              "type": "Wah Wah",
+              "preset_candidate": "Vox Old",
+              "initial_active": false,
+              "parameter_targets": {
+                "pedal_mode": "Bypass @ Toe"
+              },
+              "notes": ""
+            },
+            "B": {
+              "type": "Studio Equalizer",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "mid_boost_db_target": 2.4,
+                "mid_center_hz_target": 800
+              },
+              "notes": "PAB voicing only; prefer separately captured Dumble PAB profile"
+            },
+            "C": {
+              "type": "Kemper Drive",
+              "preset_candidate": "808 Min",
+              "initial_active": false,
+              "parameter_targets": {
+                "drive": 1.4
+              },
+              "notes": "Optional Zendrive-like coloration; do not claim exact circuitry"
+            },
+            "D": {
+              "type": "Vintage Chorus",
+              "preset_candidate": "Subtle",
+              "initial_active": false,
+              "parameter_targets": {
+                "mix_percent_target": 12
+              },
+              "notes": ""
+            },
+            "X": {
+              "type": "Pure Booster",
+              "preset_candidate": null,
+              "initial_active": false,
+              "parameter_targets": {
+                "volume_db_target": 2.0
+              },
+              "notes": ""
+            },
+            "MOD": {
+              "type": "Rotary Speaker",
+              "preset_candidate": "Slow",
+              "initial_active": false,
+              "parameter_targets": {
+                "speed": "Slow",
+                "mix_percent_target": 70
+              },
+              "notes": ""
+            },
+            "DLY": {
+              "type": "Single Delay",
+              "preset_candidate": "Tape",
+              "initial_active": false,
+              "parameter_targets": {
+                "time_ms_target": 320,
+                "mix_percent_target": 9,
+                "feedback_percent_target": 12
+              },
+              "notes": ""
+            },
+            "REV": {
+              "type": "Natural Reverb",
+              "preset_candidate": "Room",
+              "initial_active": true,
+              "parameter_targets": {
+                "mix_percent_target": 8,
+                "decay_seconds_target": 1.2
+              },
+              "notes": ""
+            }
+          },
+          "remote_buttons": {
+            "I": [
+              "B"
+            ],
+            "II": [
+              "C"
+            ],
+            "III": [
+              "D"
+            ],
+            "IIII": [
+              "X"
+            ]
+          },
+          "confidence": "reconstructed_from_prior_chat_summary",
+          "notes": "",
+          "tag": null,
+          "calibration_status": "not_auditioned",
+          "slot": 5,
+          "performance_number": 32
+        }
+      ],
+      "source_status": "reconstructed_from_prior_chat_summary",
+      "proposed_global_performance_number": 32
+    }
+  ],
+  "source_status": "reconstructed_from_prior_conversation_summary; detailed original archive not accessible",
+  "archive": null,
+  "description": "Robben Ford song-specific rigs and effect assignments",
+  "device_validation_required": true,
+  "repo_spec_version": "1.0.0",
+  "device_write_status": "not_applied"
+}
